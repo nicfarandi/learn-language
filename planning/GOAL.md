@@ -1,5 +1,27 @@
 # Goal: how good will I be?
 
+## Decision: A2
+
+Finish line: **A2**, the level of the official DELF A2 exam, in about **12–18 months at 15 minutes a day**,
+in three stages (see [COURSE.md](COURSE.md)): Foundations → Complete A1 → A2.
+
+### At A2 you can
+- Understand everyday conversations and announcements when people speak clearly.
+- Read short real texts: emails, menus, signs, ads, simple news items.
+- Talk about your past, your plans and your daily life in connected sentences.
+- Handle travel: hotels, stations, shops, the doctor, asking for help or complaining politely.
+- Give a simple opinion and say why, compare things, describe people and places.
+- Write a short email or message about yourself and your week.
+
+### Still out of reach at A2
+- Films, fast native conversation and slang.
+- Discussing abstract topics or arguing a point (that is B1–B2).
+- Fluent speaking without practice with people: see *Honest limits* in COURSE.md.
+
+---
+
+*Below: the original options this decision was made from.*
+
 Levels below use the **CEFR** scale used by every French school and the official DELF exams:
 A1 (beginner) → A2 → B1 (independent) → B2 → C1 → C2 (near native).
 

@@ -1,6 +1,6 @@
 # Proposal: a simple French course app
 
-A small, offline, phone-only app that teaches French from zero to everyday beginner level (CEFR A1),
+A small, offline, phone-only app that teaches French from zero to **A2** (confident everyday French),
 **step by step, explaining every new thing before practising it**.
 
 - Goal: how good you will be at the end: [GOAL.md](GOAL.md)
@@ -13,6 +13,7 @@ A small, offline, phone-only app that teaches French from zero to everyday begin
 | --- | --- |
 | Taught in | English |
 | Starting level | Absolute zero |
+| Goal | **A2** in about 12–18 months ([GOAL.md](GOAL.md)) |
 | Name | "Learn Language" for now |
 | Mistakes | No lives or penalty, just a **score** per lesson |
 | Daily reminder | Not now |
@@ -107,6 +108,9 @@ Content first: every version adds units, and the app grows only as much as the c
 | **0.2** | Units 2–3; fill the gap, build the sentence, type it; result screen with mistakes and *why* |
 | **0.3** | Units 4–6; checkpoints; Notes screen |
 | **0.4** | Units 7–9; review deck (spaced repetition) |
-| **0.5** | Units 10–12; course finished |
+| **0.5** | Units 10–12; Stage 1 test — **Foundations done** |
+| **0.6–0.7** | Units 13–18; Stage 2 test — **A1 done** |
+| **0.8** | Story lessons, dictation, say-it-aloud, normal-speed audio |
+| **0.9–1.0** | Units 19–34, a few units per version; A2 test — **A2 done** |
 
 Each version is pushed and builds an APK to install on the phone.
