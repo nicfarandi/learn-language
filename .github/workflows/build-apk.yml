@@ -1,0 +1,74 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Built on this runner (eas build --local), not on EAS's servers: free EAS builds run out each month.
+    timeout-minutes: 90
+    concurrency:
+      group: android-apk-${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22   # eas-cli needs Node >= 22; node:sqlite in tests needs >= 22.5
+          cache: npm
+
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+
+      # Advisory: expo-doctor compares against what the SDK expects today, so it can go red unprompted.
+      - name: Check Expo project (advisory)
+        run: npm run doctor
+        continue-on-error: true
+
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/.ghcup /usr/share/swift \
+            /usr/local/share/boost /opt/hostedtoolcache/CodeQL || true
+          df -h /
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: expo/expo-github-action@v8
+        with:
+          eas-version: 27.11.0
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      # Same signing key EAS keeps for the app, so each APK installs over the last.
+      - name: Build APK on this runner
+        env:
+          GRADLE_OPTS: -Dorg.gradle.daemon=false
+        run: |
+          eas build --platform android --profile preview --local --non-interactive --output learn-language.apk
+          test -s learn-language.apk
+
+      # Convenience copy; may fail on artifact quota. The Release below is the real output.
+      - uses: actions/upload-artifact@v4
+        continue-on-error: true
+        with:
+          name: learn-language-apk
+          path: learn-language.apk
+          retention-days: 14
+
+      - name: Publish GitHub Release with APK
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          name: "Build #${{ github.run_number }} (${{ github.sha }})"
+          files: learn-language.apk

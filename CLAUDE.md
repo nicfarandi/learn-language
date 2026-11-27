@@ -11,7 +11,8 @@ SQLite database, no server. Only what must go online does (e.g. an API the app n
 | Android package | `com.nicfarandi.learnlanguage` — **never change after the first install** |
 | Expo owner | filled in by `eas init` |
 
-> **Status:** repo is empty. If the app isn't scaffolded yet, do **Setup** (bottom of this file) first.
+> **Status:** app scaffolded. Still to do by me, once: `eas init`, the signing key and the `EXPO_TOKEN`
+> secret (Setup steps 4–5), before the first APK can build.
 
 ---
 
@@ -81,6 +82,12 @@ assets/                   icon.png, android-icon-*.png, favicon.png
 docs/                     Design notes, formats
 .github/workflows/build-apk.yml
 ```
+
+### Course content
+- Unit files `content/fr/uNN.json` (shape in `src/content/types.ts`) are bundled and read straight from
+  `content/fr/index.ts`; they are not copied into SQLite. SQLite holds only the learner's progress.
+- A new unit is registered in `content/fr/index.ts`; `__tests__/content.test.ts` checks every unit.
+- Exercises are generated from a lesson's words, sentences and gaps in `src/utils/exercises.ts`.
 
 ### Database rules
 - Tables are only ever **added to**: `CREATE TABLE IF NOT EXISTS`, new columns via `ADDED_COLUMNS` in

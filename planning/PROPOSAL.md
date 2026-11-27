@@ -144,9 +144,10 @@ from the lesson's words, sentences and gap-fills, so adding a unit means writing
 
 ## 8. Data on the phone (SQLite)
 
+Course content is read straight from the bundled JSON; the database holds only your progress.
+
 | Table | Holds |
 | --- | --- |
-| `units`, `lessons`, `notes`, `words`, `sentences`, `gaps` | Course content, reloaded from JSON on each update |
 | `lesson_progress` | Done, best score, last score, date |
 | `mistakes` | Exercises got wrong, for "Retry mistakes" and the review deck |
 | `word_reviews` | Per word: box (1–5), next review date, right/wrong counts |

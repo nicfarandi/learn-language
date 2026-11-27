@@ -1,0 +1,804 @@
+{
+  "id": "u02",
+  "number": 2,
+  "title": "Who I am",
+  "summary": "Say who you and others are, how you feel, where you are from, and say no or not. Your first real sentences with être.",
+  "canDo": [
+    "Use je, tu, il, elle, nous, vous, ils and elles to talk about myself and others.",
+    "Say I am, you are, he or she is, using être, and say how I feel.",
+    "Say my nationality, for a man or a woman.",
+    "Say no and not, and agree with someone using aussi."
+  ],
+  "lessons": [
+    {
+      "id": "u02-l1",
+      "title": "People words",
+      "goal": "Say I, you, he, she, we and they, and say other people's names.",
+      "notes": [
+        {
+          "id": "u02-l1-n1",
+          "title": "I, you and we",
+          "body": "**je** is *I*, **tu** and **vous** are *you* (Unit 1), and **nous** is *we*. In everyday talk the French often say **on** for *we*: *on va bien* = we're fine. In writing, use **nous**.",
+          "examples": [
+            {
+              "fr": "Je m'appelle Léa.",
+              "en": "My name is Léa."
+            },
+            {
+              "fr": "Nous, ça va bien.",
+              "en": "We're doing well."
+            },
+            {
+              "fr": "On va bien, merci.",
+              "en": "We're fine, thanks. (casual)"
+            }
+          ]
+        },
+        {
+          "id": "u02-l1-n2",
+          "title": "He, she and they",
+          "body": "**il** is *he* and **elle** is *she*. For *they*, use **ils** for men or a mixed group, and **elles** for women only. With them, *je m'appelle* becomes **il s'appelle**, **elle s'appelle**, **ils s'appellent** (the *-ent* is silent).",
+          "examples": [
+            {
+              "fr": "Il s'appelle Paul.",
+              "en": "His name is Paul."
+            },
+            {
+              "fr": "Elle s'appelle Léa.",
+              "en": "Her name is Léa."
+            },
+            {
+              "fr": "Ils s'appellent Paul et Marc.",
+              "en": "Their names are Paul and Marc."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u02-l1-w1",
+          "fr": "je",
+          "en": "I",
+          "tip": "Becomes j' before a vowel."
+        },
+        {
+          "id": "u02-l1-w2",
+          "fr": "il",
+          "en": "he"
+        },
+        {
+          "id": "u02-l1-w3",
+          "fr": "elle",
+          "en": "she"
+        },
+        {
+          "id": "u02-l1-w4",
+          "fr": "nous",
+          "en": "we"
+        },
+        {
+          "id": "u02-l1-w5",
+          "fr": "ils",
+          "en": "they (men, or men and women)"
+        },
+        {
+          "id": "u02-l1-w6",
+          "fr": "elles",
+          "en": "they (women only)"
+        },
+        {
+          "id": "u02-l1-w7",
+          "fr": "on",
+          "en": "we (everyday talk)",
+          "tip": "Common in speech with friends. Use nous in writing."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u02-l1-s1",
+          "fr": "Je m'appelle Léa.",
+          "en": "My name is Léa.",
+          "note": "u02-l1-n1"
+        },
+        {
+          "id": "u02-l1-s2",
+          "fr": "Il s'appelle Paul.",
+          "en": "His name is Paul.",
+          "note": "u02-l1-n2"
+        },
+        {
+          "id": "u02-l1-s3",
+          "fr": "Elle s'appelle Léa.",
+          "en": "Her name is Léa.",
+          "note": "u02-l1-n2"
+        },
+        {
+          "id": "u02-l1-s4",
+          "fr": "Ils s'appellent Paul et Marc.",
+          "en": "Their names are Paul and Marc.",
+          "note": "u02-l1-n2"
+        },
+        {
+          "id": "u02-l1-s5",
+          "fr": "Elles s'appellent Léa et Anne.",
+          "en": "Their names are Léa and Anne.",
+          "note": "u02-l1-n2"
+        },
+        {
+          "id": "u02-l1-s6",
+          "fr": "Nous, ça va bien.",
+          "en": "We're doing well.",
+          "note": "u02-l1-n1"
+        },
+        {
+          "id": "u02-l1-s7",
+          "fr": "On va bien, merci.",
+          "en": "We're fine, thanks.",
+          "note": "u02-l1-n1"
+        },
+        {
+          "id": "u02-l1-s8",
+          "fr": "Et elle ?",
+          "en": "And her?",
+          "note": "u02-l1-n2"
+        },
+        {
+          "id": "u02-l1-s9",
+          "fr": "Salut ! Il s'appelle Marc.",
+          "en": "Hi! His name is Marc.",
+          "note": "u02-l1-n2"
+        },
+        {
+          "id": "u02-l1-s10",
+          "fr": "Bonjour, elle s'appelle Anne.",
+          "en": "Hello, her name is Anne.",
+          "note": "u02-l1-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u02-l1-g1",
+          "prompt": "___ m'appelle Paul.",
+          "en": "My name is Paul.",
+          "answer": "Je",
+          "options": [
+            "Je",
+            "Tu"
+          ],
+          "why": "u02-l1-n1"
+        },
+        {
+          "id": "u02-l1-g2",
+          "prompt": "___ s'appelle Léa.",
+          "en": "Her name is Léa.",
+          "answer": "Elle",
+          "options": [
+            "Elle",
+            "Il"
+          ],
+          "why": "u02-l1-n2"
+        },
+        {
+          "id": "u02-l1-g3",
+          "prompt": "___ s'appellent Paul et Marc.",
+          "en": "Their names are Paul and Marc.",
+          "answer": "Ils",
+          "options": [
+            "Ils",
+            "Elles"
+          ],
+          "why": "u02-l1-n2"
+        },
+        {
+          "id": "u02-l1-g4",
+          "prompt": "___ s'appellent Léa et Anne.",
+          "en": "Their names are Léa and Anne.",
+          "answer": "Elles",
+          "options": [
+            "Elles",
+            "Ils"
+          ],
+          "why": "u02-l1-n2"
+        },
+        {
+          "id": "u02-l1-g5",
+          "prompt": "___ va bien, merci.",
+          "en": "We're fine, thanks. (casual)",
+          "answer": "On",
+          "options": [
+            "On",
+            "Il"
+          ],
+          "why": "u02-l1-n1"
+        }
+      ]
+    },
+    {
+      "id": "u02-l2",
+      "title": "To be",
+      "goal": "Say who you are and how you feel, using être.",
+      "notes": [
+        {
+          "id": "u02-l2-n1",
+          "title": "Être: to be",
+          "body": "**être** means *to be*. Learn its forms as a set: **je suis**, **tu es**, **il / elle est**, **nous sommes**, **vous êtes**, **ils / elles sont**. Use it to say who you are and how you feel. Do not add *un* or *une* before a job or study word: *je suis étudiant*.",
+          "examples": [
+            {
+              "fr": "Je suis étudiant.",
+              "en": "I'm a student."
+            },
+            {
+              "fr": "Tu es content ?",
+              "en": "Are you happy?"
+            },
+            {
+              "fr": "Nous sommes contents.",
+              "en": "We're happy."
+            }
+          ]
+        },
+        {
+          "id": "u02-l2-n2",
+          "title": "Man or woman?",
+          "body": "For a woman, add **-e** to the word: **content** becomes **contente**, **fatigué** becomes **fatiguée**, **étudiant** becomes **étudiante**. Add **-s** for more than one. The spelling changes, so write it carefully.",
+          "examples": [
+            {
+              "fr": "Je suis étudiante.",
+              "en": "I'm a student. (woman)"
+            },
+            {
+              "fr": "Léa est fatiguée.",
+              "en": "Léa is tired."
+            },
+            {
+              "fr": "Elles sont contentes.",
+              "en": "They are happy. (women)"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u02-l2-w1",
+          "fr": "être",
+          "en": "to be",
+          "tip": "Irregular. Learn the forms as a set."
+        },
+        {
+          "id": "u02-l2-w2",
+          "fr": "je suis",
+          "en": "I am"
+        },
+        {
+          "id": "u02-l2-w3",
+          "fr": "tu es",
+          "en": "you are (to a friend)"
+        },
+        {
+          "id": "u02-l2-w4",
+          "fr": "il est",
+          "en": "he is",
+          "tip": "Elle est means she is."
+        },
+        {
+          "id": "u02-l2-w5",
+          "fr": "étudiant(e)",
+          "en": "student",
+          "tip": "No article after être: je suis étudiant."
+        },
+        {
+          "id": "u02-l2-w6",
+          "fr": "content(e)",
+          "en": "happy / glad"
+        },
+        {
+          "id": "u02-l2-w7",
+          "fr": "fatigué(e)",
+          "en": "tired"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u02-l2-s1",
+          "fr": "Je suis étudiant.",
+          "en": "I'm a student.",
+          "note": "u02-l2-n1"
+        },
+        {
+          "id": "u02-l2-s2",
+          "fr": "Je suis étudiante.",
+          "en": "I'm a student. (woman)",
+          "note": "u02-l2-n2"
+        },
+        {
+          "id": "u02-l2-s3",
+          "fr": "Tu es content ?",
+          "en": "Are you happy?",
+          "note": "u02-l2-n1"
+        },
+        {
+          "id": "u02-l2-s4",
+          "fr": "Léa est fatiguée.",
+          "en": "Léa is tired.",
+          "note": "u02-l2-n2"
+        },
+        {
+          "id": "u02-l2-s5",
+          "fr": "Paul est content.",
+          "en": "Paul is happy.",
+          "note": "u02-l2-n1"
+        },
+        {
+          "id": "u02-l2-s6",
+          "fr": "Nous sommes étudiants.",
+          "en": "We are students.",
+          "note": "u02-l2-n1"
+        },
+        {
+          "id": "u02-l2-s7",
+          "fr": "Ils sont fatigués.",
+          "en": "They are tired. (men)",
+          "note": "u02-l2-n2"
+        },
+        {
+          "id": "u02-l2-s8",
+          "fr": "Elles sont contentes.",
+          "en": "They are happy. (women)",
+          "note": "u02-l2-n2"
+        },
+        {
+          "id": "u02-l2-s9",
+          "fr": "Vous êtes fatigué, monsieur ?",
+          "en": "Are you tired, sir?",
+          "note": "u02-l2-n1"
+        },
+        {
+          "id": "u02-l2-s10",
+          "fr": "Ça va ? Je suis fatigué.",
+          "en": "How are you? I'm tired.",
+          "note": "u02-l2-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u02-l2-g1",
+          "prompt": "Je ___ fatigué.",
+          "en": "I'm tired. (a man)",
+          "answer": "suis",
+          "options": [
+            "suis",
+            "es"
+          ],
+          "why": "u02-l2-n1"
+        },
+        {
+          "id": "u02-l2-g2",
+          "prompt": "Tu ___ content ?",
+          "en": "Are you happy? (to a friend)",
+          "answer": "es",
+          "options": [
+            "es",
+            "est"
+          ],
+          "why": "u02-l2-n1"
+        },
+        {
+          "id": "u02-l2-g3",
+          "prompt": "Léa ___ fatiguée.",
+          "en": "Léa is tired.",
+          "answer": "est",
+          "options": [
+            "est",
+            "sont"
+          ],
+          "why": "u02-l2-n1"
+        },
+        {
+          "id": "u02-l2-g4",
+          "prompt": "Elles ___ contentes.",
+          "en": "They are happy. (women)",
+          "answer": "sont",
+          "options": [
+            "sont",
+            "sommes"
+          ],
+          "why": "u02-l2-n1"
+        },
+        {
+          "id": "u02-l2-g5",
+          "prompt": "Je suis ___.",
+          "en": "I'm a student. (a woman)",
+          "answer": "étudiante",
+          "options": [
+            "étudiante",
+            "étudiant"
+          ],
+          "why": "u02-l2-n2"
+        }
+      ]
+    },
+    {
+      "id": "u02-l3",
+      "title": "Nationalities",
+      "goal": "Say where someone is from, for a man or a woman.",
+      "notes": [
+        {
+          "id": "u02-l3-n1",
+          "title": "No capital letter",
+          "body": "In French, nationality words are **not** capitalised, even though English capitalises them. Use them after **être**: *je suis français*. Do not add *un* or *une* before them.",
+          "examples": [
+            {
+              "fr": "Je suis français.",
+              "en": "I'm French."
+            },
+            {
+              "fr": "Paul est américain.",
+              "en": "Paul is American."
+            },
+            {
+              "fr": "Nous sommes italiens.",
+              "en": "We are Italian."
+            }
+          ]
+        },
+        {
+          "id": "u02-l3-n2",
+          "title": "Add -e for a woman",
+          "body": "For a woman, add **-e**: **français** becomes **française**. Some endings change more: **anglais** becomes **anglaise**, **américain** becomes **américaine**, and **australien** becomes **australienne** (double **n**). Add **-s** for more than one, as in **espagnoles**.",
+          "examples": [
+            {
+              "fr": "Léa est anglaise.",
+              "en": "Léa is English."
+            },
+            {
+              "fr": "Elle est australienne.",
+              "en": "She's Australian."
+            },
+            {
+              "fr": "Elles sont espagnoles.",
+              "en": "They are Spanish. (women)"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u02-l3-w1",
+          "fr": "français(e)",
+          "en": "French",
+          "tip": "Not capitalised: français, not Français."
+        },
+        {
+          "id": "u02-l3-w2",
+          "fr": "anglais(e)",
+          "en": "English"
+        },
+        {
+          "id": "u02-l3-w3",
+          "fr": "américain(e)",
+          "en": "American"
+        },
+        {
+          "id": "u02-l3-w4",
+          "fr": "espagnol(e)",
+          "en": "Spanish"
+        },
+        {
+          "id": "u02-l3-w5",
+          "fr": "australien(ne)",
+          "en": "Australian"
+        },
+        {
+          "id": "u02-l3-w6",
+          "fr": "italien(ne)",
+          "en": "Italian"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u02-l3-s1",
+          "fr": "Je suis français.",
+          "en": "I'm French.",
+          "note": "u02-l3-n1"
+        },
+        {
+          "id": "u02-l3-s2",
+          "fr": "Je suis française.",
+          "en": "I'm French. (woman)",
+          "note": "u02-l3-n2"
+        },
+        {
+          "id": "u02-l3-s3",
+          "fr": "Léa est anglaise.",
+          "en": "Léa is English.",
+          "note": "u02-l3-n2"
+        },
+        {
+          "id": "u02-l3-s4",
+          "fr": "Paul est américain.",
+          "en": "Paul is American.",
+          "note": "u02-l3-n1"
+        },
+        {
+          "id": "u02-l3-s5",
+          "fr": "Marc est espagnol.",
+          "en": "Marc is Spanish.",
+          "note": "u02-l3-n1"
+        },
+        {
+          "id": "u02-l3-s6",
+          "fr": "Elle est australienne.",
+          "en": "She's Australian.",
+          "note": "u02-l3-n2"
+        },
+        {
+          "id": "u02-l3-s7",
+          "fr": "Vous êtes italien, monsieur ?",
+          "en": "Are you Italian, sir?",
+          "note": "u02-l3-n1"
+        },
+        {
+          "id": "u02-l3-s8",
+          "fr": "Nous sommes anglais.",
+          "en": "We are English.",
+          "note": "u02-l3-n1"
+        },
+        {
+          "id": "u02-l3-s9",
+          "fr": "Elles sont espagnoles.",
+          "en": "They are Spanish. (women)",
+          "note": "u02-l3-n2"
+        },
+        {
+          "id": "u02-l3-s10",
+          "fr": "Tu es américaine ?",
+          "en": "Are you American? (woman, to a friend)",
+          "note": "u02-l3-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u02-l3-g1",
+          "prompt": "Je suis ___.",
+          "en": "I'm French. (a man)",
+          "answer": "français",
+          "options": [
+            "français",
+            "française"
+          ],
+          "why": "u02-l3-n1"
+        },
+        {
+          "id": "u02-l3-g2",
+          "prompt": "Léa est ___.",
+          "en": "Léa is English.",
+          "answer": "anglaise",
+          "options": [
+            "anglaise",
+            "anglais"
+          ],
+          "why": "u02-l3-n2"
+        },
+        {
+          "id": "u02-l3-g3",
+          "prompt": "Elle est ___.",
+          "en": "She's Australian.",
+          "answer": "australienne",
+          "options": [
+            "australienne",
+            "australien"
+          ],
+          "why": "u02-l3-n2"
+        },
+        {
+          "id": "u02-l3-g4",
+          "prompt": "Paul est ___.",
+          "en": "Paul is American.",
+          "answer": "américain",
+          "options": [
+            "américain",
+            "américaine"
+          ],
+          "why": "u02-l3-n1"
+        },
+        {
+          "id": "u02-l3-g5",
+          "prompt": "Elles sont ___.",
+          "en": "They're Spanish. (women)",
+          "answer": "espagnoles",
+          "options": [
+            "espagnoles",
+            "espagnols"
+          ],
+          "why": "u02-l3-n2"
+        }
+      ]
+    },
+    {
+      "id": "u02-l4",
+      "title": "Not",
+      "goal": "Say no and not, and agree with someone using aussi.",
+      "notes": [
+        {
+          "id": "u02-l4-n1",
+          "title": "Ne … pas: not",
+          "body": "To say **not**, put **ne** before the verb and **pas** after it: *je **ne** suis **pas** français*. Before a vowel, **ne** becomes **n'**: *il **n'**est pas*. The two words wrap around the verb.",
+          "examples": [
+            {
+              "fr": "Je ne suis pas français.",
+              "en": "I'm not French."
+            },
+            {
+              "fr": "Tu n'es pas content ?",
+              "en": "You're not happy?"
+            },
+            {
+              "fr": "Elle n'est pas espagnole.",
+              "en": "She's not Spanish."
+            }
+          ]
+        },
+        {
+          "id": "u02-l4-n2",
+          "title": "Oui, non, aussi",
+          "body": "**Oui** means *yes* and **non** means *no*. **aussi** means *too*, and **moi aussi** means *me too*. Use it to agree with someone who says how they feel.",
+          "examples": [
+            {
+              "fr": "Oui, je suis étudiant.",
+              "en": "Yes, I'm a student."
+            },
+            {
+              "fr": "Non, merci.",
+              "en": "No, thanks."
+            },
+            {
+              "fr": "Je suis content. Moi aussi !",
+              "en": "I'm happy. Me too!"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u02-l4-w1",
+          "fr": "ne … pas",
+          "en": "not",
+          "tip": "Wraps around the verb: je ne suis pas."
+        },
+        {
+          "id": "u02-l4-w2",
+          "fr": "oui",
+          "en": "yes"
+        },
+        {
+          "id": "u02-l4-w3",
+          "fr": "non",
+          "en": "no"
+        },
+        {
+          "id": "u02-l4-w4",
+          "fr": "aussi",
+          "en": "also / too"
+        },
+        {
+          "id": "u02-l4-w5",
+          "fr": "moi",
+          "en": "me / I",
+          "tip": "Used alone: Moi aussi ! = Me too!"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u02-l4-s1",
+          "fr": "Je ne suis pas français.",
+          "en": "I'm not French.",
+          "note": "u02-l4-n1"
+        },
+        {
+          "id": "u02-l4-s2",
+          "fr": "Tu n'es pas fatigué ?",
+          "en": "Aren't you tired?",
+          "note": "u02-l4-n1"
+        },
+        {
+          "id": "u02-l4-s3",
+          "fr": "Il n'est pas content.",
+          "en": "He isn't happy.",
+          "note": "u02-l4-n1"
+        },
+        {
+          "id": "u02-l4-s4",
+          "fr": "Oui, je suis étudiant.",
+          "en": "Yes, I'm a student.",
+          "note": "u02-l4-n2"
+        },
+        {
+          "id": "u02-l4-s5",
+          "fr": "Non, je ne suis pas anglais.",
+          "en": "No, I'm not English.",
+          "note": "u02-l4-n1"
+        },
+        {
+          "id": "u02-l4-s6",
+          "fr": "Moi aussi !",
+          "en": "Me too!",
+          "note": "u02-l4-n2"
+        },
+        {
+          "id": "u02-l4-s7",
+          "fr": "Elle n'est pas espagnole.",
+          "en": "She's not Spanish.",
+          "note": "u02-l4-n1"
+        },
+        {
+          "id": "u02-l4-s8",
+          "fr": "Oui, moi aussi.",
+          "en": "Yes, me too.",
+          "note": "u02-l4-n2"
+        },
+        {
+          "id": "u02-l4-s9",
+          "fr": "Non, merci.",
+          "en": "No, thanks."
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u02-l4-g1",
+          "prompt": "Elle n'___ pas anglaise.",
+          "en": "She's not English.",
+          "answer": "est",
+          "options": [
+            "est",
+            "es"
+          ],
+          "why": "u02-l4-n1"
+        },
+        {
+          "id": "u02-l4-g2",
+          "prompt": "Je ne suis ___ français.",
+          "en": "I'm not French.",
+          "answer": "pas",
+          "options": [
+            "pas",
+            "aussi"
+          ],
+          "why": "u02-l4-n1"
+        },
+        {
+          "id": "u02-l4-g3",
+          "prompt": "___, je suis étudiant.",
+          "en": "Yes, I'm a student.",
+          "answer": "Oui",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "why": "u02-l4-n2"
+        },
+        {
+          "id": "u02-l4-g4",
+          "prompt": "___ aussi !",
+          "en": "Me too!",
+          "answer": "Moi",
+          "options": [
+            "Moi",
+            "Oui"
+          ],
+          "why": "u02-l4-n2"
+        },
+        {
+          "id": "u02-l4-g5",
+          "prompt": "Tu n'es ___ fatigué ?",
+          "en": "Aren't you tired?",
+          "answer": "pas",
+          "options": [
+            "pas",
+            "non"
+          ],
+          "why": "u02-l4-n1"
+        }
+      ]
+    }
+  ]
+}

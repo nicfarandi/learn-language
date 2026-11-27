@@ -1,0 +1,374 @@
+{
+  "id": "u00",
+  "number": 0,
+  "title": "The sounds of French",
+  "summary": "Learn how French is spelled and said: silent endings, accents, letter teams and nasal sounds. You mostly listen; there is no French to use yet.",
+  "canDo": [
+    "I can tell which final letters are usually silent.",
+    "I can read é, è, ê and ç and guess how they sound.",
+    "I can guess the sound of ou, oi, au, eau, ai and eu.",
+    "I can say nasal sounds without an 'n' sound, and link words with liaison."
+  ],
+  "lessons": [
+    {
+      "id": "u00-l1",
+      "title": "Silent endings",
+      "goal": "I can tell which final letters are silent and which are said.",
+      "notes": [
+        {
+          "id": "u00-l1-n1",
+          "title": "Most final letters are silent",
+          "body": "In French, the last letter of a word is usually **not** said. English does this too, in words like *talk*. In French it happens far more often, so a word like *petit* ends on a soft sound, not a *t*.",
+          "examples": [
+            {
+              "fr": "petit",
+              "en": "small (sounds like 'puh-tee')"
+            },
+            {
+              "fr": "grand",
+              "en": "big, tall (sounds like 'grahn')"
+            },
+            {
+              "fr": "Paris",
+              "en": "Paris (sounds like 'pa-ree')"
+            }
+          ]
+        },
+        {
+          "id": "u00-l1-n2",
+          "title": "Some final letters are said: c, r, f, l",
+          "body": "The final letters **c, r, f** and **l** are often said, so keep them in mind. Pronounce them as you would in English: a hard *k*, an *r* at the back of the throat, an *f* and an *l*.",
+          "examples": [
+            {
+              "fr": "avec",
+              "en": "with (sounds like 'ah-vek')"
+            },
+            {
+              "fr": "neuf",
+              "en": "nine (sounds like 'nuhf')"
+            },
+            {
+              "fr": "il",
+              "en": "he, it (sounds like 'eel')"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u00-l1-w1",
+          "fr": "petit",
+          "en": "small",
+          "tip": "Sounds like 'puh-tee'. The final t is silent."
+        },
+        {
+          "id": "u00-l1-w2",
+          "fr": "grand",
+          "en": "big, tall",
+          "tip": "Sounds like 'grahn'. The final d is silent."
+        },
+        {
+          "id": "u00-l1-w3",
+          "fr": "Paris",
+          "en": "Paris",
+          "tip": "Sounds like 'pa-ree'. The final s is silent."
+        },
+        {
+          "id": "u00-l1-w4",
+          "fr": "avec",
+          "en": "with",
+          "tip": "Sounds like 'ah-vek'. The final c is said like a 'k'."
+        },
+        {
+          "id": "u00-l1-w5",
+          "fr": "bonjour",
+          "en": "hello, good day",
+          "tip": "Sounds like 'boh(n)-zhoor'. The j sounds like the s in 'measure', and the final r is said."
+        },
+        {
+          "id": "u00-l1-w6",
+          "fr": "neuf",
+          "en": "nine",
+          "tip": "Sounds like 'nuhf'. The final f is said."
+        },
+        {
+          "id": "u00-l1-w7",
+          "fr": "il",
+          "en": "he, it",
+          "tip": "Sounds like 'eel'. The final l is said."
+        }
+      ],
+      "sentences": [],
+      "gaps": []
+    },
+    {
+      "id": "u00-l2",
+      "title": "Accents",
+      "goal": "I can read é, è, ê and ç and say roughly how they sound.",
+      "notes": [
+        {
+          "id": "u00-l2-n1",
+          "title": "é, è and ê change the vowel",
+          "body": "The accent on a vowel changes how it sounds. **é** is said like the *ay* in English *day*. **è** and **ê** are said like the *eh* in *bed*. Learn the accent with the letter, because it tells you how to say the word.",
+          "examples": [
+            {
+              "fr": "café",
+              "en": "coffee (sounds like 'ka-fay')"
+            },
+            {
+              "fr": "très",
+              "en": "very (sounds like 'treh')"
+            },
+            {
+              "fr": "fête",
+              "en": "party, festival (sounds like 'feht')"
+            }
+          ]
+        },
+        {
+          "id": "u00-l2-n2",
+          "title": "Plain e and ç",
+          "body": "A plain **e** is a short, quiet sound, a bit like the *uh* in English *sofa*. At the end of a word it is usually silent. **ç** (c with a little tail) always sounds like *s*, never like *k*.",
+          "examples": [
+            {
+              "fr": "le",
+              "en": "the (sounds like 'luh')"
+            },
+            {
+              "fr": "garçon",
+              "en": "boy, waiter (sounds like 'gar-soh(n)')"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u00-l2-w1",
+          "fr": "café",
+          "en": "coffee",
+          "tip": "Sounds like 'ka-fay'. The final é is said as 'ay'."
+        },
+        {
+          "id": "u00-l2-w2",
+          "fr": "très",
+          "en": "very",
+          "tip": "Sounds like 'treh'. The è is said 'eh' and the final s is silent."
+        },
+        {
+          "id": "u00-l2-w3",
+          "fr": "fête",
+          "en": "party, festival",
+          "tip": "Sounds like 'feht'. The ê is said 'eh' and the final e is silent."
+        },
+        {
+          "id": "u00-l2-w4",
+          "fr": "le",
+          "en": "the",
+          "tip": "Sounds like 'luh', short and quiet. It is shortened to l' before a vowel."
+        },
+        {
+          "id": "u00-l2-w5",
+          "fr": "garçon",
+          "en": "boy, waiter",
+          "tip": "Sounds like 'gar-soh(n)'. The ç is said 's', and the on is nasal (see lesson 4)."
+        },
+        {
+          "id": "u00-l2-w6",
+          "fr": "élève",
+          "en": "pupil, student (school)",
+          "tip": "Sounds like 'ay-lehv'. The é is 'ay', the è is 'eh', and the final e is silent."
+        },
+        {
+          "id": "u00-l2-w7",
+          "fr": "crème",
+          "en": "cream",
+          "tip": "Sounds like 'krem'. The è is said 'eh' and the final e is silent."
+        }
+      ],
+      "sentences": [],
+      "gaps": []
+    },
+    {
+      "id": "u00-l3",
+      "title": "Letter teams",
+      "goal": "I can guess the sound of ou, oi, au, eau, ai and eu.",
+      "notes": [
+        {
+          "id": "u00-l3-n1",
+          "title": "ou, oi, au and eau",
+          "body": "**ou** sounds like the *oo* in English *food*. **oi** sounds like *wa* in *want*. **au** and **eau** both sound like the *oh* in *go*. These letters are a team: read them together as one sound.",
+          "examples": [
+            {
+              "fr": "vous",
+              "en": "you, polite or plural (sounds like 'voo')"
+            },
+            {
+              "fr": "moi",
+              "en": "me (sounds like 'mwah')"
+            },
+            {
+              "fr": "beau",
+              "en": "handsome, beautiful (sounds like 'boh')"
+            }
+          ]
+        },
+        {
+          "id": "u00-l3-n2",
+          "title": "ai and eu",
+          "body": "**ai** sounds like the *e* in English *bed*, so it is the same as è. **eu** is harder: it is a sound between *uh* and *ur*, made with your lips rounded as if to say *oo*. Do not worry about getting it perfect yet; listen and copy.",
+          "examples": [
+            {
+              "fr": "lait",
+              "en": "milk (sounds like 'leh')"
+            },
+            {
+              "fr": "mais",
+              "en": "but (sounds like 'meh')"
+            },
+            {
+              "fr": "deux",
+              "en": "two (sounds like 'duh')"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u00-l3-w1",
+          "fr": "vous",
+          "en": "you (polite, or more than one person)",
+          "tip": "Sounds like 'voo'. The final s is silent."
+        },
+        {
+          "id": "u00-l3-w2",
+          "fr": "moi",
+          "en": "me",
+          "tip": "Sounds like 'mwah'. The oi is said 'wa'."
+        },
+        {
+          "id": "u00-l3-w3",
+          "fr": "eau",
+          "en": "water",
+          "tip": "Sounds like 'oh'. The three letters make one sound."
+        },
+        {
+          "id": "u00-l3-w4",
+          "fr": "lait",
+          "en": "milk",
+          "tip": "Sounds like 'leh'. The ai is 'eh' and the final t is silent."
+        },
+        {
+          "id": "u00-l3-w5",
+          "fr": "deux",
+          "en": "two",
+          "tip": "Sounds like 'duh', with rounded lips. The final x is silent."
+        },
+        {
+          "id": "u00-l3-w6",
+          "fr": "beau",
+          "en": "handsome, beautiful",
+          "tip": "Sounds like 'boh'. The eau is one sound, 'oh'."
+        },
+        {
+          "id": "u00-l3-w7",
+          "fr": "bleu",
+          "en": "blue",
+          "tip": "Sounds like 'bluh', with rounded lips for the eu."
+        }
+      ],
+      "sentences": [],
+      "gaps": []
+    },
+    {
+      "id": "u00-l4",
+      "title": "Nasal sounds & linking",
+      "goal": "I can say nasal sounds without an 'n' sound, and link words with liaison.",
+      "notes": [
+        {
+          "id": "u00-l4-n1",
+          "title": "Nasal sounds: an, en, on, in, ain, un",
+          "body": "When **an, en, on, in, ain** or **un** is not followed by a vowel, the vowel is said through the nose and the *n* is **not** said. In the sound hints, *(n)* means \"say the vowel through your nose\", not an n.",
+          "examples": [
+            {
+              "fr": "bon",
+              "en": "good (sounds like 'boh(n)')"
+            },
+            {
+              "fr": "vin",
+              "en": "wine (sounds like 'va(n)')"
+            },
+            {
+              "fr": "enfant",
+              "en": "child (sounds like 'ah(n)-fah(n)')"
+            }
+          ]
+        },
+        {
+          "id": "u00-l4-n2",
+          "title": "Liaison: linking to a vowel",
+          "body": "Usually a final consonant is silent. But when the next word starts with a vowel, the silent letter is said and joins the next word. This is called **liaison**. Only do it with common pairs like these, and it sounds natural.",
+          "examples": [
+            {
+              "fr": "vous avez",
+              "en": "you have (sounds like 'voo-za-vay')"
+            },
+            {
+              "fr": "les amis",
+              "en": "the friends (sounds like 'lay-za-mee')"
+            },
+            {
+              "fr": "un ami",
+              "en": "a friend (sounds like 'uh-na-mee')"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u00-l4-w1",
+          "fr": "enfant",
+          "en": "child",
+          "tip": "Sounds like 'ah(n)-fah(n)'. Both en and an are nasal, and the final t is silent."
+        },
+        {
+          "id": "u00-l4-w2",
+          "fr": "bon",
+          "en": "good",
+          "tip": "Sounds like 'boh(n)'. The on is nasal: no n sound."
+        },
+        {
+          "id": "u00-l4-w3",
+          "fr": "vin",
+          "en": "wine",
+          "tip": "Sounds like 'va(n)'. The in is nasal: no n sound."
+        },
+        {
+          "id": "u00-l4-w4",
+          "fr": "pain",
+          "en": "bread",
+          "tip": "Sounds like 'pa(n)'. The ain is nasal, the same sound as in."
+        },
+        {
+          "id": "u00-l4-w5",
+          "fr": "un",
+          "en": "one, a (masculine)",
+          "tip": "Sounds like 'uh(n)'. The un is nasal: no n sound."
+        },
+        {
+          "id": "u00-l4-w6",
+          "fr": "bien",
+          "en": "well, good",
+          "tip": "Sounds like 'byah(n)'. The ien is nasal: no n sound."
+        },
+        {
+          "id": "u00-l4-w7",
+          "fr": "chien",
+          "en": "dog",
+          "tip": "Sounds like 'shyah(n)'. The ch is 'sh', and the ien is nasal."
+        }
+      ],
+      "sentences": [],
+      "gaps": []
+    }
+  ]
+}

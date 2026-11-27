@@ -1,0 +1,709 @@
+{
+  "id": "u01",
+  "number": 1,
+  "title": "Hello",
+  "summary": "Greet people, say please and thank you, give your name and ask how someone is. Your first real French words.",
+  "canDo": [
+    "Greet someone politely or casually, at any time of day.",
+    "Say please, thank you, sorry and excuse me.",
+    "Give my name and ask someone's name.",
+    "Ask how someone is, and answer, using tu or vous."
+  ],
+  "lessons": [
+    {
+      "id": "u01-l1",
+      "title": "Greetings",
+      "goal": "Greet someone politely or casually, at any time of day, and say goodbye.",
+      "notes": [
+        {
+          "id": "u01-l1-n1",
+          "title": "Bonjour or salut?",
+          "body": "**Bonjour** is polite and works with anyone: a shop assistant, a stranger, your boss. **Salut** is casual, for friends, family and people your age. **Au revoir** means goodbye to anyone. When unsure, say *bonjour*.",
+          "examples": [
+            {
+              "fr": "Bonjour, madame.",
+              "en": "Hello, madam."
+            },
+            {
+              "fr": "Salut !",
+              "en": "Hi!"
+            },
+            {
+              "fr": "Au revoir, monsieur.",
+              "en": "Goodbye, sir."
+            }
+          ]
+        },
+        {
+          "id": "u01-l1-n2",
+          "title": "Bonjour or bonsoir?",
+          "body": "**Bonjour** works until early evening. **Bonsoir** is for after about 6 pm. In France, adding *madame* or *monsieur* is extra polite.",
+          "examples": [
+            {
+              "fr": "Bonsoir, madame.",
+              "en": "Good evening, madam."
+            },
+            {
+              "fr": "Bonjour, monsieur.",
+              "en": "Hello, sir."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u01-l1-w1",
+          "fr": "bonjour",
+          "en": "hello / good morning",
+          "tip": "Literally \"good day\". Use it until early evening."
+        },
+        {
+          "id": "u01-l1-w2",
+          "fr": "bonsoir",
+          "en": "good evening",
+          "tip": "From about 6 pm."
+        },
+        {
+          "id": "u01-l1-w3",
+          "fr": "salut",
+          "en": "hi / bye",
+          "tip": "Casual. Works for hello and goodbye."
+        },
+        {
+          "id": "u01-l1-w4",
+          "fr": "au revoir",
+          "en": "goodbye",
+          "tip": "Literally \"until seeing again\"."
+        },
+        {
+          "id": "u01-l1-w5",
+          "fr": "madame",
+          "en": "madam / Mrs"
+        },
+        {
+          "id": "u01-l1-w6",
+          "fr": "monsieur",
+          "en": "sir / Mr",
+          "tip": "Sounds like \"muh-syuh\". The n and r are silent."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u01-l1-s1",
+          "fr": "Bonjour, madame.",
+          "en": "Hello, madam.",
+          "note": "u01-l1-n1"
+        },
+        {
+          "id": "u01-l1-s2",
+          "fr": "Bonsoir, monsieur.",
+          "en": "Good evening, sir.",
+          "note": "u01-l1-n2"
+        },
+        {
+          "id": "u01-l1-s3",
+          "fr": "Salut !",
+          "en": "Hi!",
+          "note": "u01-l1-n1"
+        },
+        {
+          "id": "u01-l1-s4",
+          "fr": "Au revoir, madame.",
+          "en": "Goodbye, madam.",
+          "note": "u01-l1-n1"
+        },
+        {
+          "id": "u01-l1-s5",
+          "fr": "Bonjour, monsieur.",
+          "en": "Hello, sir.",
+          "note": "u01-l1-n2"
+        },
+        {
+          "id": "u01-l1-s6",
+          "fr": "Bonsoir !",
+          "en": "Good evening!",
+          "note": "u01-l1-n2"
+        },
+        {
+          "id": "u01-l1-s7",
+          "fr": "Salut, Léa !",
+          "en": "Hi, Léa!",
+          "note": "u01-l1-n1"
+        },
+        {
+          "id": "u01-l1-s8",
+          "fr": "Au revoir, monsieur.",
+          "en": "Goodbye, sir.",
+          "note": "u01-l1-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u01-l1-g1",
+          "prompt": "___, madame.",
+          "en": "It's 9 pm.",
+          "answer": "Bonsoir",
+          "options": [
+            "Bonsoir",
+            "Bonjour"
+          ],
+          "why": "u01-l1-n2"
+        },
+        {
+          "id": "u01-l1-g2",
+          "prompt": "___, monsieur.",
+          "en": "You meet your boss in the morning.",
+          "answer": "Bonjour",
+          "options": [
+            "Bonjour",
+            "Salut"
+          ],
+          "why": "u01-l1-n1"
+        },
+        {
+          "id": "u01-l1-g3",
+          "prompt": "Au ___, madame.",
+          "en": "Goodbye, madam.",
+          "answer": "revoir",
+          "options": [
+            "revoir",
+            "bonjour"
+          ],
+          "why": "u01-l1-n1"
+        },
+        {
+          "id": "u01-l1-g4",
+          "prompt": "___, Léa !",
+          "en": "Hi, Léa! (a friend, in the afternoon)",
+          "answer": "Salut",
+          "options": [
+            "Salut",
+            "Bonsoir"
+          ],
+          "why": "u01-l1-n1"
+        }
+      ]
+    },
+    {
+      "id": "u01-l2",
+      "title": "Polite words",
+      "goal": "Say please, thank you, sorry and excuse me in the right way.",
+      "notes": [
+        {
+          "id": "u01-l2-n1",
+          "title": "Two ways to say please",
+          "body": "**s'il vous plaît** is polite, or used with more than one person. **s'il te plaît** is for a friend or family member. Both mean \"if it pleases you\". In texts you will see *svp* and *stp*.",
+          "examples": [
+            {
+              "fr": "Monsieur, s'il vous plaît.",
+              "en": "Sir, please."
+            },
+            {
+              "fr": "Paul, s'il te plaît.",
+              "en": "Paul, please."
+            }
+          ]
+        },
+        {
+          "id": "u01-l2-n2",
+          "title": "Sorry and excuse me",
+          "body": "**Pardon** is a quick \"sorry\" when you bump into someone, or \"Pardon?\" when you did not hear. **Excusez-moi** gets someone's attention before you ask something.",
+          "examples": [
+            {
+              "fr": "Pardon !",
+              "en": "Sorry!"
+            },
+            {
+              "fr": "Pardon, madame ?",
+              "en": "Sorry, madam?"
+            },
+            {
+              "fr": "Excusez-moi, monsieur.",
+              "en": "Excuse me, sir."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u01-l2-w1",
+          "fr": "merci",
+          "en": "thank you"
+        },
+        {
+          "id": "u01-l2-w2",
+          "fr": "s'il vous plaît",
+          "en": "please (polite)"
+        },
+        {
+          "id": "u01-l2-w3",
+          "fr": "s'il te plaît",
+          "en": "please (to a friend)"
+        },
+        {
+          "id": "u01-l2-w4",
+          "fr": "de rien",
+          "en": "you're welcome"
+        },
+        {
+          "id": "u01-l2-w5",
+          "fr": "pardon",
+          "en": "sorry / excuse me",
+          "tip": "Also \"pardon?\" when you did not hear."
+        },
+        {
+          "id": "u01-l2-w6",
+          "fr": "excusez-moi",
+          "en": "excuse me",
+          "tip": "Polite. Use it to get attention."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u01-l2-s1",
+          "fr": "Merci, madame.",
+          "en": "Thank you, madam."
+        },
+        {
+          "id": "u01-l2-s2",
+          "fr": "De rien.",
+          "en": "You're welcome."
+        },
+        {
+          "id": "u01-l2-s3",
+          "fr": "Merci, monsieur !",
+          "en": "Thank you, sir!"
+        },
+        {
+          "id": "u01-l2-s4",
+          "fr": "Excusez-moi, monsieur.",
+          "en": "Excuse me, sir.",
+          "note": "u01-l2-n2"
+        },
+        {
+          "id": "u01-l2-s5",
+          "fr": "Pardon !",
+          "en": "Sorry!",
+          "note": "u01-l2-n2"
+        },
+        {
+          "id": "u01-l2-s6",
+          "fr": "Monsieur, s'il vous plaît.",
+          "en": "Sir, please.",
+          "note": "u01-l2-n1"
+        },
+        {
+          "id": "u01-l2-s7",
+          "fr": "Paul, s'il te plaît.",
+          "en": "Paul, please.",
+          "note": "u01-l2-n1"
+        },
+        {
+          "id": "u01-l2-s8",
+          "fr": "Merci, au revoir !",
+          "en": "Thanks, goodbye!"
+        },
+        {
+          "id": "u01-l2-s9",
+          "fr": "Pardon, madame ?",
+          "en": "Sorry, madam?",
+          "note": "u01-l2-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u01-l2-g1",
+          "prompt": "Excusez-___, monsieur.",
+          "en": "Excuse me, sir.",
+          "answer": "moi",
+          "options": [
+            "moi",
+            "vous"
+          ],
+          "why": "u01-l2-n2"
+        },
+        {
+          "id": "u01-l2-g2",
+          "prompt": "___, madame.",
+          "en": "Sorry, madam (you bumped into her).",
+          "answer": "Pardon",
+          "options": [
+            "Pardon",
+            "Merci"
+          ],
+          "why": "u01-l2-n2"
+        },
+        {
+          "id": "u01-l2-g3",
+          "prompt": "Monsieur, ___.",
+          "en": "Sir, please (to a stranger).",
+          "answer": "s'il vous plaît",
+          "options": [
+            "s'il vous plaît",
+            "s'il te plaît"
+          ],
+          "why": "u01-l2-n1"
+        },
+        {
+          "id": "u01-l2-g4",
+          "prompt": "Paul, ___.",
+          "en": "Paul, please (to a friend).",
+          "answer": "s'il te plaît",
+          "options": [
+            "s'il te plaît",
+            "s'il vous plaît"
+          ],
+          "why": "u01-l2-n1"
+        }
+      ]
+    },
+    {
+      "id": "u01-l3",
+      "title": "My name is…",
+      "goal": "Give your name and ask someone's name, casually or politely.",
+      "notes": [
+        {
+          "id": "u01-l3-n1",
+          "title": "Je m'appelle",
+          "body": "French says \"I call myself\": **je m'appelle** Léa means \"my name is Léa\". To ask, use **Comment tu t'appelles ?** (casual) or **Comment vous appelez-vous ?** (polite). Learn these as whole phrases for now.",
+          "examples": [
+            {
+              "fr": "Je m'appelle Paul.",
+              "en": "My name is Paul."
+            },
+            {
+              "fr": "Comment tu t'appelles ?",
+              "en": "What's your name? (casual)"
+            },
+            {
+              "fr": "Comment vous appelez-vous ?",
+              "en": "What's your name? (polite)"
+            }
+          ]
+        },
+        {
+          "id": "u01-l3-n2",
+          "title": "Enchanté or enchantée?",
+          "body": "A man says **enchanté**, a woman says **enchantée**. Both sound exactly the same. The extra **-e** for a woman is a pattern you will meet again and again.",
+          "examples": [
+            {
+              "fr": "Enchantée, je m'appelle Léa.",
+              "en": "Nice to meet you, I'm Léa."
+            },
+            {
+              "fr": "Enchanté, je m'appelle Paul.",
+              "en": "Nice to meet you, I'm Paul."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u01-l3-w1",
+          "fr": "je m'appelle",
+          "en": "my name is",
+          "tip": "Literally \"I call myself\"."
+        },
+        {
+          "id": "u01-l3-w2",
+          "fr": "comment",
+          "en": "how / what",
+          "tip": "Used in questions like \"Comment ... ?\"."
+        },
+        {
+          "id": "u01-l3-w3",
+          "fr": "tu",
+          "en": "you (informal)",
+          "tip": "For one friend, family member or child."
+        },
+        {
+          "id": "u01-l3-w4",
+          "fr": "vous",
+          "en": "you (polite)",
+          "tip": "For a stranger, or more than one person."
+        },
+        {
+          "id": "u01-l3-w5",
+          "fr": "enchanté(e)",
+          "en": "nice to meet you",
+          "tip": "Say enchanté if you are a man, enchantée if you are a woman."
+        },
+        {
+          "id": "u01-l3-w6",
+          "fr": "et",
+          "en": "and"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u01-l3-s1",
+          "fr": "Je m'appelle Paul.",
+          "en": "My name is Paul.",
+          "note": "u01-l3-n1"
+        },
+        {
+          "id": "u01-l3-s2",
+          "fr": "Comment tu t'appelles ?",
+          "en": "What's your name? (casual)",
+          "note": "u01-l3-n1"
+        },
+        {
+          "id": "u01-l3-s3",
+          "fr": "Comment vous appelez-vous ?",
+          "en": "What's your name? (polite)",
+          "note": "u01-l3-n1"
+        },
+        {
+          "id": "u01-l3-s4",
+          "fr": "Enchantée, je m'appelle Léa.",
+          "en": "Nice to meet you, I'm Léa.",
+          "note": "u01-l3-n2"
+        },
+        {
+          "id": "u01-l3-s5",
+          "fr": "Enchanté, monsieur.",
+          "en": "Nice to meet you, sir.",
+          "note": "u01-l3-n2"
+        },
+        {
+          "id": "u01-l3-s6",
+          "fr": "Bonjour, je m'appelle Marc, et vous ?",
+          "en": "Hello, I'm Marc, and you?"
+        },
+        {
+          "id": "u01-l3-s7",
+          "fr": "Je m'appelle Léa, et vous ?",
+          "en": "I'm Léa, and you?"
+        },
+        {
+          "id": "u01-l3-s8",
+          "fr": "Bonjour, madame. Je m'appelle Paul.",
+          "en": "Hello, madam. I'm Paul."
+        },
+        {
+          "id": "u01-l3-s9",
+          "fr": "Enchanté, je m'appelle Paul.",
+          "en": "Nice to meet you, I'm Paul.",
+          "note": "u01-l3-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u01-l3-g1",
+          "prompt": "Je ___ Paul.",
+          "en": "My name is Paul.",
+          "answer": "m'appelle",
+          "options": [
+            "m'appelle",
+            "t'appelles"
+          ],
+          "why": "u01-l3-n1"
+        },
+        {
+          "id": "u01-l3-g2",
+          "prompt": "Comment ___ t'appelles ?",
+          "en": "What's your name? (to a friend)",
+          "answer": "tu",
+          "options": [
+            "tu",
+            "vous"
+          ],
+          "why": "u01-l3-n1"
+        },
+        {
+          "id": "u01-l3-g3",
+          "prompt": "___, je m'appelle Léa.",
+          "en": "Nice to meet you, I'm Léa (a woman).",
+          "answer": "Enchantée",
+          "options": [
+            "Enchantée",
+            "Enchanté"
+          ],
+          "why": "u01-l3-n2"
+        },
+        {
+          "id": "u01-l3-g4",
+          "prompt": "___, je m'appelle Paul.",
+          "en": "Nice to meet you, I'm Paul (a man).",
+          "answer": "Enchanté",
+          "options": [
+            "Enchanté",
+            "Enchantée"
+          ],
+          "why": "u01-l3-n2"
+        }
+      ]
+    },
+    {
+      "id": "u01-l4",
+      "title": "How are you?",
+      "goal": "Ask how someone is, answer, and choose tu or vous.",
+      "notes": [
+        {
+          "id": "u01-l4-n1",
+          "title": "Tu or vous?",
+          "body": "French has two words for \"you\". **tu** is for one friend, family member, child or pet. **vous** is for a stranger, someone older, or someone at work, and for more than one person. When unsure, use **vous**.",
+          "examples": [
+            {
+              "fr": "Salut, Paul, et toi ?",
+              "en": "Hi, Paul, and you?"
+            },
+            {
+              "fr": "Bonjour, madame, et vous ?",
+              "en": "Hello, madam, and you?"
+            }
+          ]
+        },
+        {
+          "id": "u01-l4-n2",
+          "title": "Ça va ?",
+          "body": "**Ça va ?** is a question when your voice goes up, and an answer when it goes down. Reply with **très bien**, **bien** or **pas mal** (not bad).",
+          "examples": [
+            {
+              "fr": "Ça va ? — Ça va bien, merci.",
+              "en": "How are you? — I'm well, thanks."
+            },
+            {
+              "fr": "Très bien, et vous ?",
+              "en": "Very well, and you?"
+            },
+            {
+              "fr": "Pas mal, et toi ?",
+              "en": "Not bad, and you?"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u01-l4-w1",
+          "fr": "ça va",
+          "en": "how's it going / it's going"
+        },
+        {
+          "id": "u01-l4-w2",
+          "fr": "bien",
+          "en": "well"
+        },
+        {
+          "id": "u01-l4-w3",
+          "fr": "très",
+          "en": "very"
+        },
+        {
+          "id": "u01-l4-w4",
+          "fr": "pas mal",
+          "en": "not bad"
+        },
+        {
+          "id": "u01-l4-w5",
+          "fr": "et toi ?",
+          "en": "and you? (casual)"
+        },
+        {
+          "id": "u01-l4-w6",
+          "fr": "et vous ?",
+          "en": "and you? (polite)"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u01-l4-s1",
+          "fr": "Salut, ça va ?",
+          "en": "Hi, how's it going?",
+          "note": "u01-l4-n2"
+        },
+        {
+          "id": "u01-l4-s2",
+          "fr": "Ça va bien, merci.",
+          "en": "I'm well, thanks.",
+          "note": "u01-l4-n2"
+        },
+        {
+          "id": "u01-l4-s3",
+          "fr": "Très bien, et vous ?",
+          "en": "Very well, and you?",
+          "note": "u01-l4-n2"
+        },
+        {
+          "id": "u01-l4-s4",
+          "fr": "Pas mal, et toi ?",
+          "en": "Not bad, and you?",
+          "note": "u01-l4-n1"
+        },
+        {
+          "id": "u01-l4-s5",
+          "fr": "Bonjour, madame, ça va ?",
+          "en": "Hello, madam, how are you?",
+          "note": "u01-l4-n1"
+        },
+        {
+          "id": "u01-l4-s6",
+          "fr": "Très bien, merci !",
+          "en": "Very well, thanks!"
+        },
+        {
+          "id": "u01-l4-s7",
+          "fr": "Pas mal, merci.",
+          "en": "Not bad, thanks."
+        },
+        {
+          "id": "u01-l4-s8",
+          "fr": "Bonjour, monsieur. Ça va ?",
+          "en": "Hello, sir. How are you?"
+        },
+        {
+          "id": "u01-l4-s9",
+          "fr": "Salut, Paul ! Ça va ?",
+          "en": "Hi, Paul! How's it going?"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u01-l4-g1",
+          "prompt": "Salut, Paul, ___ ?",
+          "en": "Hi, Paul, and you? (a friend)",
+          "answer": "et toi",
+          "options": [
+            "et toi",
+            "et vous"
+          ],
+          "why": "u01-l4-n1"
+        },
+        {
+          "id": "u01-l4-g2",
+          "prompt": "Bonjour, madame, ___ ?",
+          "en": "Hello, madam, and you?",
+          "answer": "et vous",
+          "options": [
+            "et vous",
+            "et toi"
+          ],
+          "why": "u01-l4-n1"
+        },
+        {
+          "id": "u01-l4-g3",
+          "prompt": "Ça ___ ?",
+          "en": "How's it going?",
+          "answer": "va",
+          "options": [
+            "va",
+            "vas"
+          ],
+          "why": "u01-l4-n2"
+        },
+        {
+          "id": "u01-l4-g4",
+          "prompt": "Ça va ___, merci.",
+          "en": "I'm well, thanks.",
+          "answer": "bien",
+          "options": [
+            "bien",
+            "très"
+          ],
+          "why": "u01-l4-n2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "id": "u03",
+  "number": 3,
+  "title": "Things and articles",
+  "summary": "Name everyday things and say what they are. Learn every noun with its article: un, une, le, la, les and des.",
+  "canDo": [
+    "Name a thing with a or an: un livre, une table.",
+    "Name a thing with the: le, la, l' or les.",
+    "Talk about more than one thing, using des and plurals.",
+    "Ask what something is, say what it is, and hand something over."
+  ],
+  "lessons": [
+    {
+      "id": "u03-l1",
+      "title": "A / an",
+      "goal": "Name a thing with un or une, and learn each noun with its article.",
+      "notes": [
+        {
+          "id": "u03-l1-n1",
+          "title": "Every noun has a gender",
+          "body": "In French, every noun is **masculine** or **feminine**, even things with no sex, like a table. You cannot work this out from the meaning, so learn each noun **with its article**: *un livre*, *une table*. The article is part of the word.",
+          "examples": [
+            {
+              "fr": "Un livre, s'il vous plaît.",
+              "en": "A book, please."
+            },
+            {
+              "fr": "Une table, madame ?",
+              "en": "A table, madam?"
+            },
+            {
+              "fr": "Un stylo, Paul ?",
+              "en": "A pen, Paul?"
+            }
+          ]
+        },
+        {
+          "id": "u03-l1-n2",
+          "title": "Un or une?",
+          "body": "Both mean *a* (or *an*). Use **un** before a masculine noun and **une** before a feminine noun. Many feminine nouns end in **-e**, such as *une chaise*, but *un stylo* and *un sac* do not follow that pattern. Learn the article with the noun.",
+          "examples": [
+            {
+              "fr": "Une chaise, s'il te plaît.",
+              "en": "A chair, please. (to a friend)"
+            },
+            {
+              "fr": "Un sac, merci !",
+              "en": "A bag, thanks!"
+            },
+            {
+              "fr": "Une chaise, un sac.",
+              "en": "A chair, a bag."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u03-l1-w1",
+          "fr": "un livre",
+          "en": "a book",
+          "tip": "Un is used before a masculine noun."
+        },
+        {
+          "id": "u03-l1-w2",
+          "fr": "une table",
+          "en": "a table",
+          "tip": "Une is used before a feminine noun."
+        },
+        {
+          "id": "u03-l1-w3",
+          "fr": "une chaise",
+          "en": "a chair"
+        },
+        {
+          "id": "u03-l1-w4",
+          "fr": "un stylo",
+          "en": "a pen"
+        },
+        {
+          "id": "u03-l1-w5",
+          "fr": "un sac",
+          "en": "a bag"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u03-l1-s1",
+          "fr": "Un livre, s'il vous plaît.",
+          "en": "A book, please.",
+          "note": "u03-l1-n1"
+        },
+        {
+          "id": "u03-l1-s2",
+          "fr": "Une table, madame ?",
+          "en": "A table, madam?",
+          "note": "u03-l1-n1"
+        },
+        {
+          "id": "u03-l1-s3",
+          "fr": "Un stylo, monsieur ?",
+          "en": "A pen, sir?",
+          "note": "u03-l1-n1"
+        },
+        {
+          "id": "u03-l1-s4",
+          "fr": "Une chaise, s'il te plaît.",
+          "en": "A chair, please. (to a friend)",
+          "note": "u03-l1-n2"
+        },
+        {
+          "id": "u03-l1-s5",
+          "fr": "Un sac, merci !",
+          "en": "A bag, thanks!",
+          "note": "u03-l1-n2"
+        },
+        {
+          "id": "u03-l1-s6",
+          "fr": "Un livre, pas un stylo.",
+          "en": "A book, not a pen.",
+          "note": "u03-l1-n1"
+        },
+        {
+          "id": "u03-l1-s7",
+          "fr": "Une table, un livre et un sac.",
+          "en": "A table, a book and a bag.",
+          "note": "u03-l1-n2"
+        },
+        {
+          "id": "u03-l1-s8",
+          "fr": "Excusez-moi, un stylo, s'il vous plaît.",
+          "en": "Excuse me, a pen, please.",
+          "note": "u03-l1-n1"
+        },
+        {
+          "id": "u03-l1-s9",
+          "fr": "Un stylo et un livre, merci.",
+          "en": "A pen and a book, thanks.",
+          "note": "u03-l1-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u03-l1-g1",
+          "prompt": "___ livre, s'il vous plaît.",
+          "en": "A book, please.",
+          "answer": "Un",
+          "options": [
+            "Un",
+            "Une"
+          ],
+          "why": "u03-l1-n1"
+        },
+        {
+          "id": "u03-l1-g2",
+          "prompt": "___ table, madame ?",
+          "en": "A table, madam?",
+          "answer": "Une",
+          "options": [
+            "Une",
+            "Un"
+          ],
+          "why": "u03-l1-n2"
+        },
+        {
+          "id": "u03-l1-g3",
+          "prompt": "___ sac, monsieur ?",
+          "en": "A bag, sir?",
+          "answer": "Un",
+          "options": [
+            "Un",
+            "Une"
+          ],
+          "why": "u03-l1-n2"
+        },
+        {
+          "id": "u03-l1-g4",
+          "prompt": "___ stylo, Paul ?",
+          "en": "A pen, Paul?",
+          "answer": "Un",
+          "options": [
+            "Un",
+            "Une"
+          ],
+          "why": "u03-l1-n1"
+        },
+        {
+          "id": "u03-l1-g5",
+          "prompt": "Une chaise, ___ sac.",
+          "en": "A chair and a bag.",
+          "answer": "un",
+          "options": [
+            "un",
+            "une"
+          ],
+          "why": "u03-l1-n2"
+        }
+      ]
+    },
+    {
+      "id": "u03-l2",
+      "title": "The",
+      "goal": "Name a thing with le, la, l' or les, and know when to use each.",
+      "notes": [
+        {
+          "id": "u03-l2-n1",
+          "title": "Le, la and les",
+          "body": "**le** is *the* for a masculine noun, and **la** is *the* for a feminine noun. For more than one thing, use **les**, whatever the gender. Learn each noun with its article, so you know which one to use.",
+          "examples": [
+            {
+              "fr": "Le téléphone, s'il vous plaît.",
+              "en": "The phone, please."
+            },
+            {
+              "fr": "La porte, madame ?",
+              "en": "The door, madam?"
+            },
+            {
+              "fr": "Les chaises, monsieur ?",
+              "en": "The chairs, sir?"
+            }
+          ]
+        },
+        {
+          "id": "u03-l2-n2",
+          "title": "L' before a vowel",
+          "body": "Before a vowel sound, both **le** and **la** become **l'**, joined to the noun with an apostrophe: *l'ordinateur*. You cannot hear the gender in this case, so learn the noun with its article. Never write *le ordinateur*.",
+          "examples": [
+            {
+              "fr": "L'ordinateur, Marc ?",
+              "en": "The computer, Marc?"
+            },
+            {
+              "fr": "L'ordinateur, s'il te plaît.",
+              "en": "The computer, please. (to a friend)"
+            },
+            {
+              "fr": "Le livre et l'ordinateur.",
+              "en": "The book and the computer."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u03-l2-w1",
+          "fr": "le",
+          "en": "the (masculine)",
+          "tip": "Before a consonant: le téléphone."
+        },
+        {
+          "id": "u03-l2-w2",
+          "fr": "la",
+          "en": "the (feminine)",
+          "tip": "La porte."
+        },
+        {
+          "id": "u03-l2-w3",
+          "fr": "l'",
+          "en": "the (before a vowel)",
+          "tip": "Le or la become l' before a vowel sound."
+        },
+        {
+          "id": "u03-l2-w4",
+          "fr": "les",
+          "en": "the (plural)",
+          "tip": "For more than one thing, whatever the gender."
+        },
+        {
+          "id": "u03-l2-w5",
+          "fr": "le téléphone",
+          "en": "the phone"
+        },
+        {
+          "id": "u03-l2-w6",
+          "fr": "la porte",
+          "en": "the door"
+        },
+        {
+          "id": "u03-l2-w7",
+          "fr": "l'ordinateur",
+          "en": "the computer"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u03-l2-s1",
+          "fr": "Le téléphone, s'il vous plaît.",
+          "en": "The phone, please.",
+          "note": "u03-l2-n1"
+        },
+        {
+          "id": "u03-l2-s2",
+          "fr": "La porte, madame ?",
+          "en": "The door, madam?",
+          "note": "u03-l2-n1"
+        },
+        {
+          "id": "u03-l2-s3",
+          "fr": "L'ordinateur, monsieur ?",
+          "en": "The computer, sir?",
+          "note": "u03-l2-n2"
+        },
+        {
+          "id": "u03-l2-s4",
+          "fr": "Le stylo, Paul ?",
+          "en": "The pen, Paul?",
+          "note": "u03-l2-n1"
+        },
+        {
+          "id": "u03-l2-s5",
+          "fr": "La chaise, s'il te plaît.",
+          "en": "The chair, please. (to a friend)",
+          "note": "u03-l2-n1"
+        },
+        {
+          "id": "u03-l2-s6",
+          "fr": "Le sac, pas la table.",
+          "en": "The bag, not the table.",
+          "note": "u03-l2-n1"
+        },
+        {
+          "id": "u03-l2-s7",
+          "fr": "L'ordinateur, Marc ? Merci !",
+          "en": "The computer, Marc? Thanks!",
+          "note": "u03-l2-n2"
+        },
+        {
+          "id": "u03-l2-s8",
+          "fr": "Le livre, madame ?",
+          "en": "The book, madam?",
+          "note": "u03-l2-n1"
+        },
+        {
+          "id": "u03-l2-s9",
+          "fr": "La porte, s'il te plaît, Paul.",
+          "en": "The door, please, Paul.",
+          "note": "u03-l2-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u03-l2-g1",
+          "prompt": "___ téléphone, madame ?",
+          "en": "The phone, madam?",
+          "answer": "Le",
+          "options": [
+            "Le",
+            "La"
+          ],
+          "why": "u03-l2-n1"
+        },
+        {
+          "id": "u03-l2-g2",
+          "prompt": "___ porte, monsieur ?",
+          "en": "The door, sir?",
+          "answer": "La",
+          "options": [
+            "La",
+            "Le"
+          ],
+          "why": "u03-l2-n1"
+        },
+        {
+          "id": "u03-l2-g3",
+          "prompt": "___, Marc ?",
+          "en": "The computer, Marc?",
+          "answer": "L'ordinateur",
+          "options": [
+            "L'ordinateur",
+            "Le ordinateur"
+          ],
+          "why": "u03-l2-n2"
+        },
+        {
+          "id": "u03-l2-g4",
+          "prompt": "___ livre, s'il vous plaît.",
+          "en": "The book, please.",
+          "answer": "Le",
+          "options": [
+            "Le",
+            "Un"
+          ],
+          "why": "u03-l2-n1"
+        },
+        {
+          "id": "u03-l2-g5",
+          "prompt": "___ chaise, s'il te plaît.",
+          "en": "The chair, please. (to a friend)",
+          "answer": "La",
+          "options": [
+            "La",
+            "Le"
+          ],
+          "why": "u03-l2-n1"
+        }
+      ]
+    },
+    {
+      "id": "u03-l3",
+      "title": "More than one",
+      "goal": "Talk about more than one thing, using des and plural nouns.",
+      "notes": [
+        {
+          "id": "u03-l3-n1",
+          "title": "Des means some",
+          "body": "**des** is the plural of **un** and **une**. It means *some*, for more than one thing, without a number. The noun gets an **-s** at the end, and the **-s** is silent, so *des stylos* sounds like *des stylo*.",
+          "examples": [
+            {
+              "fr": "Des livres, s'il vous plaît.",
+              "en": "Some books, please."
+            },
+            {
+              "fr": "Des clés, monsieur ?",
+              "en": "Some keys, sir?"
+            },
+            {
+              "fr": "Des stylos et des sacs.",
+              "en": "Some pens and some bags."
+            }
+          ]
+        },
+        {
+          "id": "u03-l3-n2",
+          "title": "Singular and plural",
+          "body": "To make a noun plural, add **-s**. The accent stays: *une clé* becomes *des clés*, and *une fenêtre* becomes *des fenêtres*. You hear the plural from the article, **des**, not from the noun.",
+          "examples": [
+            {
+              "fr": "Une clé, Léa ? Merci !",
+              "en": "A key, Léa? Thanks!"
+            },
+            {
+              "fr": "Des clés, s'il te plaît.",
+              "en": "Some keys, please. (to a friend)"
+            },
+            {
+              "fr": "Une fenêtre, madame ?",
+              "en": "A window, madam?"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u03-l3-w1",
+          "fr": "des",
+          "en": "some (plural)",
+          "tip": "The plural of un and une."
+        },
+        {
+          "id": "u03-l3-w2",
+          "fr": "une clé",
+          "en": "a key"
+        },
+        {
+          "id": "u03-l3-w3",
+          "fr": "des clés",
+          "en": "keys"
+        },
+        {
+          "id": "u03-l3-w4",
+          "fr": "des livres",
+          "en": "some books"
+        },
+        {
+          "id": "u03-l3-w5",
+          "fr": "une fenêtre",
+          "en": "a window"
+        },
+        {
+          "id": "u03-l3-w6",
+          "fr": "des stylos",
+          "en": "some pens"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u03-l3-s1",
+          "fr": "Des livres, s'il vous plaît.",
+          "en": "Some books, please.",
+          "note": "u03-l3-n1"
+        },
+        {
+          "id": "u03-l3-s2",
+          "fr": "Des clés, monsieur ?",
+          "en": "Some keys, sir?",
+          "note": "u03-l3-n1"
+        },
+        {
+          "id": "u03-l3-s3",
+          "fr": "Une clé, Léa ? Merci !",
+          "en": "A key, Léa? Thanks!",
+          "note": "u03-l3-n2"
+        },
+        {
+          "id": "u03-l3-s4",
+          "fr": "Une fenêtre, madame ?",
+          "en": "A window, madam?",
+          "note": "u03-l3-n2"
+        },
+        {
+          "id": "u03-l3-s5",
+          "fr": "Des stylos, s'il te plaît.",
+          "en": "Some pens, please. (to a friend)",
+          "note": "u03-l3-n1"
+        },
+        {
+          "id": "u03-l3-s6",
+          "fr": "Des livres et des clés.",
+          "en": "Some books and some keys.",
+          "note": "u03-l3-n1"
+        },
+        {
+          "id": "u03-l3-s7",
+          "fr": "Une fenêtre, des chaises.",
+          "en": "A window, some chairs.",
+          "note": "u03-l3-n1"
+        },
+        {
+          "id": "u03-l3-s8",
+          "fr": "Des sacs, madame ?",
+          "en": "Some bags, madam?",
+          "note": "u03-l3-n1"
+        },
+        {
+          "id": "u03-l3-s9",
+          "fr": "Des fenêtres et des portes.",
+          "en": "Some windows and some doors.",
+          "note": "u03-l3-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u03-l3-g1",
+          "prompt": "___ livres, s'il vous plaît.",
+          "en": "Some books, please.",
+          "answer": "Des",
+          "options": [
+            "Des",
+            "Une"
+          ],
+          "why": "u03-l3-n1"
+        },
+        {
+          "id": "u03-l3-g2",
+          "prompt": "___ stylos, madame ?",
+          "en": "Some pens, madam?",
+          "answer": "Des",
+          "options": [
+            "Des",
+            "Un"
+          ],
+          "why": "u03-l3-n1"
+        },
+        {
+          "id": "u03-l3-g3",
+          "prompt": "Une fenêtre, ___ chaises.",
+          "en": "A window, some chairs.",
+          "answer": "des",
+          "options": [
+            "des",
+            "une"
+          ],
+          "why": "u03-l3-n1"
+        },
+        {
+          "id": "u03-l3-g4",
+          "prompt": "Une ___, s'il te plaît.",
+          "en": "A key, please. (to a friend)",
+          "answer": "clé",
+          "options": [
+            "clé",
+            "clés"
+          ],
+          "why": "u03-l3-n2"
+        },
+        {
+          "id": "u03-l3-g5",
+          "prompt": "Des sacs et des ___.",
+          "en": "Some bags and some chairs.",
+          "answer": "chaises",
+          "options": [
+            "chaises",
+            "chaise"
+          ],
+          "why": "u03-l3-n2"
+        }
+      ]
+    },
+    {
+      "id": "u03-l4",
+      "title": "What is it?",
+      "goal": "Ask what something is, say what it is, and hand something over.",
+      "notes": [
+        {
+          "id": "u03-l4-n1",
+          "title": "C'est and ce sont",
+          "body": "**C'est** means *it is* or *this is* for one thing. **Ce sont** means *they are* or *these are* for more than one. Use them to point at something and say what it is, followed by a noun with its article.",
+          "examples": [
+            {
+              "fr": "C'est un livre.",
+              "en": "It's a book."
+            },
+            {
+              "fr": "C'est une table, madame.",
+              "en": "It's a table, madam."
+            },
+            {
+              "fr": "Ce sont des clés.",
+              "en": "These are keys."
+            }
+          ]
+        },
+        {
+          "id": "u03-l4-n2",
+          "title": "Questions and handing over",
+          "body": "**Qu'est-ce que c'est ?** means *What is it?* Answer it with **c'est** or **ce sont**. When you hand something to someone, say **voilà**, which means *here you are* or *there it is*.",
+          "examples": [
+            {
+              "fr": "Qu'est-ce que c'est ? C'est une chaise.",
+              "en": "What is it? It's a chair."
+            },
+            {
+              "fr": "Voilà, monsieur.",
+              "en": "Here you are, sir."
+            },
+            {
+              "fr": "Voilà un cahier, Marc.",
+              "en": "Here's a notebook, Marc."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u03-l4-w1",
+          "fr": "c'est",
+          "en": "it is / this is",
+          "tip": "For one thing or person."
+        },
+        {
+          "id": "u03-l4-w2",
+          "fr": "ce sont",
+          "en": "they are / these are",
+          "tip": "For more than one."
+        },
+        {
+          "id": "u03-l4-w3",
+          "fr": "qu'est-ce que c'est ?",
+          "en": "what is it?"
+        },
+        {
+          "id": "u03-l4-w4",
+          "fr": "voilà",
+          "en": "here you are / there it is"
+        },
+        {
+          "id": "u03-l4-w5",
+          "fr": "un cahier",
+          "en": "a notebook"
+        },
+        {
+          "id": "u03-l4-w6",
+          "fr": "une montre",
+          "en": "a watch"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u03-l4-s1",
+          "fr": "C'est un livre.",
+          "en": "It's a book.",
+          "note": "u03-l4-n1"
+        },
+        {
+          "id": "u03-l4-s2",
+          "fr": "C'est une table, madame.",
+          "en": "It's a table, madam.",
+          "note": "u03-l4-n1"
+        },
+        {
+          "id": "u03-l4-s3",
+          "fr": "Ce sont des clés.",
+          "en": "These are keys.",
+          "note": "u03-l4-n1"
+        },
+        {
+          "id": "u03-l4-s4",
+          "fr": "Qu'est-ce que c'est ?",
+          "en": "What is it?",
+          "note": "u03-l4-n2"
+        },
+        {
+          "id": "u03-l4-s5",
+          "fr": "C'est un sac, Paul.",
+          "en": "It's a bag, Paul.",
+          "note": "u03-l4-n1"
+        },
+        {
+          "id": "u03-l4-s6",
+          "fr": "Voilà, monsieur.",
+          "en": "Here you are, sir.",
+          "note": "u03-l4-n2"
+        },
+        {
+          "id": "u03-l4-s7",
+          "fr": "Ce sont des stylos.",
+          "en": "These are pens.",
+          "note": "u03-l4-n1"
+        },
+        {
+          "id": "u03-l4-s8",
+          "fr": "Qu'est-ce que c'est ? C'est une chaise.",
+          "en": "What is it? It's a chair.",
+          "note": "u03-l4-n2"
+        },
+        {
+          "id": "u03-l4-s9",
+          "fr": "Ce sont des fenêtres.",
+          "en": "These are windows.",
+          "note": "u03-l4-n1"
+        },
+        {
+          "id": "u03-l4-s10",
+          "fr": "Voilà un cahier, Marc.",
+          "en": "Here's a notebook, Marc.",
+          "note": "u03-l4-n2"
+        },
+        {
+          "id": "u03-l4-s11",
+          "fr": "C'est une montre.",
+          "en": "It's a watch.",
+          "note": "u03-l4-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u03-l4-g1",
+          "prompt": "___ un livre.",
+          "en": "It's a book.",
+          "answer": "C'est",
+          "options": [
+            "C'est",
+            "Ce sont"
+          ],
+          "why": "u03-l4-n1"
+        },
+        {
+          "id": "u03-l4-g2",
+          "prompt": "___ des clés.",
+          "en": "These are keys.",
+          "answer": "Ce sont",
+          "options": [
+            "Ce sont",
+            "C'est"
+          ],
+          "why": "u03-l4-n1"
+        },
+        {
+          "id": "u03-l4-g3",
+          "prompt": "___ ? C'est une chaise.",
+          "en": "What is it? It's a chair.",
+          "answer": "Qu'est-ce que c'est",
+          "options": [
+            "Qu'est-ce que c'est",
+            "Voilà"
+          ],
+          "why": "u03-l4-n2"
+        },
+        {
+          "id": "u03-l4-g4",
+          "prompt": "___ un cahier, Marc.",
+          "en": "Here's a notebook, Marc.",
+          "answer": "Voilà",
+          "options": [
+            "Voilà",
+            "Ce sont"
+          ],
+          "why": "u03-l4-n2"
+        },
+        {
+          "id": "u03-l4-g5",
+          "prompt": "Ce sont des ___.",
+          "en": "These are windows.",
+          "answer": "fenêtres",
+          "options": [
+            "fenêtres",
+            "fenêtre"
+          ],
+          "why": "u03-l4-n1"
+        }
+      ]
+    }
+  ]
+}
