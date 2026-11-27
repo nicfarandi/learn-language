@@ -590,18 +590,3 @@ summary. One line per card.
 ## Done
 ```
 </details>
-
----
-
-## 5. Optional pieces (add when needed)
-
-- **Local notifications:** `expo-notifications`; book them all through one function so a global switch can
-  turn them off; re-sync on app start and on resume.
-- **Backup/export:** dump every schema's table list to JSON, share with `expo-sharing`, restore via
-  `expo-document-picker`.
-- **AI assistant:** tool definitions (what the model sees) + handlers calling the same services; API key
-  stored on device, sent only in the Authorization header.
-- **Native code:** local Expo module in `modules/<name>/` (`expo-module.config.json` + Kotlin), or a config
-  plugin listed in `app.json` `plugins`.
-- **Deep-link sharing:** `learnlanguage://shared?d=…` carrying the data itself (deflated, base64url),
-  validated field by field on open.
