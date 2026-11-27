@@ -1,73 +1,69 @@
-# Goal: how good will I be?
+# Goal: ace the DELF A2, every time
 
-## Decision: A2
+**The standard:** on any DELF A2 paper, score **90/100 or more**, with **at least 22/25 in every section**.
+Not just a pass (50/100). The aim is a level comfortably *above* the test, so a hard paper or a bad day
+still scores high.
 
-Finish line: **A2**, the level of the official DELF A2 exam, in about **12–18 months at 15 minutes a day**,
-in three stages (see [COURSE.md](COURSE.md)): Foundations → Complete A1 → A2.
+## The exam
 
-### At A2 you can
-- Understand everyday conversations and announcements when people speak clearly.
-- Read short real texts: emails, menus, signs, ads, simple news items.
-- Talk about your past, your plans and your daily life in connected sentences.
-- Handle travel: hotels, stations, shops, the doctor, asking for help or complaining politely.
-- Give a simple opinion and say why, compare things, describe people and places.
-- Write a short email or message about yourself and your week.
+The official A2 exam from France Éducation International has four parts, each marked out of 25:
 
-### Still out of reach at A2
-- Films, fast native conversation and slang.
-- Discussing abstract topics or arguing a point (that is B1–B2).
-- Fluent speaking without practice with people: see *Honest limits* in COURSE.md.
+| Part | Format | Time |
+| --- | --- | --- |
+| **Listening** | 4 exercises on recorded documents: announcements, messages, short radio, conversations | ~25 min |
+| **Reading** | 4 exercises on real-life documents: emails, ads, notices, short articles, instructions | 30 min |
+| **Writing** | 2 texts of at least 60 words: e.g. tell about an event or experience; write a message to invite, thank, apologise, ask, inform | 45 min |
+| **Speaking** | Guided interview about yourself, a short monologue on a topic, a role-play (e.g. buying, booking, asking) | 6–8 min + 10 min to prepare |
 
----
+The official pass mark is 50/100, with no part under 5/25. **Our bar: 90+, no part under 22.**
 
-*Below: the original options this decision was made from.*
+## When the goal is met
 
-Levels below use the **CEFR** scale used by every French school and the official DELF exams:
-A1 (beginner) → A2 → B1 (independent) → B2 → C1 → C2 (near native).
+1. **Three full practice exams in a row** at 90+ overall and 22+ in every part, each on a paper you haven't
+   seen before.
+2. The speaking and writing parts are marked against the official A2 marking grid.
+3. At least one practice speaking test is done with a real person, such as a tutor (see *Speaking* below).
 
-## Where the current plan gets you
+## What this changes in the plan
 
-The 13-unit plan in [COURSE.md](COURSE.md) reaches **"A1 foundations"**: roughly the first half to two thirds
-of A1.
+The earlier plan aimed to *reach* A2. Acing it needs more:
 
-| | |
-| --- | --- |
-| Words | ~350 |
-| Grammar | Present tense only, ~25 rules |
-| Time | ~52 lessons × 10 min + reviews ≈ **15–20 hours**, about **3 months at 10–15 min a day** |
+| Area | Before | Now |
+| --- | --- | --- |
+| **Margin** | Stop at A2 | Teach to a strong A2, with some low-B1 vocabulary and listening, so the test feels easy |
+| **Mastery** | Checkpoints unlock the next unit | Checkpoints need **90 %**, otherwise "Retry mistakes" first |
+| **Review** | Words come back over time | Words **and grammar rules** come back over time |
+| **Listening** | Phone voice, slow then normal | Normal speed, several voices, exam-style documents (announcements, voicemails, radio) |
+| **Reading** | Lesson sentences and short stories | Plus real-life document types: emails, ads, timetables, notices |
+| **Writing** | Typed words and sentences | **Free writing** from Stage 2: 60–80 word texts, marked against the A2 grid |
+| **Speaking** | Say it aloud, not scored | **Recorded answers**, transcribed and marked against the A2 grid; tutor check before the exam |
+| **Exam skills** | — | **Stage 4: DELF A2 prep**: each part's question types, timing, strategies, and **10 full timed practice exams** |
 
-### You will be able to
-- Read French words aloud with roughly the right sounds.
-- Greet people, introduce yourself and ask someone's name, age, where they live, what they like.
-- Order at a café, ask the price, understand prices and numbers up to 69.
-- Talk about your family, your home, your day, the weather and your hobbies in short, simple sentences.
-- Say the time, the day and the date.
-- Ask simple directions and follow "left, right, straight on".
-- Understand **slow, clear** French on these topics, especially when written.
+## Marking writing and speaking
 
-### You will not yet be able to
-- Follow French spoken at normal speed (films, podcasts, a busy waiter).
-- Talk about the past or make plans beyond "I'm going to…".
-- Hold a real conversation for more than a few exchanges.
-- Speak with confidence: the app has no speaking practice, so pronunciation comes from listening only.
+An offline app can mark multiple choice and typed answers, but not a free text or a spoken answer. Options:
 
-## Options for the goal
+- **AI marking (recommended):** the app sends your text, or the transcript of your recording, to Claude with
+  the official A2 grid. It returns a score per criterion, your corrected text and what to fix. This needs
+  internet only for these exercises, and an API key stored on the phone. It costs a few cents per marked
+  answer.
+- **Self-marking:** compare with a model answer and tick the grid yourself. Free, but much less reliable.
 
-| Goal | What it adds | Words | Time at 15 min/day |
-| --- | --- | --- | --- |
-| **A. A1 foundations** (current plan) | — | ~350 | ~3 months |
-| **B. Full A1** ⭐ | +6 units: shopping & clothes, transport, body & health, numbers to 100, *prendre / vouloir / pouvoir*, daily routine (*se lever*) | ~600 | ~5–6 months |
-| **C. A2** | Then +15 units: past tense (*passé composé*, *imparfait*), future, comparisons, longer texts | ~1,500 | ~12–18 months |
+Pronunciation can't be fully judged from a transcript, which is why the goal includes at least one session with a
+real person before the exam.
 
-**Recommended: B, Full A1**, built in two stages. Stage 1 is the current 13 units, and Stage 2 adds the
-missing A1 topics. Full A1 is a clear, recognised finish line (the level of the DELF A1 exam) and it is
-reachable with an app alone. A2 and above really need speaking practice with people, so they can be decided
-later.
+## Time, honestly
 
-## How progress is measured
+- Students typically need **~180–200 hours** of study to *reach* A2. Acing it calls for more, about **250 hours**.
+- At **30 min a day**, that's about **16–18 months**. At 15 min a day, about 3 years.
 
-- **End of each unit:** checkpoint score (aim: 80 % or more before moving on).
-- **End of each stage:** a final test with the four kinds of question an A1 exam has: listening, reading,
-  writing short answers, and one "say it out loud" self-check.
-- **"I can…" list:** each unit ends with 3–4 can-do statements you tick yourself, e.g. *"I can order a
-  coffee and ask for the bill."* The Stats screen shows how many you've ticked.
+## At that point you can
+
+- Follow everyday conversations, announcements and messages at normal speed.
+- Read real everyday documents: emails, ads, notices, simple articles.
+- Talk about your past, present and plans in connected sentences, and handle travel, shops, the doctor and
+  bookings.
+- Write a clear 60–80 word message or story with few mistakes.
+- Hold a short conversation and a 2-minute monologue on everyday topics.
+
+Still out of reach: films and fast native chat, slang, and arguing abstract ideas (B1–B2).

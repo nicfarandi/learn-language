@@ -1,6 +1,6 @@
 # Proposal: a simple French course app
 
-A small, offline, phone-only app that teaches French from zero to **A2** (confident everyday French),
+A small, phone-only app that teaches French from zero to **acing the DELF A2 exam (90+/100, every time)**,
 **step by step, explaining every new thing before practising it**.
 
 - Goal: how good you will be at the end: [GOAL.md](GOAL.md)
@@ -13,7 +13,8 @@ A small, offline, phone-only app that teaches French from zero to **A2** (confid
 | --- | --- |
 | Taught in | English |
 | Starting level | Absolute zero |
-| Goal | **A2** in about 12–18 months ([GOAL.md](GOAL.md)) |
+| Goal | **90+/100 on the DELF A2, every time**, 22+/25 in every part; ~16–18 months at 30 min/day ([GOAL.md](GOAL.md)) |
+| Writing and speaking marking | AI marking against the A2 grid (to confirm) |
 | Name | "Learn Language" for now |
 | Mistakes | No lives or penalty, just a **score** per lesson |
 | Daily reminder | Not now |
@@ -28,7 +29,10 @@ A small, offline, phone-only app that teaches French from zero to **A2** (confid
 4. **Every answer teaches.** Right or wrong, the feedback shows the correct French, the English, and a
    one-line *why* when there is a rule behind it.
 5. **Old words come back.** A review deck brings learned words back after 1, 3, 7, 14 and 30 days.
-6. **Offline and private.** All content ships with the app; progress stays on the phone.
+6. **Mastery, not just progress.** A checkpoint needs 90 % to unlock the next unit; grammar rules come back
+   for review, not only words.
+7. **Offline and private.** All content ships with the app; progress stays on the phone. Only writing and
+   speaking marking goes online.
 
 ## 2. How a lesson runs
 
@@ -53,11 +57,15 @@ far are kept in a **Notes** screen, so any rule can be looked up again.
 | **Fill the gap** | "Je ___ français." → suis / es / est | Apply a rule |
 | **Build the sentence** | Tap tiles to make "Je m'appelle Léa" | Produce |
 | **Type it** | "Thank you" → `merci` | Produce |
+| **Dictation** | Hear a sentence, type it | Hear + spell |
+| **Read a document** | An email or ad, then questions | Read (exam style) |
+| **Write a text** | 60–80 words: "Tell a friend about your weekend" → marked with corrections | Write (exam style) |
+| **Speak** | Record a 1–2 min answer → transcribed, marked, model answer | Speak (exam style) |
 
 - Audio comes from the phone's built-in French voice (`expo-speech`), so no sound files, works offline.
 - **Type it** accepts a missing accent or a small typo as *almost right* (counts as correct, shows the exact
   spelling). Capitals and punctuation are ignored.
-- Speaking with the microphone is left out for now.
+- *Write a text* and *Speak* are marked online by AI against the official A2 grid (see GOAL.md).
 
 ## 4. Content format
 
@@ -110,7 +118,9 @@ Content first: every version adds units, and the app grows only as much as the c
 | **0.4** | Units 7–9; review deck (spaced repetition) |
 | **0.5** | Units 10–12; Stage 1 test — **Foundations done** |
 | **0.6–0.7** | Units 13–18; Stage 2 test — **A1 done** |
-| **0.8** | Story lessons, dictation, say-it-aloud, normal-speed audio |
-| **0.9–1.0** | Units 19–34, a few units per version; A2 test — **A2 done** |
+| **0.8** | Story lessons, documents, dictation, multi-voice normal-speed audio, writing tasks with AI marking |
+| **0.9** | Speaking tasks with recording, transcription and AI marking; grammar review |
+| **0.10–0.20** | Units 19–34, a few units per version |
+| **1.0** | Unit 35: exam prep and 10 practice exams — **exam-ready** |
 
 Each version is pushed and builds an APK to install on the phone.

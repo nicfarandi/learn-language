@@ -1,15 +1,16 @@
-# French course plan: zero to A2
+# French course plan: zero to an excellent DELF A2
 
-35 units × 4 lessons in three stages. Goal: **A2**, the level of the DELF A2 exam (see [GOAL.md](GOAL.md)).
+36 units in four stages. Goal: **90+/100 on the DELF A2, every time** (see [GOAL.md](GOAL.md)).
 
-| Stage | Units | Level reached | Words (total) | Time at 15 min/day |
+| Stage | Units | Level reached | Words (total) | Time at 30 min/day |
 | --- | --- | --- | --- | --- |
-| **1. Foundations** | 0–12 | First part of A1 | ~350 | ~3 months |
-| **2. Complete A1** | 13–18 | A1 | ~600 | +2–3 months |
-| **3. A2** | 19–34 | A2 | ~1,500 | +7–12 months |
+| **1. Foundations** | 0–12 | First part of A1 | ~350 | ~2 months |
+| **2. Complete A1** | 13–18 | A1 | ~600 | +1–2 months |
+| **3. A2** | 19–34 | Strong A2 | ~1,800 | +8–10 months |
+| **4. DELF A2 prep** | 35 | Exam-ready | — | +2–3 months |
 
-Each lesson: **~5–7 new words + one idea**. A unit ends with a checkpoint, a stage ends with a test in the
-style of the real exam. Grammar is introduced only when the vocabulary to practise it is already known.
+Each lesson: **~5–7 new words + one idea**. A unit ends with a checkpoint (pass mark **90 %**), a stage ends
+with a test in the style of the real exam. Grammar is introduced only when the vocabulary to practise it is already known.
 
 **Legend:** 🗣 new words · 💡 the idea explained in the Learn cards
 
@@ -352,24 +353,47 @@ questions. A2 is about understanding and telling short real-life stories.
 
 ---
 
+# Stage 4 — DELF A2 prep
+
+## Unit 35 — The exam
+
+One lesson block per exam part: how it works, its question types, timing and strategies, then practice.
+After that, full practice exams.
+
+| # | Block | Content |
+| --- | --- | --- |
+| 1 | Listening | The 4 exercise types; reading the questions before the audio; what to do on the second listen. 6 practice sets |
+| 2 | Reading | The 4 document types; skimming for the answer; true/false/justify. 6 practice sets |
+| 3 | Writing | The 2 task types (tell an event, write a message); the A2 marking grid; a set phrase bank for openings, linking and closings; 60–80 words without going over. 10 marked tasks |
+| 4 | Speaking | Guided interview (prepared answers about yourself); monologue (a 2-minute plan for any topic); role-play (buying, booking, asking). 10 marked recordings |
+| 5 | Practice exams | **10 full timed exams**, never seen before, marked per part. Goal: 3 in a row at 90+ and 22+ in every part |
+
+---
+
 ## Course totals
 
-- **140 lessons** in 35 units, 35 checkpoints, 3 stage tests
-- **~1,500 words** and phrases
-- **~80 grammar ideas**, each explained once and kept in the Notes screen
-- **16 stories** for reading and listening
+- **140 lessons** in Units 0–34, plus the exam-prep unit
+- 35 checkpoints, 3 stage tests, 10 practice exams
+- **~1,800 words** and phrases (A2 plus some low-B1 margin)
+- **~80 grammar ideas**, each explained once, kept in the Notes screen and brought back for review
+- **16 stories**, plus exam-style listening and reading documents
+- **Writing tasks** from Stage 2 and **speaking tasks** from Stage 3, both marked against the A2 grid
 
-## What the app adds for A2
+## What the app adds beyond the basic lessons
 
 - **Story lessons:** a short text shown and spoken line by line, tap any word for its meaning, then questions.
-- **Dictation:** hear a sentence, type it. Trains listening for A2.
-- **Say it aloud:** hear a sentence, say it, then hear it again to compare. Not scored for now.
-- **Natural-speed audio:** the French voice plays slowly at first and at normal speed from Stage 3.
+- **Real-life documents:** emails, ads, timetables, notices and announcements, like the ones in the exam.
+- **Dictation:** hear a sentence, type it.
+- **Listening at exam level:** normal speed, several voices, from Stage 3.
+- **Free writing:** 60–80 word texts, marked per criterion with corrections.
+- **Speaking:** record an answer, which is transcribed and marked, with corrections and a model answer.
+- **Grammar review:** rules come back in the review deck, not only words.
 
-## Honest limits
+## Speaking: the one part the app can't fully cover
 
-The app takes reading, listening and writing to A2. **Speaking at A2 needs real conversation.** From Stage 3,
-add something outside the app, such as a weekly session with a tutor or a language-exchange partner.
+The app marks *what* you say and how correct it is, but it can't fully judge pronunciation or how naturally
+you speak. From Stage 3, add a real person, such as a tutor or a language-exchange partner, once every week or
+two. Before the exam, do at least one full mock speaking test with them.
 
 ## Writing rules for the content
 
