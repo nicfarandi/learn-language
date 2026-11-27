@@ -10,11 +10,12 @@ summary. One line per card.
 - [ ] Library screen: words, grammar, phrases, I can… (v0.3)
 - [ ] Review deck: spaced repetition of words and rules (v0.4)
 - [ ] Recorded audio: choose a voice service, generate files per unit — *waiting on you: pick the service and add its key*
-- [ ] First APK: needs `eas init`, the signing key and the `EXPO_TOKEN` secret — *waiting on you (CLAUDE.md, Setup step 4–5)*
 
 ## In progress
 
 ## Done
+
+- [x] APK built fully on GitHub with Gradle (no Expo account or secrets), published as a Release
 
 - [x] App set up: Expo, local database, tests, lint, typecheck, APK workflow
 - [x] Content format and checks: unit JSON shape, automatic tests for ids, references, gaps and duplicates

@@ -9,10 +9,8 @@ SQLite database, no server. Only what must go online does (e.g. an API the app n
 | Slug (Expo slug, npm name, APK file name) | `learn-language` |
 | Deep-link scheme | `learnlanguage` (`learnlanguage://…`) |
 | Android package | `com.nicfarandi.learnlanguage` — **never change after the first install** |
-| Expo owner | filled in by `eas init` |
 
-> **Status:** app scaffolded. Still to do by me, once: `eas init`, the signing key and the `EXPO_TOKEN`
-> secret (Setup steps 4–5), before the first APK can build.
+> **Status:** app scaffolded; every push to `main` builds the APK on GitHub, no Expo account needed.
 
 ---
 
@@ -122,9 +120,11 @@ Native code goes in `modules/` or a config plugin.
 
 ## 3. CI: GitHub → APK
 
-Every push to `main`: typecheck → lint → test → `expo-doctor` (advisory) → build the APK **on the GitHub
-runner** with `eas build --local` (doesn't use free EAS build minutes) → publish as GitHub Release
-`build-<n>`. The signing key is stored on EAS and downloaded by CI, so every APK installs over the last.
+Every push to `main`: typecheck → lint → test → `expo-doctor` (advisory) → `expo prebuild` → Gradle
+`assembleRelease` **on the GitHub runner** → GitHub Release `build-<n>` with `learn-language.apk`.
+No Expo account, EAS or secrets. The APK is signed with the fixed key the generated Android project ships
+with (`android/app/debug.keystore`), so every APK installs over the last. Moving to a private key later
+means uninstalling the app once (its data goes with it).
 
 ---
 
@@ -136,11 +136,9 @@ runner** with `eas build --local` (doesn't use free EAS build minutes) → publi
    Dev deps: `jest-expo @types/jest eslint eslint-config-expo expo-doctor`.
 3. Create the files below, plus `TODO.md`. Then `npm install`; `npm test && npm run lint && npm run typecheck`
    must pass.
-4. **On my computer (once):** `npm i -g eas-cli`, `eas login`, `eas init` (writes `projectId` and `owner`
-   into `app.json`), then `eas credentials -p android` → *Generate a new keystore*.
-5. **GitHub:** add an Expo access token (expo.dev → Account settings → Access tokens) as repo secret
-   `EXPO_TOKEN`. Settings → Actions → General → Workflow permissions: **Read and write**.
-6. Push to `main`; download the APK from **Releases** on the phone.
+4. **GitHub:** Settings → Actions → General → Workflow permissions: **Read and write** (the workflow
+   creates releases).
+5. Push to `main`; download the APK from **Releases** on the phone.
 
 ### File templates
 
@@ -205,8 +203,7 @@ runner** with `eas build --local` (doesn't use free EAS build minutes) → publi
         }
       }]
     ],
-    "extra": { "router": {}, "eas": { "projectId": "<filled by eas init>" } },
-    "owner": "<filled by eas init>"
+    "extra": { "router": {} }
   }
 }
 ```
@@ -223,103 +220,7 @@ module.exports = ({ config }) => ({
 ```
 </details>
 
-<details><summary><code>eas.json</code></summary>
-
-```json
-{
-  "cli": { "version": ">= 22.0.0", "appVersionSource": "remote" },
-  "build": {
-    "preview": {
-      "distribution": "internal",
-      "android": { "buildType": "apk" },
-      "channel": "preview"
-    },
-    "production": {
-      "autoIncrement": true,
-      "android": { "buildType": "app-bundle" },
-      "channel": "production"
-    }
-  }
-}
-```
-</details>
-
-<details><summary><code>.github/workflows/build-apk.yml</code></summary>
-
-```yaml
-name: Build Android APK
-
-on:
-  push:
-    branches: [main]
-  workflow_dispatch: {}
-
-permissions:
-  contents: write
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    timeout-minutes: 90
-    concurrency:
-      group: android-apk-${{ github.ref }}
-      cancel-in-progress: true
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22   # eas-cli 22 needs Node >= 22; node:sqlite needs >= 22.5
-          cache: npm
-      - run: npm ci
-      - run: npm run typecheck
-      - run: npm run lint
-      - run: npm test
-
-      # Advisory: expo-doctor checks against what the SDK expects today, so it can go red unprompted.
-      - name: Check Expo project (advisory)
-        run: npm run doctor
-        continue-on-error: true
-
-      - name: Free disk space
-        run: |
-          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/.ghcup /usr/share/swift \
-            /usr/local/share/boost /opt/hostedtoolcache/CodeQL || true
-          df -h /
-
-      - uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: 17
-
-      - uses: expo/expo-github-action@v8
-        with:
-          eas-version: 22.0.0
-          token: ${{ secrets.EXPO_TOKEN }}
-
-      # Built here, not on EAS servers (free EAS builds run out monthly). Same signing key every time.
-      - name: Build APK on this runner
-        env:
-          GRADLE_OPTS: -Dorg.gradle.daemon=false
-        run: |
-          eas build --platform android --profile preview --local --non-interactive --output learn-language.apk
-          test -s learn-language.apk
-
-      # Convenience copy; may fail on artifact quota. The Release is the real output.
-      - uses: actions/upload-artifact@v4
-        continue-on-error: true
-        with:
-          name: learn-language-apk
-          path: learn-language.apk
-          retention-days: 14
-
-      - name: Publish GitHub Release with APK
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: build-${{ github.run_number }}
-          name: "Build #${{ github.run_number }} (${{ github.sha }})"
-          files: learn-language.apk
-```
-</details>
+`.github/workflows/build-apk.yml`: see the file itself (Gradle build on the runner, no EAS).
 
 <details><summary><code>tsconfig.json</code>, <code>eslint.config.js</code>, <code>metro.config.js</code>, <code>.gitignore</code></summary>
 

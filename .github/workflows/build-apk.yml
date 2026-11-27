@@ -11,7 +11,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # Built on this runner (eas build --local), not on EAS's servers: free EAS builds run out each month.
+    # Built entirely on this runner with Gradle: no Expo account, EAS or secrets needed.
     timeout-minutes: 90
     concurrency:
       group: android-apk-${{ github.ref }}
@@ -21,7 +21,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 22   # eas-cli needs Node >= 22; node:sqlite in tests needs >= 22.5
+          node-version: 22   # node:sqlite in tests needs >= 22.5
           cache: npm
 
       - run: npm ci
@@ -44,19 +44,27 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
+          cache: gradle
 
-      - uses: expo/expo-github-action@v8
-        with:
-          eas-version: 27.11.0
-          token: ${{ secrets.EXPO_TOKEN }}
+      # Generates /android from app.json (never committed).
+      - name: Generate the Android project
+        run: npx expo prebuild --platform android --no-install
 
-      # Same signing key EAS keeps for the app, so each APK installs over the last.
-      - name: Build APK on this runner
+      # Signed with the fixed key the generated project ships with (android/app/debug.keystore), so every
+      # APK has the same signature and installs over the last one. Fine for a personal, sideloaded app;
+      # switching to a private key later means uninstalling once.
+      - name: Build APK
+        working-directory: android
         env:
-          GRADLE_OPTS: -Dorg.gradle.daemon=false
+          GRADLE_OPTS: -Dorg.gradle.daemon=false -Xmx4g
         run: |
-          eas build --platform android --profile preview --local --non-interactive --output learn-language.apk
-          test -s learn-language.apk
+          ./gradlew assembleRelease --no-daemon
+          cp app/build/outputs/apk/release/app-release.apk ../learn-language.apk
+          test -s ../learn-language.apk
+
+      - name: Read the app version
+        id: version
+        run: echo "version=$(node -p "require('./app.json').expo.version")" >> "$GITHUB_OUTPUT"
 
       # Convenience copy; may fail on artifact quota. The Release below is the real output.
       - uses: actions/upload-artifact@v4
@@ -70,5 +78,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: build-${{ github.run_number }}
-          name: "Build #${{ github.run_number }} (${{ github.sha }})"
+          name: "v${{ steps.version.outputs.version }} · build #${{ github.run_number }}"
+          body: "Learn Language v${{ steps.version.outputs.version }}. Download learn-language.apk on the phone and install it."
           files: learn-language.apk
