@@ -1,0 +1,808 @@
+{
+  "id": "u06",
+  "number": 6,
+  "title": "Family",
+  "summary": "Talk about your family, your pets and the things you have, using avoir. Then say whose things they are, and describe people.",
+  "canDo": [
+    "Say what I, you, he, she, we and they have, using avoir: j'ai, tu as, il a, nous avons.",
+    "Name family members and pets, with un, une, le, la or les.",
+    "Say my, your and his or her, with the right form for the thing owned.",
+    "Describe people and pets, with adjectives in the right place and form: un petit chat, ma mère est gentille."
+  ],
+  "lessons": [
+    {
+      "id": "u06-l1",
+      "title": "To have",
+      "goal": "Say what you and other people have, using the forms of avoir and un or une.",
+      "notes": [
+        {
+          "id": "u06-l1-n1",
+          "title": "Avoir: to have",
+          "body": "**avoir** means *to have*. Learn its forms as a set: **j'ai**, **tu as**, **il / elle a**, **nous avons**, **vous avez**, **ils / elles ont**. *Je* becomes *j'* before a vowel, so *j'ai* starts with an apostrophe.",
+          "examples": [
+            {
+              "fr": "J'ai un chien.",
+              "en": "I have a dog."
+            },
+            {
+              "fr": "Nous avons une voiture.",
+              "en": "We have a car."
+            },
+            {
+              "fr": "Ils ont un chat.",
+              "en": "They have a cat."
+            }
+          ]
+        },
+        {
+          "id": "u06-l1-n2",
+          "title": "Un or une after avoir",
+          "body": "After **avoir**, use **un** before a masculine noun and **une** before a feminine noun, as in Unit 3: *un chat* (m), *une voiture* (f). Both mean *a*. Keep the article with the noun, as always.",
+          "examples": [
+            {
+              "fr": "Elle a un chat.",
+              "en": "She has a cat."
+            },
+            {
+              "fr": "Tu as une voiture ?",
+              "en": "Do you have a car? (to a friend)"
+            },
+            {
+              "fr": "Un chien et un chat.",
+              "en": "A dog and a cat."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u06-l1-w1",
+          "fr": "avoir",
+          "en": "to have",
+          "tip": "Irregular. Learn the forms as a set."
+        },
+        {
+          "id": "u06-l1-w2",
+          "fr": "j'ai",
+          "en": "I have",
+          "tip": "The apostrophe replaces the e of je."
+        },
+        {
+          "id": "u06-l1-w3",
+          "fr": "tu as",
+          "en": "you have (to a friend)"
+        },
+        {
+          "id": "u06-l1-w4",
+          "fr": "il a",
+          "en": "he has",
+          "tip": "Elle a means she has."
+        },
+        {
+          "id": "u06-l1-w5",
+          "fr": "un chien",
+          "en": "a dog"
+        },
+        {
+          "id": "u06-l1-w6",
+          "fr": "un chat",
+          "en": "a cat"
+        },
+        {
+          "id": "u06-l1-w7",
+          "fr": "une voiture",
+          "en": "a car"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u06-l1-s1",
+          "fr": "J'ai un chien.",
+          "en": "I have a dog.",
+          "note": "u06-l1-n1"
+        },
+        {
+          "id": "u06-l1-s2",
+          "fr": "Tu as un chat ?",
+          "en": "Do you have a cat? (to a friend)",
+          "note": "u06-l1-n1"
+        },
+        {
+          "id": "u06-l1-s3",
+          "fr": "Il a une voiture.",
+          "en": "He has a car.",
+          "note": "u06-l1-n2"
+        },
+        {
+          "id": "u06-l1-s4",
+          "fr": "Elle a un chat.",
+          "en": "She has a cat.",
+          "note": "u06-l1-n2"
+        },
+        {
+          "id": "u06-l1-s5",
+          "fr": "Nous avons un chien.",
+          "en": "We have a dog.",
+          "note": "u06-l1-n1"
+        },
+        {
+          "id": "u06-l1-s6",
+          "fr": "Vous avez un chat, monsieur ?",
+          "en": "Do you have a cat, sir?",
+          "note": "u06-l1-n1"
+        },
+        {
+          "id": "u06-l1-s7",
+          "fr": "Ils ont un chat.",
+          "en": "They have a cat.",
+          "note": "u06-l1-n1"
+        },
+        {
+          "id": "u06-l1-s8",
+          "fr": "J'ai une voiture, merci.",
+          "en": "I have a car, thanks.",
+          "note": "u06-l1-n2"
+        },
+        {
+          "id": "u06-l1-s9",
+          "fr": "Un chien et un chat.",
+          "en": "A dog and a cat.",
+          "note": "u06-l1-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u06-l1-g1",
+          "prompt": "Léa ___ une voiture.",
+          "en": "Léa has a car.",
+          "answer": "a",
+          "options": [
+            "a",
+            "est"
+          ],
+          "why": "u06-l1-n1"
+        },
+        {
+          "id": "u06-l1-g2",
+          "prompt": "Tu ___ un chat ?",
+          "en": "Do you have a cat? (to a friend)",
+          "answer": "as",
+          "options": [
+            "as",
+            "es"
+          ],
+          "why": "u06-l1-n1"
+        },
+        {
+          "id": "u06-l1-g3",
+          "prompt": "Nous ___ un chien.",
+          "en": "We have a dog.",
+          "answer": "avons",
+          "options": [
+            "avons",
+            "sommes"
+          ],
+          "why": "u06-l1-n1"
+        },
+        {
+          "id": "u06-l1-g4",
+          "prompt": "Ils ___ une voiture.",
+          "en": "They have a car.",
+          "answer": "ont",
+          "options": [
+            "ont",
+            "sont"
+          ],
+          "why": "u06-l1-n1"
+        },
+        {
+          "id": "u06-l1-g5",
+          "prompt": "Elle a ___ chat.",
+          "en": "She has a cat.",
+          "answer": "un",
+          "options": [
+            "un",
+            "une"
+          ],
+          "why": "u06-l1-n2"
+        }
+      ]
+    },
+    {
+      "id": "u06-l2",
+      "title": "Family",
+      "goal": "Name your family and friends, with the right article for each.",
+      "notes": [
+        {
+          "id": "u06-l2-n1",
+          "title": "Le or la with family",
+          "body": "Family words have a gender, like every noun. **le** goes with a man or a boy (*le père*, *le frère*), and **la** with a woman or a girl (*la mère*, *la sœur*). Learn each word with its article.",
+          "examples": [
+            {
+              "fr": "Paul a un frère.",
+              "en": "Paul has a brother."
+            },
+            {
+              "fr": "Léa a une sœur.",
+              "en": "Léa has a sister."
+            },
+            {
+              "fr": "Le père et la mère.",
+              "en": "The father and the mother."
+            }
+          ]
+        },
+        {
+          "id": "u06-l2-n2",
+          "title": "Un, une, des and les",
+          "body": "**un** and **une** mean *a*, as before: *un ami* (a male friend), *une amie* (a female friend). **des** means *some*, and **les** means *the* for more than one: *les parents*. *Un enfant* works for a boy or a girl.",
+          "examples": [
+            {
+              "fr": "Marc a un ami.",
+              "en": "Marc has a friend. (a man)"
+            },
+            {
+              "fr": "Ils ont des enfants.",
+              "en": "They have children."
+            },
+            {
+              "fr": "Les parents ont une voiture.",
+              "en": "The parents have a car."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u06-l2-w1",
+          "fr": "la mère",
+          "en": "mother"
+        },
+        {
+          "id": "u06-l2-w2",
+          "fr": "le père",
+          "en": "father"
+        },
+        {
+          "id": "u06-l2-w3",
+          "fr": "le frère",
+          "en": "brother"
+        },
+        {
+          "id": "u06-l2-w4",
+          "fr": "la sœur",
+          "en": "sister"
+        },
+        {
+          "id": "u06-l2-w5",
+          "fr": "les parents",
+          "en": "parents",
+          "tip": "Always plural, so always les."
+        },
+        {
+          "id": "u06-l2-w6",
+          "fr": "un enfant",
+          "en": "child",
+          "tip": "Works for a boy or a girl."
+        },
+        {
+          "id": "u06-l2-w7",
+          "fr": "un(e) ami(e)",
+          "en": "friend",
+          "tip": "Un ami for a man, une amie for a woman."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u06-l2-s1",
+          "fr": "Léa a une sœur.",
+          "en": "Léa has a sister.",
+          "note": "u06-l2-n1"
+        },
+        {
+          "id": "u06-l2-s2",
+          "fr": "Tu as un frère, Paul ?",
+          "en": "Do you have a brother, Paul?",
+          "note": "u06-l2-n1"
+        },
+        {
+          "id": "u06-l2-s3",
+          "fr": "Le père et la mère.",
+          "en": "The father and the mother.",
+          "note": "u06-l2-n1"
+        },
+        {
+          "id": "u06-l2-s4",
+          "fr": "Marc a un ami.",
+          "en": "Marc has a friend.",
+          "note": "u06-l2-n2"
+        },
+        {
+          "id": "u06-l2-s5",
+          "fr": "Elle a une amie.",
+          "en": "She has a friend. (a woman)",
+          "note": "u06-l2-n2"
+        },
+        {
+          "id": "u06-l2-s6",
+          "fr": "Ils ont des enfants.",
+          "en": "They have children.",
+          "note": "u06-l2-n2"
+        },
+        {
+          "id": "u06-l2-s7",
+          "fr": "Vous avez un enfant, madame ?",
+          "en": "Do you have a child, madam?",
+          "note": "u06-l2-n2"
+        },
+        {
+          "id": "u06-l2-s8",
+          "fr": "Les parents ont une voiture.",
+          "en": "The parents have a car.",
+          "note": "u06-l2-n2"
+        },
+        {
+          "id": "u06-l2-s9",
+          "fr": "Nous avons un ami, Léa.",
+          "en": "We have a friend, Léa.",
+          "note": "u06-l2-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u06-l2-g1",
+          "prompt": "Léa a ___ sœur.",
+          "en": "Léa has a sister.",
+          "answer": "une",
+          "options": [
+            "une",
+            "un"
+          ],
+          "why": "u06-l2-n1"
+        },
+        {
+          "id": "u06-l2-g2",
+          "prompt": "Paul a ___ frère.",
+          "en": "Paul has a brother.",
+          "answer": "un",
+          "options": [
+            "un",
+            "une"
+          ],
+          "why": "u06-l2-n1"
+        },
+        {
+          "id": "u06-l2-g3",
+          "prompt": "___ parents ont un chat.",
+          "en": "The parents have a cat.",
+          "answer": "Les",
+          "options": [
+            "Les",
+            "Le"
+          ],
+          "why": "u06-l2-n2"
+        },
+        {
+          "id": "u06-l2-g4",
+          "prompt": "Elle a ___ amie.",
+          "en": "She has a friend. (a woman)",
+          "answer": "une",
+          "options": [
+            "une",
+            "un"
+          ],
+          "why": "u06-l2-n2"
+        },
+        {
+          "id": "u06-l2-g5",
+          "prompt": "Ils ont ___ enfants.",
+          "en": "They have children.",
+          "answer": "des",
+          "options": [
+            "des",
+            "les"
+          ],
+          "why": "u06-l2-n2"
+        }
+      ]
+    },
+    {
+      "id": "u06-l3",
+      "title": "My, your, his or her",
+      "goal": "Say my, your, his or her with the right form for the thing owned.",
+      "notes": [
+        {
+          "id": "u06-l3-n1",
+          "title": "The thing owned decides",
+          "body": "**mon** is *my* before a masculine noun, **ma** before a feminine noun, and **mes** before more than one. **ton / ta / tes** mean *your* (to a friend) and **son / sa / ses** mean *his* or *her*. The word agrees with the **thing owned**, not with the owner: *ma mère* is *my mother*, whoever you are.",
+          "examples": [
+            {
+              "fr": "Mon père a un chat.",
+              "en": "My father has a cat."
+            },
+            {
+              "fr": "Ma mère a une voiture.",
+              "en": "My mother has a car."
+            },
+            {
+              "fr": "Mes parents ont un chien.",
+              "en": "My parents have a dog."
+            }
+          ]
+        },
+        {
+          "id": "u06-l3-n2",
+          "title": "Mon before a vowel",
+          "body": "Before a feminine noun that starts with a vowel sound, use **mon** instead of **ma**, so it sounds smooth: *mon amie*, not *ma amie*. The same goes for **ton** and **son** before *amie*: *ton amie*, *son amie*.",
+          "examples": [
+            {
+              "fr": "Mon amie a un chat.",
+              "en": "My friend has a cat. (a woman)"
+            },
+            {
+              "fr": "Son amie a un chien.",
+              "en": "His or her friend has a dog. (a woman)"
+            },
+            {
+              "fr": "Ton amie a une voiture, Paul ?",
+              "en": "Your friend has a car, Paul? (a woman)"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u06-l3-w1",
+          "fr": "mon",
+          "en": "my (m)",
+          "tip": "Before a masculine noun, or a feminine one starting with a vowel: mon amie."
+        },
+        {
+          "id": "u06-l3-w2",
+          "fr": "ma",
+          "en": "my (f)",
+          "tip": "Before a feminine noun: ma mère."
+        },
+        {
+          "id": "u06-l3-w3",
+          "fr": "mes",
+          "en": "my (plural)",
+          "tip": "For more than one thing or person: mes parents."
+        },
+        {
+          "id": "u06-l3-w4",
+          "fr": "ton",
+          "en": "your (m, to a friend)",
+          "tip": "Ton frère. Ton amie, before a vowel."
+        },
+        {
+          "id": "u06-l3-w5",
+          "fr": "ta",
+          "en": "your (f, to a friend)",
+          "tip": "Ta sœur."
+        },
+        {
+          "id": "u06-l3-w6",
+          "fr": "son",
+          "en": "his / her (m)",
+          "tip": "Son frère means his or her brother."
+        },
+        {
+          "id": "u06-l3-w7",
+          "fr": "sa",
+          "en": "his / her (f)",
+          "tip": "Sa mère means his or her mother."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u06-l3-s1",
+          "fr": "Mon père a un chat.",
+          "en": "My father has a cat.",
+          "note": "u06-l3-n1"
+        },
+        {
+          "id": "u06-l3-s2",
+          "fr": "Ma mère a une voiture.",
+          "en": "My mother has a car.",
+          "note": "u06-l3-n1"
+        },
+        {
+          "id": "u06-l3-s3",
+          "fr": "Mes parents ont un chien.",
+          "en": "My parents have a dog.",
+          "note": "u06-l3-n1"
+        },
+        {
+          "id": "u06-l3-s4",
+          "fr": "Mon amie a un chat.",
+          "en": "My friend has a cat. (a woman)",
+          "note": "u06-l3-n2"
+        },
+        {
+          "id": "u06-l3-s5",
+          "fr": "Ton frère a une voiture, Léa ?",
+          "en": "Your brother has a car, Léa?",
+          "note": "u06-l3-n1"
+        },
+        {
+          "id": "u06-l3-s6",
+          "fr": "Ta sœur a un chien ?",
+          "en": "Does your sister have a dog?",
+          "note": "u06-l3-n1"
+        },
+        {
+          "id": "u06-l3-s7",
+          "fr": "Son frère a une voiture.",
+          "en": "His or her brother has a car.",
+          "note": "u06-l3-n1"
+        },
+        {
+          "id": "u06-l3-s8",
+          "fr": "Sa mère a un chat.",
+          "en": "His or her mother has a cat.",
+          "note": "u06-l3-n1"
+        },
+        {
+          "id": "u06-l3-s9",
+          "fr": "Ton amie a une voiture, Paul ?",
+          "en": "Your friend has a car, Paul? (a woman)",
+          "note": "u06-l3-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u06-l3-g1",
+          "prompt": "___ père a un chat.",
+          "en": "My father has a cat.",
+          "answer": "Mon",
+          "options": [
+            "Mon",
+            "Ma"
+          ],
+          "why": "u06-l3-n1"
+        },
+        {
+          "id": "u06-l3-g2",
+          "prompt": "___ mère a une voiture.",
+          "en": "My mother has a car.",
+          "answer": "Ma",
+          "options": [
+            "Ma",
+            "Mon"
+          ],
+          "why": "u06-l3-n1"
+        },
+        {
+          "id": "u06-l3-g3",
+          "prompt": "___ amie a un chien.",
+          "en": "My friend has a dog. (a woman)",
+          "answer": "Mon",
+          "options": [
+            "Mon",
+            "Ma"
+          ],
+          "why": "u06-l3-n2"
+        },
+        {
+          "id": "u06-l3-g4",
+          "prompt": "Ton frère et ___ sœur ?",
+          "en": "Your brother and your sister?",
+          "answer": "ta",
+          "options": [
+            "ta",
+            "ton"
+          ],
+          "why": "u06-l3-n1"
+        },
+        {
+          "id": "u06-l3-g5",
+          "prompt": "___ parents ont un chat.",
+          "en": "My parents have a cat.",
+          "answer": "Mes",
+          "options": [
+            "Mes",
+            "Mon"
+          ],
+          "why": "u06-l3-n1"
+        }
+      ]
+    },
+    {
+      "id": "u06-l4",
+      "title": "Describing people",
+      "goal": "Describe a person or a pet, with the adjective in the right place and form.",
+      "notes": [
+        {
+          "id": "u06-l4-n1",
+          "title": "Adjectives agree",
+          "body": "An adjective changes to match the person or thing: add **-e** for a woman (*gentil* becomes *gentille*) and **-s** for more than one (*gentils*). Most adjectives come after *être* or after the noun: *un chien gentil* (a kind dog).",
+          "examples": [
+            {
+              "fr": "Mon chien est gentil.",
+              "en": "My dog is kind."
+            },
+            {
+              "fr": "Ma mère est gentille.",
+              "en": "My mother is kind."
+            },
+            {
+              "fr": "Mes parents sont gentils.",
+              "en": "My parents are kind."
+            }
+          ]
+        },
+        {
+          "id": "u06-l4-n2",
+          "title": "Short adjectives go before",
+          "body": "Some common adjectives go **before** the noun: **grand**, **petit**, **jeune**, **vieux** and **beau** (beauty, age and size). Say *un petit chat* (a small cat), not *un chat petit*. For a woman, *beau* becomes *belle* and *vieux* becomes *vieille*.",
+          "examples": [
+            {
+              "fr": "Un petit chat !",
+              "en": "A small cat!"
+            },
+            {
+              "fr": "Un beau chien, monsieur !",
+              "en": "A handsome dog, sir!"
+            },
+            {
+              "fr": "Une grande voiture !",
+              "en": "A big car!"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u06-l4-w1",
+          "fr": "grand(e)",
+          "en": "big / tall",
+          "tip": "Before the noun: une grande voiture."
+        },
+        {
+          "id": "u06-l4-w2",
+          "fr": "petit(e)",
+          "en": "small / little",
+          "tip": "Before the noun: un petit chat."
+        },
+        {
+          "id": "u06-l4-w3",
+          "fr": "jeune",
+          "en": "young",
+          "tip": "Same form for a man and a woman."
+        },
+        {
+          "id": "u06-l4-w4",
+          "fr": "vieux / vieille",
+          "en": "old",
+          "tip": "Vieux for a man, vieille for a woman."
+        },
+        {
+          "id": "u06-l4-w5",
+          "fr": "gentil(le)",
+          "en": "kind / nice",
+          "tip": "Gentil for a man, gentille for a woman."
+        },
+        {
+          "id": "u06-l4-w6",
+          "fr": "beau / belle",
+          "en": "handsome / beautiful",
+          "tip": "Beau for a man, belle for a woman. Before the noun."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u06-l4-s1",
+          "fr": "Mon chien est gentil.",
+          "en": "My dog is kind.",
+          "note": "u06-l4-n1"
+        },
+        {
+          "id": "u06-l4-s2",
+          "fr": "Ma mère est gentille.",
+          "en": "My mother is kind.",
+          "note": "u06-l4-n1"
+        },
+        {
+          "id": "u06-l4-s3",
+          "fr": "Un petit chat !",
+          "en": "A small cat!",
+          "note": "u06-l4-n2"
+        },
+        {
+          "id": "u06-l4-s4",
+          "fr": "Un beau chien, monsieur !",
+          "en": "A handsome dog, sir!",
+          "note": "u06-l4-n2"
+        },
+        {
+          "id": "u06-l4-s5",
+          "fr": "Ma sœur est jeune.",
+          "en": "My sister is young.",
+          "note": "u06-l4-n1"
+        },
+        {
+          "id": "u06-l4-s6",
+          "fr": "Mon père est vieux.",
+          "en": "My father is old.",
+          "note": "u06-l4-n1"
+        },
+        {
+          "id": "u06-l4-s7",
+          "fr": "Une grande voiture !",
+          "en": "A big car!",
+          "note": "u06-l4-n2"
+        },
+        {
+          "id": "u06-l4-s8",
+          "fr": "Mes parents sont gentils.",
+          "en": "My parents are kind.",
+          "note": "u06-l4-n1"
+        },
+        {
+          "id": "u06-l4-s9",
+          "fr": "Une belle voiture, Paul ?",
+          "en": "A beautiful car, Paul?",
+          "note": "u06-l4-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u06-l4-g1",
+          "prompt": "Mon chien est ___.",
+          "en": "My dog is kind.",
+          "answer": "gentil",
+          "options": [
+            "gentil",
+            "gentille"
+          ],
+          "why": "u06-l4-n1"
+        },
+        {
+          "id": "u06-l4-g2",
+          "prompt": "Ma mère est ___.",
+          "en": "My mother is kind.",
+          "answer": "gentille",
+          "options": [
+            "gentille",
+            "gentil"
+          ],
+          "why": "u06-l4-n1"
+        },
+        {
+          "id": "u06-l4-g3",
+          "prompt": "Un ___ chat.",
+          "en": "A small cat.",
+          "answer": "petit",
+          "options": [
+            "petit",
+            "petite"
+          ],
+          "why": "u06-l4-n2"
+        },
+        {
+          "id": "u06-l4-g4",
+          "prompt": "Une ___ voiture.",
+          "en": "A beautiful car.",
+          "answer": "belle",
+          "options": [
+            "belle",
+            "beau"
+          ],
+          "why": "u06-l4-n2"
+        },
+        {
+          "id": "u06-l4-g5",
+          "prompt": "Mon père est ___.",
+          "en": "My father is old.",
+          "answer": "vieux",
+          "options": [
+            "vieux",
+            "vieille"
+          ],
+          "why": "u06-l4-n1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "id": "u07",
+  "number": 7,
+  "title": "Everyday verbs (-er)",
+  "summary": "Talk about what you speak, where you live and work, and what you like or hate. Most French verbs end in -er and follow one pattern. Ask questions with est-ce que, où, quand and pourquoi.",
+  "canDo": [
+    "Say what languages I speak, using parler for I, you, he or she, and they.",
+    "Say where I live and what I do, using habiter and travailler.",
+    "Say what I like, love and hate, with le, la or les in front of the thing.",
+    "Ask simple questions with est-ce que, où, quand and pourquoi, and answer with parce que."
+  ],
+  "lessons": [
+    {
+      "id": "u07-l1",
+      "title": "To speak",
+      "goal": "Say which languages you and other people speak, using parler.",
+      "notes": [
+        {
+          "id": "u07-l1-n1",
+          "title": "Regular -er verbs",
+          "body": "Most French verbs end in **-er**. Take off the **-er** to get the stem (*parl-*), then add the ending that matches who is doing the action: **je parle**, **tu parles**, **il / elle parle**, **ils / elles parlent**. The endings **-e**, **-es** and **-ent** all sound the same, so listen for the subject word instead.",
+          "examples": [
+            {
+              "fr": "Je parle français.",
+              "en": "I speak French."
+            },
+            {
+              "fr": "Tu parles anglais ?",
+              "en": "Do you speak English?"
+            },
+            {
+              "fr": "Elles parlent anglais.",
+              "en": "They speak English. (women)"
+            }
+          ],
+          "more": "The **nous** and **vous** forms sound different: **nous** parl**ons** (we speak), **vous** parl**ez** (you speak, polite or plural). Learn the whole set as one pattern: parle, parles, parle, parlons, parlez, parlent."
+        },
+        {
+          "id": "u07-l1-n2",
+          "title": "Languages",
+          "body": "Names of languages start with a small letter and usually have **le** or **l'** in front: *le français*, *l'anglais*. After **parler** you drop the article, so say *je parle français* (*je parle le français* is also correct, but less common). Use **aussi** (also) after the verb to add another language.",
+          "examples": [
+            {
+              "fr": "Il parle anglais aussi.",
+              "en": "He also speaks English."
+            },
+            {
+              "fr": "Le français et l'anglais.",
+              "en": "French and English."
+            },
+            {
+              "fr": "Je parle français.",
+              "en": "I speak French."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u07-l1-w1",
+          "fr": "parler",
+          "en": "to speak",
+          "tip": "Regular -er verb. Drop -er to get parl-."
+        },
+        {
+          "id": "u07-l1-w2",
+          "fr": "je parle",
+          "en": "I speak"
+        },
+        {
+          "id": "u07-l1-w3",
+          "fr": "tu parles",
+          "en": "you speak (to a friend)"
+        },
+        {
+          "id": "u07-l1-w4",
+          "fr": "il / elle parle",
+          "en": "he / she speaks"
+        },
+        {
+          "id": "u07-l1-w5",
+          "fr": "ils / elles parlent",
+          "en": "they speak",
+          "tip": "The -ent is silent. Sounds like parle."
+        },
+        {
+          "id": "u07-l1-w6",
+          "fr": "le français",
+          "en": "French (the language)",
+          "tip": "No article after parler: je parle français."
+        },
+        {
+          "id": "u07-l1-w7",
+          "fr": "l'anglais",
+          "en": "English (the language)"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u07-l1-s1",
+          "fr": "Je parle français.",
+          "en": "I speak French.",
+          "note": "u07-l1-n1"
+        },
+        {
+          "id": "u07-l1-s2",
+          "fr": "Tu parles anglais ?",
+          "en": "Do you speak English?",
+          "note": "u07-l1-n1"
+        },
+        {
+          "id": "u07-l1-s3",
+          "fr": "Il parle espagnol.",
+          "en": "He speaks Spanish.",
+          "note": "u07-l1-n1"
+        },
+        {
+          "id": "u07-l1-s4",
+          "fr": "Elle parle français.",
+          "en": "She speaks French.",
+          "note": "u07-l1-n1"
+        },
+        {
+          "id": "u07-l1-s5",
+          "fr": "Ils parlent anglais.",
+          "en": "They speak English.",
+          "note": "u07-l1-n1"
+        },
+        {
+          "id": "u07-l1-s6",
+          "fr": "Elles parlent français.",
+          "en": "They speak French. (women)",
+          "note": "u07-l1-n1"
+        },
+        {
+          "id": "u07-l1-s7",
+          "fr": "Je parle aussi anglais.",
+          "en": "I also speak English.",
+          "note": "u07-l1-n2"
+        },
+        {
+          "id": "u07-l1-s8",
+          "fr": "Moi aussi, je parle français.",
+          "en": "Me too, I speak French.",
+          "note": "u07-l1-n1"
+        },
+        {
+          "id": "u07-l1-s9",
+          "fr": "Le français et l'anglais.",
+          "en": "French and English.",
+          "note": "u07-l1-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u07-l1-g1",
+          "prompt": "Je ___ français.",
+          "en": "I speak French.",
+          "answer": "parle",
+          "options": [
+            "parle",
+            "parles"
+          ],
+          "why": "u07-l1-n1"
+        },
+        {
+          "id": "u07-l1-g2",
+          "prompt": "Tu ___ anglais ?",
+          "en": "Do you speak English?",
+          "answer": "parles",
+          "options": [
+            "parles",
+            "parle"
+          ],
+          "why": "u07-l1-n1"
+        },
+        {
+          "id": "u07-l1-g3",
+          "prompt": "Elles ___ anglais.",
+          "en": "They speak English. (women)",
+          "answer": "parlent",
+          "options": [
+            "parlent",
+            "parle"
+          ],
+          "why": "u07-l1-n1"
+        },
+        {
+          "id": "u07-l1-g4",
+          "prompt": "Il parle ___.",
+          "en": "He speaks French.",
+          "answer": "français",
+          "options": [
+            "français",
+            "française"
+          ],
+          "why": "u07-l1-n2"
+        },
+        {
+          "id": "u07-l1-g5",
+          "prompt": "Il ___ espagnol.",
+          "en": "He speaks Spanish.",
+          "answer": "parle",
+          "options": [
+            "parle",
+            "parles"
+          ],
+          "why": "u07-l1-n1"
+        }
+      ]
+    },
+    {
+      "id": "u07-l2",
+      "title": "More verbs",
+      "goal": "Say where you live and work, and what you watch, listen to and like.",
+      "notes": [
+        {
+          "id": "u07-l2-n1",
+          "title": "Same pattern, new verbs",
+          "body": "**habiter** (to live), **travailler** (to work), **aimer** (to like), **écouter** (to listen to) and **regarder** (to watch) follow the **parler** pattern. Drop **-er**, then add the ending. In *je travaille*, the **ill** sounds like the *y* in *yes*.",
+          "examples": [
+            {
+              "fr": "Je travaille bien.",
+              "en": "I work well."
+            },
+            {
+              "fr": "Elle habite ici.",
+              "en": "She lives here."
+            },
+            {
+              "fr": "Tu regardes ça ?",
+              "en": "Are you watching that?"
+            }
+          ]
+        },
+        {
+          "id": "u07-l2-n2",
+          "title": "J' before a vowel",
+          "body": "**je** becomes **j'** before a vowel sound or a silent **h**: *j'habite*, *j'aime*. Before a consonant, keep **je**: *je travaille*. Say *j'habite* as one smooth word, with no pause after the **j'**.",
+          "examples": [
+            {
+              "fr": "J'habite ici.",
+              "en": "I live here."
+            },
+            {
+              "fr": "J'aime ça.",
+              "en": "I like that."
+            },
+            {
+              "fr": "Je travaille ici.",
+              "en": "I work here."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u07-l2-w1",
+          "fr": "habiter",
+          "en": "to live (in a place)",
+          "tip": "Regular -er verb. Drop -er to get habit-."
+        },
+        {
+          "id": "u07-l2-w2",
+          "fr": "travailler",
+          "en": "to work"
+        },
+        {
+          "id": "u07-l2-w3",
+          "fr": "aimer",
+          "en": "to like / to love"
+        },
+        {
+          "id": "u07-l2-w4",
+          "fr": "écouter",
+          "en": "to listen to"
+        },
+        {
+          "id": "u07-l2-w5",
+          "fr": "regarder",
+          "en": "to watch / to look at"
+        },
+        {
+          "id": "u07-l2-w6",
+          "fr": "ici",
+          "en": "here"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u07-l2-s1",
+          "fr": "J'habite ici.",
+          "en": "I live here.",
+          "note": "u07-l2-n2"
+        },
+        {
+          "id": "u07-l2-s2",
+          "fr": "Je travaille bien.",
+          "en": "I work well.",
+          "note": "u07-l2-n1"
+        },
+        {
+          "id": "u07-l2-s3",
+          "fr": "Elle habite ici aussi.",
+          "en": "She lives here too.",
+          "note": "u07-l2-n1"
+        },
+        {
+          "id": "u07-l2-s4",
+          "fr": "Il travaille ici.",
+          "en": "He works here.",
+          "note": "u07-l2-n1"
+        },
+        {
+          "id": "u07-l2-s5",
+          "fr": "Tu écoutes ?",
+          "en": "Are you listening?",
+          "note": "u07-l2-n1"
+        },
+        {
+          "id": "u07-l2-s6",
+          "fr": "Tu regardes ça ?",
+          "en": "Are you watching that?",
+          "note": "u07-l2-n1"
+        },
+        {
+          "id": "u07-l2-s7",
+          "fr": "J'aime ça.",
+          "en": "I like that.",
+          "note": "u07-l2-n2"
+        },
+        {
+          "id": "u07-l2-s8",
+          "fr": "Ils regardent ça.",
+          "en": "They are watching that.",
+          "note": "u07-l2-n1"
+        },
+        {
+          "id": "u07-l2-s9",
+          "fr": "Moi aussi, j'habite ici.",
+          "en": "Me too, I live here.",
+          "note": "u07-l2-n2"
+        },
+        {
+          "id": "u07-l2-s10",
+          "fr": "Elles travaillent bien, merci.",
+          "en": "They work well, thanks.",
+          "note": "u07-l2-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u07-l2-g1",
+          "prompt": "J'___ ici.",
+          "en": "I live here.",
+          "answer": "habite",
+          "options": [
+            "habite",
+            "habites"
+          ],
+          "why": "u07-l2-n1"
+        },
+        {
+          "id": "u07-l2-g2",
+          "prompt": "Je ___ bien.",
+          "en": "I work well.",
+          "answer": "travaille",
+          "options": [
+            "travaille",
+            "travailles"
+          ],
+          "why": "u07-l2-n1"
+        },
+        {
+          "id": "u07-l2-g3",
+          "prompt": "Tu ___ ça ?",
+          "en": "Are you watching that?",
+          "answer": "regardes",
+          "options": [
+            "regardes",
+            "regarde"
+          ],
+          "why": "u07-l2-n1"
+        },
+        {
+          "id": "u07-l2-g4",
+          "prompt": "___ ici.",
+          "en": "I live here.",
+          "answer": "J'habite",
+          "options": [
+            "J'habite",
+            "Je habite"
+          ],
+          "why": "u07-l2-n2"
+        },
+        {
+          "id": "u07-l2-g5",
+          "prompt": "Ils ___ ça.",
+          "en": "They are watching that.",
+          "answer": "regardent",
+          "options": [
+            "regardent",
+            "regarde"
+          ],
+          "why": "u07-l2-n1"
+        }
+      ]
+    },
+    {
+      "id": "u07-l3",
+      "title": "Likes",
+      "goal": "Say what you love, like and hate, with the right article.",
+      "notes": [
+        {
+          "id": "u07-l3-n1",
+          "title": "Likes take an article",
+          "body": "With **aimer**, **adorer** and **détester**, put an article before the thing you like or hate: **le** (m), **la** (f), **l'** (vowel), **les** (plural). It means *in general*, so **j'aime le café** means *I like coffee* as a drink. Keep the article, even though English drops it.",
+          "examples": [
+            {
+              "fr": "J'aime la musique.",
+              "en": "I like music."
+            },
+            {
+              "fr": "Je déteste le sport.",
+              "en": "I hate sport."
+            },
+            {
+              "fr": "J'adore les films.",
+              "en": "I love films."
+            }
+          ]
+        },
+        {
+          "id": "u07-l3-n2",
+          "title": "Love, like, hate",
+          "body": "**adorer** is the strongest: *to love*. **aimer** is *to like*. **détester** is *to hate*. Add **bien** after **aimer** to soften it: *j'aime bien* (I quite like). To say you don't, wrap **ne … pas** around the verb: *je n'aime pas* (I don't like).",
+          "examples": [
+            {
+              "fr": "J'adore les films.",
+              "en": "I love films."
+            },
+            {
+              "fr": "J'aime bien le sport.",
+              "en": "I quite like sport."
+            },
+            {
+              "fr": "Je n'aime pas le café.",
+              "en": "I don't like coffee."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u07-l3-w1",
+          "fr": "adorer",
+          "en": "to love (very much)"
+        },
+        {
+          "id": "u07-l3-w2",
+          "fr": "détester",
+          "en": "to hate"
+        },
+        {
+          "id": "u07-l3-w3",
+          "fr": "la musique",
+          "en": "music"
+        },
+        {
+          "id": "u07-l3-w4",
+          "fr": "le sport",
+          "en": "sport"
+        },
+        {
+          "id": "u07-l3-w5",
+          "fr": "les films",
+          "en": "films / movies",
+          "tip": "Plural: the -s is silent."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u07-l3-s1",
+          "fr": "J'aime le café.",
+          "en": "I like coffee.",
+          "note": "u07-l3-n1"
+        },
+        {
+          "id": "u07-l3-s2",
+          "fr": "J'aime la musique.",
+          "en": "I like music.",
+          "note": "u07-l3-n1"
+        },
+        {
+          "id": "u07-l3-s3",
+          "fr": "J'adore les films.",
+          "en": "I love films.",
+          "note": "u07-l3-n2"
+        },
+        {
+          "id": "u07-l3-s4",
+          "fr": "Je déteste le sport.",
+          "en": "I hate sport.",
+          "note": "u07-l3-n1"
+        },
+        {
+          "id": "u07-l3-s5",
+          "fr": "Tu aimes la musique ?",
+          "en": "Do you like music?",
+          "note": "u07-l3-n1"
+        },
+        {
+          "id": "u07-l3-s6",
+          "fr": "Il aime les films.",
+          "en": "He likes films.",
+          "note": "u07-l3-n1"
+        },
+        {
+          "id": "u07-l3-s7",
+          "fr": "Elle adore le sport.",
+          "en": "She loves sport.",
+          "note": "u07-l3-n2"
+        },
+        {
+          "id": "u07-l3-s8",
+          "fr": "Je n'aime pas le café.",
+          "en": "I don't like coffee.",
+          "note": "u07-l3-n2"
+        },
+        {
+          "id": "u07-l3-s9",
+          "fr": "Moi aussi, j'adore la musique.",
+          "en": "Me too, I love music.",
+          "note": "u07-l3-n2"
+        },
+        {
+          "id": "u07-l3-s10",
+          "fr": "Et toi, tu aimes le sport ?",
+          "en": "And you, do you like sport?",
+          "note": "u07-l3-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u07-l3-g1",
+          "prompt": "J'___ la musique.",
+          "en": "I like music.",
+          "answer": "aime",
+          "options": [
+            "aime",
+            "aimes"
+          ],
+          "why": "u07-l3-n2"
+        },
+        {
+          "id": "u07-l3-g2",
+          "prompt": "Je déteste ___ sport.",
+          "en": "I hate sport.",
+          "answer": "le",
+          "options": [
+            "le",
+            "la"
+          ],
+          "why": "u07-l3-n1"
+        },
+        {
+          "id": "u07-l3-g3",
+          "prompt": "J'adore ___ films.",
+          "en": "I love films.",
+          "answer": "les",
+          "options": [
+            "les",
+            "le"
+          ],
+          "why": "u07-l3-n1"
+        },
+        {
+          "id": "u07-l3-g4",
+          "prompt": "Elle ___ la musique.",
+          "en": "She loves music.",
+          "answer": "adore",
+          "options": [
+            "adore",
+            "adorent"
+          ],
+          "why": "u07-l3-n2"
+        },
+        {
+          "id": "u07-l3-g5",
+          "prompt": "Je n'___ pas le café.",
+          "en": "I don't like coffee.",
+          "answer": "aime",
+          "options": [
+            "aime",
+            "aimes"
+          ],
+          "why": "u07-l3-n2"
+        }
+      ]
+    },
+    {
+      "id": "u07-l4",
+      "title": "Questions",
+      "goal": "Ask simple questions and give a reason with parce que.",
+      "notes": [
+        {
+          "id": "u07-l4-n1",
+          "title": "Two easy ways to ask",
+          "body": "Raise your voice at the end of a sentence to make it a question: *Tu parles anglais ?* You can also start with **est-ce que**, which has no meaning on its own. It turns any sentence into a question. Both are normal in speech, and there is always a space before the **?**.",
+          "examples": [
+            {
+              "fr": "Tu habites ici ?",
+              "en": "Do you live here?"
+            },
+            {
+              "fr": "Est-ce que tu travailles ?",
+              "en": "Are you working?"
+            },
+            {
+              "fr": "Est-ce qu'il parle français ?",
+              "en": "Does he speak French?"
+            }
+          ]
+        },
+        {
+          "id": "u07-l4-n2",
+          "title": "Question words and because",
+          "body": "**où** means *where*, **quand** means *when* and **pourquoi** means *why*. Put the question word first: *Où est Léa ?* To give a reason, start with **parce que** (*because*): *Parce que j'aime la musique.*",
+          "examples": [
+            {
+              "fr": "Où est-ce que tu habites ?",
+              "en": "Where do you live?"
+            },
+            {
+              "fr": "Quand est-ce que tu travailles ?",
+              "en": "When do you work?"
+            },
+            {
+              "fr": "Parce que j'adore ça.",
+              "en": "Because I love it."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u07-l4-w1",
+          "fr": "est-ce que",
+          "en": "question starter (no word needed in English)",
+          "tip": "Put it in front of any sentence to make a question."
+        },
+        {
+          "id": "u07-l4-w2",
+          "fr": "où",
+          "en": "where",
+          "tip": "Sounds like 'oo'. The accent tells it apart from ou (or)."
+        },
+        {
+          "id": "u07-l4-w3",
+          "fr": "quand",
+          "en": "when"
+        },
+        {
+          "id": "u07-l4-w4",
+          "fr": "pourquoi",
+          "en": "why"
+        },
+        {
+          "id": "u07-l4-w5",
+          "fr": "parce que",
+          "en": "because"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u07-l4-s1",
+          "fr": "Tu parles anglais ?",
+          "en": "Do you speak English?",
+          "note": "u07-l4-n1"
+        },
+        {
+          "id": "u07-l4-s2",
+          "fr": "Est-ce que tu travailles ici ?",
+          "en": "Do you work here?",
+          "note": "u07-l4-n1"
+        },
+        {
+          "id": "u07-l4-s3",
+          "fr": "Où est-ce que tu habites ?",
+          "en": "Where do you live?",
+          "note": "u07-l4-n2"
+        },
+        {
+          "id": "u07-l4-s4",
+          "fr": "Quand est-ce que tu travailles ?",
+          "en": "When do you work?",
+          "note": "u07-l4-n2"
+        },
+        {
+          "id": "u07-l4-s5",
+          "fr": "Pourquoi tu aimes le sport ?",
+          "en": "Why do you like sport?",
+          "note": "u07-l4-n2"
+        },
+        {
+          "id": "u07-l4-s6",
+          "fr": "Parce que j'aime la musique.",
+          "en": "Because I like music.",
+          "note": "u07-l4-n2"
+        },
+        {
+          "id": "u07-l4-s7",
+          "fr": "Est-ce qu'il parle français ?",
+          "en": "Does he speak French?",
+          "note": "u07-l4-n1"
+        },
+        {
+          "id": "u07-l4-s8",
+          "fr": "Où est Léa ?",
+          "en": "Where is Léa?",
+          "note": "u07-l4-n2"
+        },
+        {
+          "id": "u07-l4-s9",
+          "fr": "Tu écoutes ça ?",
+          "en": "Are you listening to that?",
+          "note": "u07-l4-n1"
+        },
+        {
+          "id": "u07-l4-s10",
+          "fr": "Pourquoi ? Parce que j'adore ça.",
+          "en": "Why? Because I love it.",
+          "note": "u07-l4-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u07-l4-g1",
+          "prompt": "___ est-ce que tu habites ?",
+          "en": "Where do you live?",
+          "answer": "Où",
+          "options": [
+            "Où",
+            "Quand"
+          ],
+          "why": "u07-l4-n2"
+        },
+        {
+          "id": "u07-l4-g2",
+          "prompt": "___ j'aime la musique.",
+          "en": "Because I like music.",
+          "answer": "Parce que",
+          "options": [
+            "Parce que",
+            "Pourquoi"
+          ],
+          "why": "u07-l4-n2"
+        },
+        {
+          "id": "u07-l4-g3",
+          "prompt": "___ tu aimes le sport ?",
+          "en": "Why do you like sport?",
+          "answer": "Pourquoi",
+          "options": [
+            "Pourquoi",
+            "Quand"
+          ],
+          "why": "u07-l4-n2"
+        },
+        {
+          "id": "u07-l4-g4",
+          "prompt": "___ tu parles anglais ?",
+          "en": "Do you speak English?",
+          "answer": "Est-ce que",
+          "options": [
+            "Est-ce que",
+            "Quand"
+          ],
+          "why": "u07-l4-n1"
+        },
+        {
+          "id": "u07-l4-g5",
+          "prompt": "Est-ce qu'il ___ français ?",
+          "en": "Does he speak French?",
+          "answer": "parle",
+          "options": [
+            "parle",
+            "parles"
+          ],
+          "why": "u07-l4-n1"
+        }
+      ]
+    }
+  ]
+}

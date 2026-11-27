@@ -3,7 +3,7 @@
     "name": "Learn Language",
     "slug": "learn-language",
     "scheme": "learnlanguage",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -19,10 +19,24 @@
       "predictiveBackGestureEnabled": true,
       "softwareKeyboardLayoutMode": "resize"
     },
-    "web": { "favicon": "./assets/favicon.png" },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
     "plugins": [
       "expo-router",
       "expo-sqlite",
+      [
+        "expo-status-bar",
+        {
+          "hidden": true
+        }
+      ],
+      [
+        "expo-navigation-bar",
+        {
+          "hidden": true
+        }
+      ],
       [
         "expo-build-properties",
         {
@@ -30,11 +44,15 @@
             "minSdkVersion": 26,
             "enableMinifyInReleaseBuilds": true,
             "enableShrinkResourcesInReleaseBuilds": true,
-            "buildArchs": ["arm64-v8a"]
+            "buildArchs": [
+              "arm64-v8a"
+            ]
           }
         }
       ]
     ],
-    "extra": { "router": {} }
+    "extra": {
+      "router": {}
+    }
   }
 }

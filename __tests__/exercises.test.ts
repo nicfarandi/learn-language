@@ -51,3 +51,15 @@ it('never offers a second right answer, even when a word is taught again with an
     }
   }
 });
+
+it('never asks to hear or type a word-list pattern such as "il / elle parle" or "j\'ai … ans"', () => {
+  for (const { lesson, index } of LESSONS) {
+    const earlier = LESSONS.slice(0, index).flatMap((l) => l.lesson.words);
+    for (let seed = 1; seed <= 20; seed++) {
+      for (const x of buildExercises(lesson, earlier, seed)) {
+        if (x.kind === 'listen') for (const o of x.options) expect(o).not.toMatch(/[/…]/);
+        if (x.kind === 'type') for (const a of x.accepted) expect(a).not.toMatch(/[/…]/);
+      }
+    }
+  }
+});

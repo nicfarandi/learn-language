@@ -1,0 +1,810 @@
+{
+  "id": "u04",
+  "number": 4,
+  "title": "Food and drink",
+  "summary": "Name food and drink, say what you eat and drink, and order at a café. Learn du, de la and des for saying some.",
+  "canDo": [
+    "Name common food and drinks with le, la or l'.",
+    "Say what you eat and drink, using manger and boire.",
+    "Say you eat some food, and say you don't eat any.",
+    "Order a drink politely and ask for the bill."
+  ],
+  "lessons": [
+    {
+      "id": "u04-l1",
+      "title": "Food",
+      "goal": "Name common food and drink with le, la or l'.",
+      "notes": [
+        {
+          "id": "u04-l1-n1",
+          "title": "Le, la and l' with food",
+          "body": "Food nouns are masculine or feminine, like every other noun. Learn each one with its article: **le** for a masculine noun, **la** for a feminine noun, and **l'** before a vowel sound. *Le pain* (bread) and *le lait* (milk) are masculine. *La pomme* (apple) is feminine.",
+          "examples": [
+            {
+              "fr": "Le pain, s'il vous plaît.",
+              "en": "Bread, please."
+            },
+            {
+              "fr": "La pomme, monsieur ?",
+              "en": "The apple, sir?"
+            },
+            {
+              "fr": "L'eau, s'il te plaît.",
+              "en": "Water, please. (to a friend)"
+            }
+          ]
+        },
+        {
+          "id": "u04-l1-n2",
+          "title": "Un or le?",
+          "body": "Use **un** or **une** when you order or name a food: *un thé*, *une pomme*. Use **le**, **la** or **l'** when it is the one you mean, the one in front of you or the one you already know.",
+          "examples": [
+            {
+              "fr": "Un thé, s'il vous plaît.",
+              "en": "A tea, please."
+            },
+            {
+              "fr": "Le café, Paul ? Merci !",
+              "en": "The coffee, Paul? Thanks!"
+            },
+            {
+              "fr": "Une pomme et un pain.",
+              "en": "An apple and a loaf of bread."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u04-l1-w1",
+          "fr": "le pain",
+          "en": "bread",
+          "tip": "Un pain is a loaf or a bread roll."
+        },
+        {
+          "id": "u04-l1-w2",
+          "fr": "le fromage",
+          "en": "cheese"
+        },
+        {
+          "id": "u04-l1-w3",
+          "fr": "la pomme",
+          "en": "apple"
+        },
+        {
+          "id": "u04-l1-w4",
+          "fr": "l'eau",
+          "en": "water",
+          "tip": "Feminine, but written l' before a vowel. Say it like 'oh'."
+        },
+        {
+          "id": "u04-l1-w5",
+          "fr": "le lait",
+          "en": "milk"
+        },
+        {
+          "id": "u04-l1-w6",
+          "fr": "le café",
+          "en": "coffee"
+        },
+        {
+          "id": "u04-l1-w7",
+          "fr": "le thé",
+          "en": "tea"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u04-l1-s1",
+          "fr": "Le pain, s'il vous plaît.",
+          "en": "Bread, please.",
+          "note": "u04-l1-n1"
+        },
+        {
+          "id": "u04-l1-s2",
+          "fr": "Le fromage, madame ?",
+          "en": "Cheese, madam?",
+          "note": "u04-l1-n1"
+        },
+        {
+          "id": "u04-l1-s3",
+          "fr": "La pomme, monsieur ?",
+          "en": "Apple, sir?",
+          "note": "u04-l1-n1"
+        },
+        {
+          "id": "u04-l1-s4",
+          "fr": "L'eau, s'il te plaît.",
+          "en": "Water, please. (to a friend)",
+          "note": "u04-l1-n1"
+        },
+        {
+          "id": "u04-l1-s5",
+          "fr": "Un thé, s'il vous plaît.",
+          "en": "A tea, please.",
+          "note": "u04-l1-n2"
+        },
+        {
+          "id": "u04-l1-s6",
+          "fr": "C'est le lait ?",
+          "en": "Is it the milk?",
+          "note": "u04-l1-n2"
+        },
+        {
+          "id": "u04-l1-s7",
+          "fr": "Le café, Paul ? Merci !",
+          "en": "The coffee, Paul? Thanks!",
+          "note": "u04-l1-n2"
+        },
+        {
+          "id": "u04-l1-s8",
+          "fr": "Une pomme et un pain.",
+          "en": "An apple and a loaf of bread.",
+          "note": "u04-l1-n2"
+        },
+        {
+          "id": "u04-l1-s9",
+          "fr": "Voilà le café, madame.",
+          "en": "Here is the coffee, madam.",
+          "note": "u04-l1-n2"
+        },
+        {
+          "id": "u04-l1-s10",
+          "fr": "Le lait, pas l'eau.",
+          "en": "The milk, not the water.",
+          "note": "u04-l1-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u04-l1-g1",
+          "prompt": "___ pain, s'il vous plaît.",
+          "en": "Bread, please.",
+          "answer": "Le",
+          "options": [
+            "Le",
+            "La"
+          ],
+          "why": "u04-l1-n1"
+        },
+        {
+          "id": "u04-l1-g2",
+          "prompt": "___ pomme, monsieur ?",
+          "en": "The apple, sir?",
+          "answer": "La",
+          "options": [
+            "La",
+            "Le"
+          ],
+          "why": "u04-l1-n1"
+        },
+        {
+          "id": "u04-l1-g3",
+          "prompt": "___, s'il te plaît.",
+          "en": "Water, please. (to a friend)",
+          "answer": "L'eau",
+          "options": [
+            "L'eau",
+            "La eau"
+          ],
+          "why": "u04-l1-n1"
+        },
+        {
+          "id": "u04-l1-g4",
+          "prompt": "C'est ___ thé ?",
+          "en": "Is it the tea?",
+          "answer": "le",
+          "options": [
+            "le",
+            "la"
+          ],
+          "why": "u04-l1-n1"
+        },
+        {
+          "id": "u04-l1-g5",
+          "prompt": "Voilà ___ pomme, madame.",
+          "en": "Here is the apple, madam.",
+          "answer": "la",
+          "options": [
+            "la",
+            "le"
+          ],
+          "why": "u04-l1-n1"
+        }
+      ]
+    },
+    {
+      "id": "u04-l2",
+      "title": "Eat and drink",
+      "goal": "Say what you eat and drink, with manger and boire.",
+      "notes": [
+        {
+          "id": "u04-l2-n1",
+          "title": "Manger and boire",
+          "body": "**Manger** (to eat) is a regular verb: *je mange*, *tu manges*, *il mange*. **Boire** (to drink) is irregular, so learn it as it is: *je bois*, *tu bois*, *il boit*. Use the subject words you already know: *je*, *tu*, *il*, *elle*.",
+          "examples": [
+            {
+              "fr": "Je mange une pomme.",
+              "en": "I eat an apple."
+            },
+            {
+              "fr": "Tu manges le pain ?",
+              "en": "Are you eating the bread?"
+            },
+            {
+              "fr": "Il boit un café.",
+              "en": "He drinks a coffee."
+            }
+          ]
+        },
+        {
+          "id": "u04-l2-n2",
+          "title": "The food comes after the verb",
+          "body": "The food or drink comes **after** the verb, with its article: *je mange **un** croissant*. In a question, you can raise your voice at the end instead of changing the order: *Tu bois un café ?*",
+          "examples": [
+            {
+              "fr": "Je bois un jus d'orange.",
+              "en": "I drink an orange juice."
+            },
+            {
+              "fr": "Elle mange un croissant.",
+              "en": "She eats a croissant."
+            },
+            {
+              "fr": "Tu bois un café, Paul ?",
+              "en": "Are you drinking a coffee, Paul?"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u04-l2-w1",
+          "fr": "manger",
+          "en": "to eat"
+        },
+        {
+          "id": "u04-l2-w2",
+          "fr": "boire",
+          "en": "to drink",
+          "tip": "Irregular: je bois, il boit."
+        },
+        {
+          "id": "u04-l2-w3",
+          "fr": "je mange",
+          "en": "I eat"
+        },
+        {
+          "id": "u04-l2-w4",
+          "fr": "je bois",
+          "en": "I drink"
+        },
+        {
+          "id": "u04-l2-w5",
+          "fr": "un croissant",
+          "en": "a croissant"
+        },
+        {
+          "id": "u04-l2-w6",
+          "fr": "un jus d'orange",
+          "en": "an orange juice"
+        },
+        {
+          "id": "u04-l2-w7",
+          "fr": "le vin",
+          "en": "wine"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u04-l2-s1",
+          "fr": "Je mange une pomme.",
+          "en": "I eat an apple.",
+          "note": "u04-l2-n1"
+        },
+        {
+          "id": "u04-l2-s2",
+          "fr": "Tu manges le pain ?",
+          "en": "Are you eating the bread?",
+          "note": "u04-l2-n1"
+        },
+        {
+          "id": "u04-l2-s3",
+          "fr": "Il boit un café.",
+          "en": "He drinks a coffee.",
+          "note": "u04-l2-n1"
+        },
+        {
+          "id": "u04-l2-s4",
+          "fr": "Je bois un jus d'orange.",
+          "en": "I drink an orange juice.",
+          "note": "u04-l2-n2"
+        },
+        {
+          "id": "u04-l2-s5",
+          "fr": "Tu bois un café, Paul ?",
+          "en": "Are you drinking a coffee, Paul?",
+          "note": "u04-l2-n2"
+        },
+        {
+          "id": "u04-l2-s6",
+          "fr": "Elle mange un croissant.",
+          "en": "She eats a croissant.",
+          "note": "u04-l2-n2"
+        },
+        {
+          "id": "u04-l2-s7",
+          "fr": "Il boit le lait, madame ?",
+          "en": "Is he drinking the milk, madam?",
+          "note": "u04-l2-n1"
+        },
+        {
+          "id": "u04-l2-s8",
+          "fr": "Je ne mange pas le pain.",
+          "en": "I don't eat the bread.",
+          "note": "u04-l2-n1"
+        },
+        {
+          "id": "u04-l2-s9",
+          "fr": "Tu manges, Marc ?",
+          "en": "Are you eating, Marc?",
+          "note": "u04-l2-n1"
+        },
+        {
+          "id": "u04-l2-s10",
+          "fr": "Je bois, tu manges.",
+          "en": "I drink, you eat.",
+          "note": "u04-l2-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u04-l2-g1",
+          "prompt": "Je ___ une pomme.",
+          "en": "I eat an apple.",
+          "answer": "mange",
+          "options": [
+            "mange",
+            "manges"
+          ],
+          "why": "u04-l2-n1"
+        },
+        {
+          "id": "u04-l2-g2",
+          "prompt": "Tu ___ le pain ?",
+          "en": "Are you eating the bread?",
+          "answer": "manges",
+          "options": [
+            "manges",
+            "mange"
+          ],
+          "why": "u04-l2-n1"
+        },
+        {
+          "id": "u04-l2-g3",
+          "prompt": "Il ___ un café.",
+          "en": "He drinks a coffee.",
+          "answer": "boit",
+          "options": [
+            "boit",
+            "bois"
+          ],
+          "why": "u04-l2-n1"
+        },
+        {
+          "id": "u04-l2-g4",
+          "prompt": "Je ___ un jus d'orange.",
+          "en": "I drink an orange juice.",
+          "answer": "bois",
+          "options": [
+            "bois",
+            "boit"
+          ],
+          "why": "u04-l2-n1"
+        },
+        {
+          "id": "u04-l2-g5",
+          "prompt": "Elle ___ un croissant.",
+          "en": "She eats a croissant.",
+          "answer": "mange",
+          "options": [
+            "mange",
+            "mangent"
+          ],
+          "why": "u04-l2-n1"
+        }
+      ]
+    },
+    {
+      "id": "u04-l3",
+      "title": "Some food",
+      "goal": "Say you eat or drink some food, and say you don't eat any.",
+      "notes": [
+        {
+          "id": "u04-l3-n1",
+          "title": "Du, de la, de l' and des",
+          "body": "These mean *some*, for food you do not count. Use **du** before a masculine noun, **de la** before a feminine noun, and **de l'** before a vowel sound. For more than one thing, use **des**, as you learnt in Unit 3.",
+          "examples": [
+            {
+              "fr": "Du pain, s'il vous plaît.",
+              "en": "Some bread, please."
+            },
+            {
+              "fr": "De la viande, madame ?",
+              "en": "Some meat, madam?"
+            },
+            {
+              "fr": "De l'eau, s'il te plaît.",
+              "en": "Some water, please. (to a friend)"
+            }
+          ]
+        },
+        {
+          "id": "u04-l3-n2",
+          "title": "Pas de: not any",
+          "body": "After **ne … pas**, *du*, *de la*, *de l'* and *des* all become just **de**. It means *not any*: *je ne mange pas **de** viande* is *I don't eat any meat*. Use this for food you do not eat or drink.",
+          "examples": [
+            {
+              "fr": "Je ne mange pas de viande.",
+              "en": "I don't eat any meat."
+            },
+            {
+              "fr": "Tu ne bois pas de vin ?",
+              "en": "Don't you drink any wine?"
+            },
+            {
+              "fr": "Je ne bois pas de lait, merci.",
+              "en": "I don't drink any milk, thanks."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u04-l3-w1",
+          "fr": "du",
+          "en": "some (masculine)",
+          "tip": "Before a masculine noun: du pain."
+        },
+        {
+          "id": "u04-l3-w2",
+          "fr": "de la",
+          "en": "some (feminine)",
+          "tip": "Before a feminine noun: de la viande."
+        },
+        {
+          "id": "u04-l3-w3",
+          "fr": "de l'",
+          "en": "some (before a vowel)",
+          "tip": "Before a vowel sound: de l'eau."
+        },
+        {
+          "id": "u04-l3-w4",
+          "fr": "la viande",
+          "en": "meat"
+        },
+        {
+          "id": "u04-l3-w5",
+          "fr": "le poisson",
+          "en": "fish"
+        },
+        {
+          "id": "u04-l3-w6",
+          "fr": "les légumes",
+          "en": "vegetables"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u04-l3-s1",
+          "fr": "Du pain, s'il vous plaît.",
+          "en": "Some bread, please.",
+          "note": "u04-l3-n1"
+        },
+        {
+          "id": "u04-l3-s2",
+          "fr": "De la viande, madame ?",
+          "en": "Some meat, madam?",
+          "note": "u04-l3-n1"
+        },
+        {
+          "id": "u04-l3-s3",
+          "fr": "De l'eau, s'il te plaît.",
+          "en": "Some water, please. (to a friend)",
+          "note": "u04-l3-n1"
+        },
+        {
+          "id": "u04-l3-s4",
+          "fr": "Des légumes, monsieur ?",
+          "en": "Some vegetables, sir?",
+          "note": "u04-l3-n1"
+        },
+        {
+          "id": "u04-l3-s5",
+          "fr": "Du poisson et de la viande.",
+          "en": "Some fish and some meat.",
+          "note": "u04-l3-n1"
+        },
+        {
+          "id": "u04-l3-s6",
+          "fr": "Je mange du poisson.",
+          "en": "I eat some fish.",
+          "note": "u04-l3-n1"
+        },
+        {
+          "id": "u04-l3-s7",
+          "fr": "Je ne mange pas de viande.",
+          "en": "I don't eat any meat.",
+          "note": "u04-l3-n2"
+        },
+        {
+          "id": "u04-l3-s8",
+          "fr": "Tu ne bois pas de vin ?",
+          "en": "Don't you drink any wine?",
+          "note": "u04-l3-n2"
+        },
+        {
+          "id": "u04-l3-s9",
+          "fr": "Je ne bois pas de lait, merci.",
+          "en": "I don't drink any milk, thanks.",
+          "note": "u04-l3-n2"
+        },
+        {
+          "id": "u04-l3-s10",
+          "fr": "Il mange des légumes.",
+          "en": "He eats vegetables.",
+          "note": "u04-l3-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u04-l3-g1",
+          "prompt": "___ viande, madame ?",
+          "en": "Some meat, madam?",
+          "answer": "De la",
+          "options": [
+            "De la",
+            "Du"
+          ],
+          "why": "u04-l3-n1"
+        },
+        {
+          "id": "u04-l3-g2",
+          "prompt": "___ poisson, s'il te plaît.",
+          "en": "Some fish, please. (to a friend)",
+          "answer": "Du",
+          "options": [
+            "Du",
+            "De la"
+          ],
+          "why": "u04-l3-n1"
+        },
+        {
+          "id": "u04-l3-g3",
+          "prompt": "Je bois ___.",
+          "en": "I drink some water.",
+          "answer": "de l'eau",
+          "options": [
+            "de l'eau",
+            "de la eau"
+          ],
+          "why": "u04-l3-n1"
+        },
+        {
+          "id": "u04-l3-g4",
+          "prompt": "Je ne mange pas ___ viande.",
+          "en": "I don't eat any meat.",
+          "answer": "de",
+          "options": [
+            "de",
+            "du"
+          ],
+          "why": "u04-l3-n2"
+        },
+        {
+          "id": "u04-l3-g5",
+          "prompt": "Il mange ___ légumes.",
+          "en": "He eats vegetables.",
+          "answer": "des",
+          "options": [
+            "des",
+            "du"
+          ],
+          "why": "u04-l3-n1"
+        }
+      ]
+    },
+    {
+      "id": "u04-l4",
+      "title": "At the café",
+      "goal": "Order a drink politely and ask for the bill.",
+      "notes": [
+        {
+          "id": "u04-l4-n1",
+          "title": "Je voudrais",
+          "body": "**Je voudrais** means *I would like*. It is the polite way to order, and it works with anyone. Say it, then the thing you want, with its article: *je voudrais **un** thé*. Add *s'il vous plaît* at the end.",
+          "examples": [
+            {
+              "fr": "Je voudrais un thé, s'il vous plaît.",
+              "en": "I would like a tea, please."
+            },
+            {
+              "fr": "Je voudrais une tasse de café.",
+              "en": "I would like a cup of coffee."
+            },
+            {
+              "fr": "Je voudrais un verre d'eau, madame.",
+              "en": "I would like a glass of water, madam."
+            }
+          ]
+        },
+        {
+          "id": "u04-l4-n2",
+          "title": "Voici and the bill",
+          "body": "**Voici** means *here is* or *here are*. Say it when you put something down in front of someone. **L'addition** is the bill. Ask for it with *L'addition, s'il vous plaît*.",
+          "examples": [
+            {
+              "fr": "Voici un thé, madame.",
+              "en": "Here is a tea, madam."
+            },
+            {
+              "fr": "Voici l'addition, monsieur.",
+              "en": "Here is the bill, sir."
+            },
+            {
+              "fr": "L'addition, s'il vous plaît !",
+              "en": "The bill, please!"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u04-l4-w1",
+          "fr": "je voudrais",
+          "en": "I would like",
+          "tip": "Polite. Say it before the thing you want."
+        },
+        {
+          "id": "u04-l4-w2",
+          "fr": "un verre",
+          "en": "a glass"
+        },
+        {
+          "id": "u04-l4-w3",
+          "fr": "une tasse",
+          "en": "a cup"
+        },
+        {
+          "id": "u04-l4-w4",
+          "fr": "l'addition",
+          "en": "the bill",
+          "tip": "The bill in a café or restaurant."
+        },
+        {
+          "id": "u04-l4-w5",
+          "fr": "voici",
+          "en": "here is / here are",
+          "tip": "Use it when you put something in front of someone."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u04-l4-s1",
+          "fr": "Je voudrais un thé, s'il vous plaît.",
+          "en": "I would like a tea, please.",
+          "note": "u04-l4-n1"
+        },
+        {
+          "id": "u04-l4-s2",
+          "fr": "Je voudrais une tasse de café.",
+          "en": "I would like a cup of coffee.",
+          "note": "u04-l4-n1"
+        },
+        {
+          "id": "u04-l4-s3",
+          "fr": "Je voudrais un verre d'eau.",
+          "en": "I would like a glass of water.",
+          "note": "u04-l4-n1"
+        },
+        {
+          "id": "u04-l4-s4",
+          "fr": "L'addition, s'il vous plaît !",
+          "en": "The bill, please!",
+          "note": "u04-l4-n2"
+        },
+        {
+          "id": "u04-l4-s5",
+          "fr": "Voici l'addition, monsieur.",
+          "en": "Here is the bill, sir.",
+          "note": "u04-l4-n2"
+        },
+        {
+          "id": "u04-l4-s6",
+          "fr": "Voici un café, madame.",
+          "en": "Here is a coffee, madam.",
+          "note": "u04-l4-n2"
+        },
+        {
+          "id": "u04-l4-s7",
+          "fr": "Un verre de vin, merci.",
+          "en": "A glass of wine, thanks."
+        },
+        {
+          "id": "u04-l4-s8",
+          "fr": "Je voudrais un jus d'orange.",
+          "en": "I would like an orange juice.",
+          "note": "u04-l4-n1"
+        },
+        {
+          "id": "u04-l4-s9",
+          "fr": "Voici le thé, Paul.",
+          "en": "Here is the tea, Paul.",
+          "note": "u04-l4-n2"
+        },
+        {
+          "id": "u04-l4-s10",
+          "fr": "Merci, madame. Au revoir !",
+          "en": "Thank you, madam. Goodbye!"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u04-l4-g1",
+          "prompt": "___ un verre d'eau, s'il vous plaît.",
+          "en": "I would like a glass of water, please.",
+          "answer": "Je voudrais",
+          "options": [
+            "Je voudrais",
+            "Je suis"
+          ],
+          "why": "u04-l4-n1"
+        },
+        {
+          "id": "u04-l4-g2",
+          "prompt": "___ un thé, madame.",
+          "en": "Here is a tea, madam.",
+          "answer": "Voici",
+          "options": [
+            "Voici",
+            "Merci"
+          ],
+          "why": "u04-l4-n2"
+        },
+        {
+          "id": "u04-l4-g3",
+          "prompt": "Je voudrais ___ verre d'eau.",
+          "en": "I would like a glass of water.",
+          "answer": "un",
+          "options": [
+            "un",
+            "une"
+          ],
+          "why": "u04-l4-n1"
+        },
+        {
+          "id": "u04-l4-g4",
+          "prompt": "Je voudrais ___ tasse de thé.",
+          "en": "I would like a cup of tea.",
+          "answer": "une",
+          "options": [
+            "une",
+            "un"
+          ],
+          "why": "u04-l4-n1"
+        },
+        {
+          "id": "u04-l4-g5",
+          "prompt": "Voici ___, monsieur.",
+          "en": "Here is the bill, sir.",
+          "answer": "l'addition",
+          "options": [
+            "l'addition",
+            "la addition"
+          ],
+          "why": "u04-l4-n2"
+        }
+      ]
+    }
+  ]
+}

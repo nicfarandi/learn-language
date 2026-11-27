@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 import { type ErrorBoundaryProps, Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
+import { NavigationBar } from 'expo-navigation-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { initDb } from '../src/db/client';
@@ -46,7 +47,9 @@ export default function RootLayout() {
   return (
     <GestureHandlerRootView style={styles.fill}>
       <SafeAreaProvider>
-        <StatusBar style="auto" />
+        {/* Full screen by default: both system bars hidden; a swipe from the edge shows them briefly. */}
+        <StatusBar style="auto" hidden />
+        <NavigationBar hidden />
         {body}
       </SafeAreaProvider>
     </GestureHandlerRootView>

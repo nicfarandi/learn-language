@@ -1,0 +1,790 @@
+{
+  "id": "u11",
+  "number": 11,
+  "title": "Weather and free time",
+  "summary": "Talk about what you do at home, the weather, and the sports and instruments you play. Use faire and jouer, and say how often you do things.",
+  "canDo": [
+    "Say what I do at home with faire: faire les courses, faire la cuisine, faire le ménage.",
+    "Describe the weather with il fait, il pleut and il neige.",
+    "Say which sports and instruments I play, with au, du and de la.",
+    "Say how often I do something: toujours, souvent, parfois, rarement, jamais."
+  ],
+  "lessons": [
+    {
+      "id": "u11-l1",
+      "title": "To do and make",
+      "goal": "Say what you do at home with faire, using the right article for each activity.",
+      "notes": [
+        {
+          "id": "u11-l1-n1",
+          "title": "Faire: to do, to make",
+          "body": "**faire** is irregular. Its stem changes: **je fais**, **tu fais**, **il / elle fait**, **nous faisons**, **vous faites**, **ils / elles font**. Learn the forms by heart, they are used all the time.",
+          "examples": [
+            {
+              "fr": "Je fais les courses.",
+              "en": "I do the shopping."
+            },
+            {
+              "fr": "Ils font un gâteau.",
+              "en": "They are baking a cake."
+            },
+            {
+              "fr": "Vous faites la cuisine, madame ?",
+              "en": "Do you cook, madam?"
+            }
+          ]
+        },
+        {
+          "id": "u11-l1-n2",
+          "title": "Faire and the activity",
+          "body": "After **faire**, the activity has its own article: **les courses**, **la cuisine**, **le ménage**. For one thing you make, use **un** or **une**: *un gâteau*. Learn each phrase as a whole, because the article follows the activity, not the verb.",
+          "examples": [
+            {
+              "fr": "Elle fait le ménage.",
+              "en": "She does the housework."
+            },
+            {
+              "fr": "Je fais un gâteau, Paul.",
+              "en": "I'm baking a cake, Paul."
+            },
+            {
+              "fr": "Nous faisons la cuisine ce soir.",
+              "en": "We are cooking tonight."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u11-l1-w1",
+          "fr": "faire",
+          "en": "to do / to make",
+          "tip": "Irregular: je fais, il fait, ils font."
+        },
+        {
+          "id": "u11-l1-w2",
+          "fr": "faire les courses",
+          "en": "to go shopping",
+          "tip": "Les courses means the shopping."
+        },
+        {
+          "id": "u11-l1-w3",
+          "fr": "faire la cuisine",
+          "en": "to cook"
+        },
+        {
+          "id": "u11-l1-w4",
+          "fr": "faire le ménage",
+          "en": "to do the housework"
+        },
+        {
+          "id": "u11-l1-w5",
+          "fr": "faire un gâteau",
+          "en": "to bake a cake"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u11-l1-s1",
+          "fr": "Je fais les courses.",
+          "en": "I do the shopping.",
+          "note": "u11-l1-n1"
+        },
+        {
+          "id": "u11-l1-s2",
+          "fr": "Tu fais la cuisine ?",
+          "en": "Do you cook?",
+          "note": "u11-l1-n1"
+        },
+        {
+          "id": "u11-l1-s3",
+          "fr": "Nous faisons le ménage.",
+          "en": "We do the housework.",
+          "note": "u11-l1-n1"
+        },
+        {
+          "id": "u11-l1-s4",
+          "fr": "Il fait un gâteau.",
+          "en": "He is baking a cake.",
+          "note": "u11-l1-n2"
+        },
+        {
+          "id": "u11-l1-s5",
+          "fr": "Vous faites les courses, monsieur ?",
+          "en": "Are you doing the shopping, sir?",
+          "note": "u11-l1-n1"
+        },
+        {
+          "id": "u11-l1-s6",
+          "fr": "Ils font la cuisine ce soir.",
+          "en": "They are cooking tonight.",
+          "note": "u11-l1-n1"
+        },
+        {
+          "id": "u11-l1-s7",
+          "fr": "Je fais un gâteau, Paul.",
+          "en": "I'm baking a cake, Paul.",
+          "note": "u11-l1-n2"
+        },
+        {
+          "id": "u11-l1-s8",
+          "fr": "Elle fait le ménage.",
+          "en": "She does the housework.",
+          "note": "u11-l1-n2"
+        },
+        {
+          "id": "u11-l1-s9",
+          "fr": "Je fais les courses et le ménage.",
+          "en": "I do the shopping and the housework.",
+          "note": "u11-l1-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u11-l1-g1",
+          "prompt": "Je ___ les courses.",
+          "en": "I do the shopping.",
+          "answer": "fais",
+          "options": [
+            "fais",
+            "fait"
+          ],
+          "why": "u11-l1-n1"
+        },
+        {
+          "id": "u11-l1-g2",
+          "prompt": "Vous ___ le ménage, monsieur ?",
+          "en": "Do you do the housework, sir?",
+          "answer": "faites",
+          "options": [
+            "faites",
+            "faisez"
+          ],
+          "why": "u11-l1-n1"
+        },
+        {
+          "id": "u11-l1-g3",
+          "prompt": "Ils ___ un gâteau.",
+          "en": "They are baking a cake.",
+          "answer": "font",
+          "options": [
+            "font",
+            "faisent"
+          ],
+          "why": "u11-l1-n1"
+        },
+        {
+          "id": "u11-l1-g4",
+          "prompt": "Nous ___ la cuisine.",
+          "en": "We cook.",
+          "answer": "faisons",
+          "options": [
+            "faisons",
+            "faisont"
+          ],
+          "why": "u11-l1-n1"
+        },
+        {
+          "id": "u11-l1-g5",
+          "prompt": "Je fais ___ courses.",
+          "en": "I do the shopping.",
+          "answer": "les",
+          "options": [
+            "les",
+            "le"
+          ],
+          "why": "u11-l1-n2"
+        },
+        {
+          "id": "u11-l1-g6",
+          "prompt": "Elle fait ___ ménage.",
+          "en": "She does the housework.",
+          "answer": "le",
+          "options": [
+            "le",
+            "la"
+          ],
+          "why": "u11-l1-n2"
+        }
+      ]
+    },
+    {
+      "id": "u11-l2",
+      "title": "Weather",
+      "goal": "Describe the weather today, including rain and snow.",
+      "notes": [
+        {
+          "id": "u11-l2-n1",
+          "title": "Il fait: the weather is",
+          "body": "For the weather in general, use **il fait** (*it makes*) with an adjective: **beau** (nice), **chaud** (hot) or **froid** (cold). The adjective stays masculine here, because *il* is not a person. Use **ne … pas** around *fait* to say it is not.",
+          "examples": [
+            {
+              "fr": "Il fait beau aujourd'hui.",
+              "en": "The weather is nice today."
+            },
+            {
+              "fr": "Il fait froid, monsieur.",
+              "en": "It's cold, sir."
+            },
+            {
+              "fr": "Il ne fait pas chaud.",
+              "en": "It isn't hot."
+            }
+          ]
+        },
+        {
+          "id": "u11-l2-n2",
+          "title": "Rain and snow",
+          "body": "For rain and snow, do not use *faire*. Say **il pleut** (it is raining) and **il neige** (it is snowing) on their own, with nothing after them.",
+          "examples": [
+            {
+              "fr": "Il pleut, Paul.",
+              "en": "It's raining, Paul."
+            },
+            {
+              "fr": "Aujourd'hui, il neige.",
+              "en": "Today, it's snowing."
+            },
+            {
+              "fr": "Il fait chaud et il pleut.",
+              "en": "It's hot and it's raining."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u11-l2-w1",
+          "fr": "il fait",
+          "en": "it is (the weather)",
+          "tip": "Used with an adjective: il fait beau."
+        },
+        {
+          "id": "u11-l2-w2",
+          "fr": "beau",
+          "en": "nice (weather)",
+          "tip": "Il fait beau: the weather is nice."
+        },
+        {
+          "id": "u11-l2-w3",
+          "fr": "chaud",
+          "en": "hot / warm",
+          "tip": "Il fait chaud: it is hot."
+        },
+        {
+          "id": "u11-l2-w4",
+          "fr": "froid",
+          "en": "cold",
+          "tip": "Il fait froid: it is cold."
+        },
+        {
+          "id": "u11-l2-w5",
+          "fr": "il pleut",
+          "en": "it's raining",
+          "tip": "No faire here."
+        },
+        {
+          "id": "u11-l2-w6",
+          "fr": "il neige",
+          "en": "it's snowing",
+          "tip": "No faire here."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u11-l2-s1",
+          "fr": "Il fait beau aujourd'hui.",
+          "en": "The weather is nice today.",
+          "note": "u11-l2-n1"
+        },
+        {
+          "id": "u11-l2-s2",
+          "fr": "Il fait chaud, madame !",
+          "en": "It's hot, madam!",
+          "note": "u11-l2-n1"
+        },
+        {
+          "id": "u11-l2-s3",
+          "fr": "Il fait froid, monsieur.",
+          "en": "It's cold, sir.",
+          "note": "u11-l2-n1"
+        },
+        {
+          "id": "u11-l2-s4",
+          "fr": "Il pleut.",
+          "en": "It's raining.",
+          "note": "u11-l2-n2"
+        },
+        {
+          "id": "u11-l2-s5",
+          "fr": "Il neige, Paul !",
+          "en": "It's snowing, Paul!",
+          "note": "u11-l2-n2"
+        },
+        {
+          "id": "u11-l2-s6",
+          "fr": "Il fait chaud et il pleut.",
+          "en": "It's hot and it's raining.",
+          "note": "u11-l2-n2"
+        },
+        {
+          "id": "u11-l2-s7",
+          "fr": "Aujourd'hui, il neige.",
+          "en": "Today, it's snowing.",
+          "note": "u11-l2-n2"
+        },
+        {
+          "id": "u11-l2-s8",
+          "fr": "Il ne fait pas chaud.",
+          "en": "It isn't hot.",
+          "note": "u11-l2-n1"
+        },
+        {
+          "id": "u11-l2-s9",
+          "fr": "Il fait froid ce soir.",
+          "en": "It's cold tonight.",
+          "note": "u11-l2-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u11-l2-g1",
+          "prompt": "___ beau aujourd'hui.",
+          "en": "The weather is nice today.",
+          "answer": "Il fait",
+          "options": [
+            "Il fait",
+            "Il est"
+          ],
+          "why": "u11-l2-n1"
+        },
+        {
+          "id": "u11-l2-g2",
+          "prompt": "Il ne ___ pas chaud.",
+          "en": "It isn't hot.",
+          "answer": "fait",
+          "options": [
+            "fait",
+            "est"
+          ],
+          "why": "u11-l2-n1"
+        },
+        {
+          "id": "u11-l2-g3",
+          "prompt": "Il ___ aujourd'hui.",
+          "en": "It's raining today.",
+          "answer": "pleut",
+          "options": [
+            "pleut",
+            "fait"
+          ],
+          "why": "u11-l2-n2"
+        },
+        {
+          "id": "u11-l2-g4",
+          "prompt": "Aujourd'hui, il ___.",
+          "en": "Today, it's snowing.",
+          "answer": "neige",
+          "options": [
+            "neige",
+            "pleut"
+          ],
+          "why": "u11-l2-n2"
+        },
+        {
+          "id": "u11-l2-g5",
+          "prompt": "Il fait ___, monsieur.",
+          "en": "It's hot, sir.",
+          "answer": "chaud",
+          "options": [
+            "chaud",
+            "chaude"
+          ],
+          "why": "u11-l2-n1"
+        }
+      ]
+    },
+    {
+      "id": "u11-l3",
+      "title": "Hobbies",
+      "goal": "Say which sports and instruments you play, and what you like reading.",
+      "notes": [
+        {
+          "id": "u11-l3-n1",
+          "title": "Jouer à: sports and games",
+          "body": "Use **jouer à** for a sport or a game. **à + le** becomes **au**: *jouer au foot*, *jouer au tennis*. Conjugate **jouer** like *parler*: **je joue**, **tu joues**, **il joue**, **nous jouons**, **vous jouez**, **ils jouent**.",
+          "examples": [
+            {
+              "fr": "Je joue au foot.",
+              "en": "I play football."
+            },
+            {
+              "fr": "Tu joues au tennis, Paul ?",
+              "en": "Do you play tennis, Paul?"
+            },
+            {
+              "fr": "Nous jouons au tennis.",
+              "en": "We play tennis."
+            }
+          ]
+        },
+        {
+          "id": "u11-l3-n2",
+          "title": "Jouer de: instruments",
+          "body": "For an instrument, use **jouer de**. **de + la** stays **de la**: *jouer de la guitare*. **de + le** becomes **du**: *jouer du piano*. It is the same article rule as *du* and *de la*.",
+          "examples": [
+            {
+              "fr": "Il joue de la guitare.",
+              "en": "He plays the guitar."
+            },
+            {
+              "fr": "Elle joue du piano, Léa ?",
+              "en": "Does she play the piano, Léa?"
+            },
+            {
+              "fr": "Je joue de la guitare, et vous ?",
+              "en": "I play the guitar, and you?"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u11-l3-w1",
+          "fr": "jouer",
+          "en": "to play",
+          "tip": "Like parler: je joue, il joue, ils jouent."
+        },
+        {
+          "id": "u11-l3-w2",
+          "fr": "le foot",
+          "en": "football (soccer)"
+        },
+        {
+          "id": "u11-l3-w3",
+          "fr": "le tennis",
+          "en": "tennis"
+        },
+        {
+          "id": "u11-l3-w4",
+          "fr": "la guitare",
+          "en": "the guitar"
+        },
+        {
+          "id": "u11-l3-w5",
+          "fr": "le piano",
+          "en": "the piano"
+        },
+        {
+          "id": "u11-l3-w6",
+          "fr": "lire",
+          "en": "to read",
+          "tip": "Used after aimer: j'aime lire."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u11-l3-s1",
+          "fr": "Je joue au foot.",
+          "en": "I play football.",
+          "note": "u11-l3-n1"
+        },
+        {
+          "id": "u11-l3-s2",
+          "fr": "Tu joues au tennis, Paul ?",
+          "en": "Do you play tennis, Paul?",
+          "note": "u11-l3-n1"
+        },
+        {
+          "id": "u11-l3-s3",
+          "fr": "Il joue de la guitare.",
+          "en": "He plays the guitar.",
+          "note": "u11-l3-n2"
+        },
+        {
+          "id": "u11-l3-s4",
+          "fr": "Elle joue du piano, Léa ?",
+          "en": "Does she play the piano, Léa?",
+          "note": "u11-l3-n2"
+        },
+        {
+          "id": "u11-l3-s5",
+          "fr": "J'aime lire.",
+          "en": "I like reading."
+        },
+        {
+          "id": "u11-l3-s6",
+          "fr": "Nous jouons au tennis.",
+          "en": "We play tennis.",
+          "note": "u11-l3-n1"
+        },
+        {
+          "id": "u11-l3-s7",
+          "fr": "Ils jouent au foot ce soir.",
+          "en": "They're playing football tonight.",
+          "note": "u11-l3-n1"
+        },
+        {
+          "id": "u11-l3-s8",
+          "fr": "Je joue de la guitare, et vous ?",
+          "en": "I play the guitar, and you?",
+          "note": "u11-l3-n2"
+        },
+        {
+          "id": "u11-l3-s9",
+          "fr": "Tu lis un livre ?",
+          "en": "Are you reading a book?"
+        },
+        {
+          "id": "u11-l3-s10",
+          "fr": "Il joue du piano, Marc.",
+          "en": "He plays the piano, Marc.",
+          "note": "u11-l3-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u11-l3-g1",
+          "prompt": "Je joue ___ foot.",
+          "en": "I play football.",
+          "answer": "au",
+          "options": [
+            "au",
+            "à la"
+          ],
+          "why": "u11-l3-n1"
+        },
+        {
+          "id": "u11-l3-g2",
+          "prompt": "Il joue ___ guitare.",
+          "en": "He plays the guitar.",
+          "answer": "de la",
+          "options": [
+            "de la",
+            "à la"
+          ],
+          "why": "u11-l3-n2"
+        },
+        {
+          "id": "u11-l3-g3",
+          "prompt": "Tu joues ___ piano, Marc ?",
+          "en": "Do you play the piano, Marc?",
+          "answer": "du",
+          "options": [
+            "du",
+            "de la"
+          ],
+          "why": "u11-l3-n2"
+        },
+        {
+          "id": "u11-l3-g4",
+          "prompt": "Tu ___ au tennis ?",
+          "en": "Do you play tennis?",
+          "answer": "joues",
+          "options": [
+            "joues",
+            "joue"
+          ],
+          "why": "u11-l3-n1"
+        },
+        {
+          "id": "u11-l3-g5",
+          "prompt": "Nous ___ au foot.",
+          "en": "We play football.",
+          "answer": "jouons",
+          "options": [
+            "jouons",
+            "jouez"
+          ],
+          "why": "u11-l3-n1"
+        }
+      ]
+    },
+    {
+      "id": "u11-l4",
+      "title": "How often",
+      "goal": "Say how often you do something, and say that you never do it.",
+      "notes": [
+        {
+          "id": "u11-l4-n1",
+          "title": "Ne … jamais: never",
+          "body": "**ne … jamais** means *never*. It wraps the verb, like *ne … pas*: *je **ne** joue **jamais***. *Ne* goes before the verb and *jamais* goes after it. Do not add *pas* as well.",
+          "examples": [
+            {
+              "fr": "Il ne fait jamais la cuisine.",
+              "en": "He never cooks."
+            },
+            {
+              "fr": "Nous ne jouons jamais au foot.",
+              "en": "We never play football."
+            },
+            {
+              "fr": "Je ne fais jamais les courses.",
+              "en": "I never do the shopping."
+            }
+          ]
+        },
+        {
+          "id": "u11-l4-n2",
+          "title": "Where the frequency word goes",
+          "body": "Put **toujours**, **souvent**, **parfois** and **rarement** after the verb: *je fais souvent*. You can also start the sentence with them, followed by a comma: *Parfois, il pleut.* **Une fois par semaine** (once a week) goes at the end of the sentence.",
+          "examples": [
+            {
+              "fr": "Je fais toujours le ménage.",
+              "en": "I always do the housework."
+            },
+            {
+              "fr": "Parfois, il pleut.",
+              "en": "Sometimes it rains."
+            },
+            {
+              "fr": "Elle fait du sport une fois par semaine.",
+              "en": "She does sport once a week."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u11-l4-w1",
+          "fr": "toujours",
+          "en": "always"
+        },
+        {
+          "id": "u11-l4-w2",
+          "fr": "souvent",
+          "en": "often"
+        },
+        {
+          "id": "u11-l4-w3",
+          "fr": "parfois",
+          "en": "sometimes"
+        },
+        {
+          "id": "u11-l4-w4",
+          "fr": "rarement",
+          "en": "rarely"
+        },
+        {
+          "id": "u11-l4-w5",
+          "fr": "jamais",
+          "en": "never",
+          "tip": "With ne: ne … jamais."
+        },
+        {
+          "id": "u11-l4-w6",
+          "fr": "une fois par semaine",
+          "en": "once a week"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u11-l4-s1",
+          "fr": "Je fais toujours le ménage.",
+          "en": "I always do the housework.",
+          "note": "u11-l4-n2"
+        },
+        {
+          "id": "u11-l4-s2",
+          "fr": "Tu joues souvent au tennis ?",
+          "en": "Do you often play tennis?",
+          "note": "u11-l4-n2"
+        },
+        {
+          "id": "u11-l4-s3",
+          "fr": "Il ne fait jamais la cuisine.",
+          "en": "He never cooks.",
+          "note": "u11-l4-n1"
+        },
+        {
+          "id": "u11-l4-s4",
+          "fr": "Nous ne jouons jamais au foot.",
+          "en": "We never play football.",
+          "note": "u11-l4-n1"
+        },
+        {
+          "id": "u11-l4-s5",
+          "fr": "Parfois, il pleut.",
+          "en": "Sometimes it rains.",
+          "note": "u11-l4-n2"
+        },
+        {
+          "id": "u11-l4-s6",
+          "fr": "Je lis rarement le soir.",
+          "en": "I rarely read in the evening.",
+          "note": "u11-l4-n2"
+        },
+        {
+          "id": "u11-l4-s7",
+          "fr": "Elle fait du sport une fois par semaine.",
+          "en": "She does sport once a week.",
+          "note": "u11-l4-n2"
+        },
+        {
+          "id": "u11-l4-s8",
+          "fr": "Ils jouent parfois de la guitare.",
+          "en": "They sometimes play the guitar.",
+          "note": "u11-l4-n2"
+        },
+        {
+          "id": "u11-l4-s9",
+          "fr": "Je ne fais jamais les courses.",
+          "en": "I never do the shopping.",
+          "note": "u11-l4-n1"
+        },
+        {
+          "id": "u11-l4-s10",
+          "fr": "Vous faites souvent la cuisine, monsieur ?",
+          "en": "Do you often cook, sir?",
+          "note": "u11-l4-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u11-l4-g1",
+          "prompt": "Il ne fait ___ la cuisine.",
+          "en": "He never cooks.",
+          "answer": "jamais",
+          "options": [
+            "jamais",
+            "souvent"
+          ],
+          "why": "u11-l4-n1"
+        },
+        {
+          "id": "u11-l4-g2",
+          "prompt": "Parfois, il ___.",
+          "en": "Sometimes it rains.",
+          "answer": "pleut",
+          "options": [
+            "pleut",
+            "fait"
+          ],
+          "why": "u11-l4-n2"
+        },
+        {
+          "id": "u11-l4-g3",
+          "prompt": "Je fais du sport ___ par semaine.",
+          "en": "I do sport once a week.",
+          "answer": "une fois",
+          "options": [
+            "une fois",
+            "toujours"
+          ],
+          "why": "u11-l4-n2"
+        },
+        {
+          "id": "u11-l4-g4",
+          "prompt": "Nous ne jouons ___ au tennis.",
+          "en": "We never play tennis.",
+          "answer": "jamais",
+          "options": [
+            "jamais",
+            "toujours"
+          ],
+          "why": "u11-l4-n1"
+        }
+      ]
+    }
+  ]
+}

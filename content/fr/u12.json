@@ -1,0 +1,835 @@
+{
+  "id": "u12",
+  "number": 12,
+  "title": "Putting it together",
+  "summary": "Short real-life scenes that bring Units 1 to 11 together: meeting someone, ordering at a café, finding your way, and a mixed review.",
+  "canDo": [
+    "Introduce myself: give my name, where I live and what I do.",
+    "Order a drink and a snack, ask the price and ask for the bill.",
+    "Ask where a place is, and follow simple directions: left, right, straight on, near or far.",
+    "Hold a short, polite conversation from the greeting to the goodbye."
+  ],
+  "lessons": [
+    {
+      "id": "u12-l1",
+      "title": "Meeting someone",
+      "goal": "Say who you are, where you live and what you do, and ask the same questions back.",
+      "notes": [
+        {
+          "id": "u12-l1-n1",
+          "title": "Where you live and work",
+          "body": "Use **habiter** (to live) and **travailler** (to work) to say where you are. Put **où** (where) at the end of the question: *Vous habitez où ?* For a city, use **à**: *à Paris*.",
+          "examples": [
+            {
+              "fr": "Tu habites où ?",
+              "en": "Where do you live? (to a friend)"
+            },
+            {
+              "fr": "J'habite à Paris.",
+              "en": "I live in Paris."
+            },
+            {
+              "fr": "Vous travaillez où ?",
+              "en": "Where do you work? (polite)"
+            }
+          ]
+        },
+        {
+          "id": "u12-l1-n2",
+          "title": "Who you are",
+          "body": "Use **je suis** (I am) to say who you are, and **vous êtes** (you are) to ask. For a woman, add an **-e** to a nationality: *français*, *française*. Jobs take no article: *je suis étudiant*, not *un étudiant*.",
+          "examples": [
+            {
+              "fr": "Vous êtes français ?",
+              "en": "Are you French? (polite)"
+            },
+            {
+              "fr": "Je suis française.",
+              "en": "I am French. (a woman)"
+            },
+            {
+              "fr": "Je suis anglais.",
+              "en": "I am English. (a man)"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u12-l1-w1",
+          "fr": "vous habitez où ?",
+          "en": "where do you live? (polite)",
+          "tip": "Tu habites où ? is the friendly version."
+        },
+        {
+          "id": "u12-l1-w2",
+          "fr": "j'habite à Paris",
+          "en": "I live in Paris",
+          "tip": "À before a city."
+        },
+        {
+          "id": "u12-l1-w3",
+          "fr": "vous travaillez où ?",
+          "en": "where do you work? (polite)"
+        },
+        {
+          "id": "u12-l1-w4",
+          "fr": "je travaille",
+          "en": "I work"
+        },
+        {
+          "id": "u12-l1-w5",
+          "fr": "je suis étudiant(e)",
+          "en": "I am a student",
+          "tip": "No article after je suis for a job."
+        },
+        {
+          "id": "u12-l1-w6",
+          "fr": "vous êtes français(e) ?",
+          "en": "are you French? (polite)"
+        },
+        {
+          "id": "u12-l1-w7",
+          "fr": "je suis anglais(e)",
+          "en": "I am English"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u12-l1-s1",
+          "fr": "Bonjour, je m'appelle Marc.",
+          "en": "Hello, my name is Marc."
+        },
+        {
+          "id": "u12-l1-s2",
+          "fr": "Enchantée, je m'appelle Léa.",
+          "en": "Nice to meet you, my name is Léa."
+        },
+        {
+          "id": "u12-l1-s3",
+          "fr": "Vous habitez où, Léa ?",
+          "en": "Where do you live, Léa?",
+          "note": "u12-l1-n1"
+        },
+        {
+          "id": "u12-l1-s4",
+          "fr": "J'habite à Paris.",
+          "en": "I live in Paris.",
+          "note": "u12-l1-n1"
+        },
+        {
+          "id": "u12-l1-s5",
+          "fr": "Et vous, vous êtes français ?",
+          "en": "And you, are you French?",
+          "note": "u12-l1-n2"
+        },
+        {
+          "id": "u12-l1-s6",
+          "fr": "Non, je suis anglais.",
+          "en": "No, I am English.",
+          "note": "u12-l1-n2"
+        },
+        {
+          "id": "u12-l1-s7",
+          "fr": "Je suis étudiant. Et vous ?",
+          "en": "I am a student. And you?",
+          "note": "u12-l1-n2"
+        },
+        {
+          "id": "u12-l1-s8",
+          "fr": "Vous travaillez où, Marc ?",
+          "en": "Where do you work, Marc?",
+          "note": "u12-l1-n1"
+        },
+        {
+          "id": "u12-l1-s9",
+          "fr": "Je travaille à Paris, Léa.",
+          "en": "I work in Paris, Léa.",
+          "note": "u12-l1-n1"
+        },
+        {
+          "id": "u12-l1-s10",
+          "fr": "Enchanté, Léa ! Au revoir !",
+          "en": "Nice to meet you, Léa! Goodbye!"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u12-l1-g1",
+          "prompt": "Vous ___ où ?",
+          "en": "Where do you live? (polite)",
+          "answer": "habitez",
+          "options": [
+            "habitez",
+            "habites"
+          ],
+          "why": "u12-l1-n1"
+        },
+        {
+          "id": "u12-l1-g2",
+          "prompt": "Vous ___ français ?",
+          "en": "Are you French? (polite)",
+          "answer": "êtes",
+          "options": [
+            "êtes",
+            "sont"
+          ],
+          "why": "u12-l1-n2"
+        },
+        {
+          "id": "u12-l1-g3",
+          "prompt": "Je ___ étudiant.",
+          "en": "I am a student.",
+          "answer": "suis",
+          "options": [
+            "suis",
+            "es"
+          ],
+          "why": "u12-l1-n2"
+        },
+        {
+          "id": "u12-l1-g4",
+          "prompt": "___ à Paris.",
+          "en": "I live in Paris.",
+          "answer": "J'habite",
+          "options": [
+            "J'habite",
+            "Je habite"
+          ],
+          "why": "u12-l1-n1"
+        },
+        {
+          "id": "u12-l1-g5",
+          "prompt": "Je suis ___.",
+          "en": "I am English. (a man)",
+          "answer": "anglais",
+          "options": [
+            "anglais",
+            "anglaise"
+          ],
+          "why": "u12-l1-n2"
+        },
+        {
+          "id": "u12-l1-g6",
+          "prompt": "Je suis ___.",
+          "en": "I am French. (a woman)",
+          "answer": "française",
+          "options": [
+            "française",
+            "français"
+          ],
+          "why": "u12-l1-n2"
+        }
+      ]
+    },
+    {
+      "id": "u12-l2",
+      "title": "At the café",
+      "goal": "Order a drink and a snack, ask the price, and ask for the bill.",
+      "notes": [
+        {
+          "id": "u12-l2-n1",
+          "title": "Ordering politely",
+          "body": "**Je voudrais** (I would like) is the polite way to order. Follow it with a noun and its article: *un café*, *un thé*. End with **s'il vous plaît** (please). For a short order, you can say just the noun and *s'il vous plaît*.",
+          "examples": [
+            {
+              "fr": "Je voudrais un thé, s'il vous plaît.",
+              "en": "I would like a tea, please."
+            },
+            {
+              "fr": "Un croissant, s'il vous plaît.",
+              "en": "A croissant, please."
+            },
+            {
+              "fr": "Et un croissant, s'il vous plaît.",
+              "en": "And a croissant, please."
+            }
+          ]
+        },
+        {
+          "id": "u12-l2-n2",
+          "title": "The price and the bill",
+          "body": "**Ça coûte combien ?** asks *how much is it?* Answer with a number and **euros**: *deux euros*. Ask for the bill with **l'addition**. When the waiter brings something, they say **voici** (here is) before the noun.",
+          "examples": [
+            {
+              "fr": "Ça coûte combien ? Deux euros.",
+              "en": "How much is it? Two euros."
+            },
+            {
+              "fr": "L'addition, s'il vous plaît.",
+              "en": "The bill, please."
+            },
+            {
+              "fr": "Voici le café, monsieur.",
+              "en": "Here is the coffee, sir."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u12-l2-w1",
+          "fr": "je voudrais un café",
+          "en": "I would like a coffee",
+          "tip": "Polite. Add s'il vous plaît."
+        },
+        {
+          "id": "u12-l2-w2",
+          "fr": "un croissant",
+          "en": "a croissant"
+        },
+        {
+          "id": "u12-l2-w3",
+          "fr": "ça coûte combien ?",
+          "en": "how much is it?"
+        },
+        {
+          "id": "u12-l2-w4",
+          "fr": "deux euros",
+          "en": "two euros",
+          "tip": "Plural: euros. The s is silent."
+        },
+        {
+          "id": "u12-l2-w5",
+          "fr": "l'addition, s'il vous plaît",
+          "en": "the bill, please"
+        },
+        {
+          "id": "u12-l2-w6",
+          "fr": "voici",
+          "en": "here is / here are"
+        },
+        {
+          "id": "u12-l2-w7",
+          "fr": "un thé",
+          "en": "a tea"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u12-l2-s1",
+          "fr": "Bonjour, monsieur !",
+          "en": "Hello, sir!"
+        },
+        {
+          "id": "u12-l2-s2",
+          "fr": "Bonjour. Je voudrais un café, s'il vous plaît.",
+          "en": "Hello. I would like a coffee, please.",
+          "note": "u12-l2-n1"
+        },
+        {
+          "id": "u12-l2-s3",
+          "fr": "Voici le café, monsieur.",
+          "en": "Here is the coffee, sir.",
+          "note": "u12-l2-n2"
+        },
+        {
+          "id": "u12-l2-s4",
+          "fr": "Merci. Ça coûte combien ?",
+          "en": "Thanks. How much is it?",
+          "note": "u12-l2-n2"
+        },
+        {
+          "id": "u12-l2-s5",
+          "fr": "Deux euros, monsieur.",
+          "en": "Two euros, sir.",
+          "note": "u12-l2-n2"
+        },
+        {
+          "id": "u12-l2-s6",
+          "fr": "Et un croissant, s'il vous plaît.",
+          "en": "And a croissant, please.",
+          "note": "u12-l2-n1"
+        },
+        {
+          "id": "u12-l2-s7",
+          "fr": "Voici le croissant, monsieur.",
+          "en": "Here is the croissant, sir.",
+          "note": "u12-l2-n2"
+        },
+        {
+          "id": "u12-l2-s8",
+          "fr": "L'addition, s'il vous plaît.",
+          "en": "The bill, please.",
+          "note": "u12-l2-n2"
+        },
+        {
+          "id": "u12-l2-s9",
+          "fr": "Voici l'addition, monsieur.",
+          "en": "Here is the bill, sir.",
+          "note": "u12-l2-n2"
+        },
+        {
+          "id": "u12-l2-s10",
+          "fr": "Merci. Au revoir, monsieur !",
+          "en": "Thanks. Goodbye, sir!"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u12-l2-g1",
+          "prompt": "___ un café, s'il vous plaît.",
+          "en": "I would like a coffee, please.",
+          "answer": "Je voudrais",
+          "options": [
+            "Je voudrais",
+            "Je suis"
+          ],
+          "why": "u12-l2-n1"
+        },
+        {
+          "id": "u12-l2-g2",
+          "prompt": "___ combien ?",
+          "en": "How much is it?",
+          "answer": "Ça coûte",
+          "options": [
+            "Ça coûte",
+            "Ça va"
+          ],
+          "why": "u12-l2-n2"
+        },
+        {
+          "id": "u12-l2-g3",
+          "prompt": "___, s'il vous plaît.",
+          "en": "The bill, please.",
+          "answer": "L'addition",
+          "options": [
+            "L'addition",
+            "Voici"
+          ],
+          "why": "u12-l2-n2"
+        },
+        {
+          "id": "u12-l2-g4",
+          "prompt": "___ le café, monsieur.",
+          "en": "Here is the coffee, sir.",
+          "answer": "Voici",
+          "options": [
+            "Voici",
+            "Combien"
+          ],
+          "why": "u12-l2-n2"
+        },
+        {
+          "id": "u12-l2-g5",
+          "prompt": "Deux ___.",
+          "en": "Two euros.",
+          "answer": "euros",
+          "options": [
+            "euros",
+            "euro"
+          ],
+          "why": "u12-l2-n2"
+        },
+        {
+          "id": "u12-l2-g6",
+          "prompt": "Un ___, s'il vous plaît.",
+          "en": "A croissant, please.",
+          "answer": "croissant",
+          "options": [
+            "croissant",
+            "croissants"
+          ],
+          "why": "u12-l2-n1"
+        }
+      ]
+    },
+    {
+      "id": "u12-l3",
+      "title": "Finding your way",
+      "goal": "Ask where a place is, and understand and give simple directions.",
+      "notes": [
+        {
+          "id": "u12-l3-n1",
+          "title": "Where is it?",
+          "body": "Ask **où est…?** (where is…?) followed by the place with its article: *où est la gare ?* Use **le** for a masculine place, **la** for a feminine one and **l'** before a vowel.",
+          "examples": [
+            {
+              "fr": "Pardon, madame. Où est la gare ?",
+              "en": "Sorry, madam. Where is the station?"
+            },
+            {
+              "fr": "Où est le parc ?",
+              "en": "Where is the park?"
+            },
+            {
+              "fr": "Où est l'école ?",
+              "en": "Where is the school?"
+            }
+          ]
+        },
+        {
+          "id": "u12-l3-n2",
+          "title": "Directions and distance",
+          "body": "Use **tout droit** (straight on), **à gauche** (to the left) and **à droite** (to the right). Ask **c'est loin ?** (is it far?) and answer with **près** (near) or **loin** (far). Start the answer with **c'est**.",
+          "examples": [
+            {
+              "fr": "La gare ? C'est tout droit.",
+              "en": "The station? It's straight on."
+            },
+            {
+              "fr": "Le parc ? C'est à gauche.",
+              "en": "The park? It's on the left."
+            },
+            {
+              "fr": "C'est loin ? Non, c'est près.",
+              "en": "Is it far? No, it's near."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u12-l3-w1",
+          "fr": "où est la gare ?",
+          "en": "where is the station?"
+        },
+        {
+          "id": "u12-l3-w2",
+          "fr": "c'est loin ?",
+          "en": "is it far?"
+        },
+        {
+          "id": "u12-l3-w3",
+          "fr": "c'est près",
+          "en": "it's near"
+        },
+        {
+          "id": "u12-l3-w4",
+          "fr": "tout droit",
+          "en": "straight on"
+        },
+        {
+          "id": "u12-l3-w5",
+          "fr": "à gauche",
+          "en": "on the left / to the left"
+        },
+        {
+          "id": "u12-l3-w6",
+          "fr": "à droite",
+          "en": "on the right / to the right"
+        },
+        {
+          "id": "u12-l3-w7",
+          "fr": "où est le parc ?",
+          "en": "where is the park?"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u12-l3-s1",
+          "fr": "Pardon, madame. Où est la gare ?",
+          "en": "Sorry, madam. Where is the station?",
+          "note": "u12-l3-n1"
+        },
+        {
+          "id": "u12-l3-s2",
+          "fr": "La gare ? C'est tout droit.",
+          "en": "The station? It's straight on.",
+          "note": "u12-l3-n2"
+        },
+        {
+          "id": "u12-l3-s3",
+          "fr": "C'est loin ?",
+          "en": "Is it far?",
+          "note": "u12-l3-n2"
+        },
+        {
+          "id": "u12-l3-s4",
+          "fr": "Non, c'est près.",
+          "en": "No, it's near.",
+          "note": "u12-l3-n2"
+        },
+        {
+          "id": "u12-l3-s5",
+          "fr": "Merci. Où est le parc ?",
+          "en": "Thanks. Where is the park?",
+          "note": "u12-l3-n1"
+        },
+        {
+          "id": "u12-l3-s6",
+          "fr": "Le parc ? C'est à gauche.",
+          "en": "The park? It's on the left.",
+          "note": "u12-l3-n2"
+        },
+        {
+          "id": "u12-l3-s7",
+          "fr": "Ah, merci, madame !",
+          "en": "Ah, thanks, madam!"
+        },
+        {
+          "id": "u12-l3-s8",
+          "fr": "De rien. Au revoir, monsieur !",
+          "en": "You're welcome. Goodbye, sir!"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u12-l3-g1",
+          "prompt": "Où ___ la gare ?",
+          "en": "Where is the station?",
+          "answer": "est",
+          "options": [
+            "est",
+            "es"
+          ],
+          "why": "u12-l3-n1"
+        },
+        {
+          "id": "u12-l3-g2",
+          "prompt": "___ loin ?",
+          "en": "Is it far?",
+          "answer": "C'est",
+          "options": [
+            "C'est",
+            "Ce sont"
+          ],
+          "why": "u12-l3-n2"
+        },
+        {
+          "id": "u12-l3-g3",
+          "prompt": "C'est ___ droite.",
+          "en": "It's on the right.",
+          "answer": "à",
+          "options": [
+            "à",
+            "de"
+          ],
+          "why": "u12-l3-n2"
+        },
+        {
+          "id": "u12-l3-g4",
+          "prompt": "Non, c'est ___.",
+          "en": "No, it's near.",
+          "answer": "près",
+          "options": [
+            "près",
+            "loin"
+          ],
+          "why": "u12-l3-n2"
+        },
+        {
+          "id": "u12-l3-g5",
+          "prompt": "La gare ? C'est ___ droit.",
+          "en": "The station? It's straight on.",
+          "answer": "tout",
+          "options": [
+            "tout",
+            "très"
+          ],
+          "why": "u12-l3-n2"
+        },
+        {
+          "id": "u12-l3-g6",
+          "prompt": "Où est ___ parc ?",
+          "en": "Where is the park?",
+          "answer": "le",
+          "options": [
+            "le",
+            "la"
+          ],
+          "why": "u12-l3-n1"
+        }
+      ]
+    },
+    {
+      "id": "u12-l4",
+      "title": "Stage 1 review",
+      "goal": "Mix greetings, ordering and directions in one short conversation.",
+      "notes": [
+        {
+          "id": "u12-l4-n1",
+          "title": "Greet, ask, thank",
+          "body": "Most short conversations follow the same order: **greet** first, then say who you are or ask for something, and finish with thanks and goodbye. With a stranger, use **vous**. To order politely, use **je voudrais**.",
+          "examples": [
+            {
+              "fr": "Bonjour, madame. Je m'appelle Marc.",
+              "en": "Hello, madam. My name is Marc."
+            },
+            {
+              "fr": "Je voudrais une tasse de thé, s'il vous plaît.",
+              "en": "I would like a cup of tea, please."
+            },
+            {
+              "fr": "Merci. Au revoir, monsieur !",
+              "en": "Thanks. Goodbye, sir!"
+            }
+          ]
+        },
+        {
+          "id": "u12-l4-n2",
+          "title": "Weather, time and likes",
+          "body": "**Il fait** describes the weather: *il fait beau* (it is nice). **Il y a** means *there is*. With **aimer** (to like), use **le / la / les** before the thing you like: *j'aime le café*.",
+          "examples": [
+            {
+              "fr": "Il fait beau aujourd'hui.",
+              "en": "It's nice today."
+            },
+            {
+              "fr": "Il y a un parc à gauche.",
+              "en": "There is a park on the left."
+            },
+            {
+              "fr": "J'aime le café.",
+              "en": "I like coffee."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u12-l4-w1",
+          "fr": "il fait beau aujourd'hui",
+          "en": "it's nice today"
+        },
+        {
+          "id": "u12-l4-w2",
+          "fr": "j'aime le café",
+          "en": "I like coffee"
+        },
+        {
+          "id": "u12-l4-w3",
+          "fr": "une tasse de thé, s'il vous plaît",
+          "en": "a cup of tea, please"
+        },
+        {
+          "id": "u12-l4-w4",
+          "fr": "il y a un parc à gauche",
+          "en": "there is a park on the left"
+        },
+        {
+          "id": "u12-l4-w5",
+          "fr": "je suis fatigué(e)",
+          "en": "I am tired"
+        },
+        {
+          "id": "u12-l4-w6",
+          "fr": "il est midi",
+          "en": "it's noon"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u12-l4-s1",
+          "fr": "Bonjour, madame. Je m'appelle Marc.",
+          "en": "Hello, madam. My name is Marc.",
+          "note": "u12-l4-n1"
+        },
+        {
+          "id": "u12-l4-s2",
+          "fr": "Enchantée ! Il fait beau aujourd'hui.",
+          "en": "Nice to meet you! It's nice today.",
+          "note": "u12-l4-n2"
+        },
+        {
+          "id": "u12-l4-s3",
+          "fr": "Je voudrais une tasse de thé, s'il vous plaît.",
+          "en": "I would like a cup of tea, please.",
+          "note": "u12-l4-n1"
+        },
+        {
+          "id": "u12-l4-s4",
+          "fr": "Ça coûte combien ?",
+          "en": "How much is it?"
+        },
+        {
+          "id": "u12-l4-s5",
+          "fr": "Trois euros, monsieur.",
+          "en": "Three euros, sir."
+        },
+        {
+          "id": "u12-l4-s6",
+          "fr": "Merci. Où est le parc ?",
+          "en": "Thanks. Where is the park?",
+          "note": "u12-l4-n1"
+        },
+        {
+          "id": "u12-l4-s7",
+          "fr": "Il y a un parc à gauche.",
+          "en": "There is a park on the left.",
+          "note": "u12-l4-n2"
+        },
+        {
+          "id": "u12-l4-s8",
+          "fr": "Il est midi. J'aime le café !",
+          "en": "It's noon. I like coffee!",
+          "note": "u12-l4-n2"
+        },
+        {
+          "id": "u12-l4-s9",
+          "fr": "Au revoir, monsieur !",
+          "en": "Goodbye, sir!",
+          "note": "u12-l4-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u12-l4-g1",
+          "prompt": "Il ___ beau aujourd'hui.",
+          "en": "It's nice today.",
+          "answer": "fait",
+          "options": [
+            "fait",
+            "est"
+          ],
+          "why": "u12-l4-n2"
+        },
+        {
+          "id": "u12-l4-g2",
+          "prompt": "Il ___ midi.",
+          "en": "It's noon.",
+          "answer": "est",
+          "options": [
+            "est",
+            "fait"
+          ],
+          "why": "u12-l4-n2"
+        },
+        {
+          "id": "u12-l4-g3",
+          "prompt": "Il y ___ un parc à gauche.",
+          "en": "There is a park on the left.",
+          "answer": "a",
+          "options": [
+            "a",
+            "est"
+          ],
+          "why": "u12-l4-n2"
+        },
+        {
+          "id": "u12-l4-g4",
+          "prompt": "Je ___ le café.",
+          "en": "I like coffee.",
+          "answer": "aime",
+          "options": [
+            "aime",
+            "aimes"
+          ],
+          "why": "u12-l4-n2"
+        },
+        {
+          "id": "u12-l4-g5",
+          "prompt": "___, madame. Je m'appelle Marc.",
+          "en": "Hello, madam. My name is Marc.",
+          "answer": "Bonjour",
+          "options": [
+            "Bonjour",
+            "Au revoir"
+          ],
+          "why": "u12-l4-n1"
+        },
+        {
+          "id": "u12-l4-g6",
+          "prompt": "Je ___ une tasse de thé, s'il vous plaît.",
+          "en": "I would like a cup of tea, please.",
+          "answer": "voudrais",
+          "options": [
+            "voudrais",
+            "voudrait"
+          ],
+          "why": "u12-l4-n1"
+        }
+      ]
+    }
+  ]
+}

@@ -32,3 +32,10 @@ it('splits a sentence into word tiles without punctuation', () => {
   expect(sentenceTiles('Bonjour, je m’appelle Marc, et vous ?')).toEqual(['Bonjour', 'je', 'm’appelle', 'Marc', 'et', 'vous']);
   expect(sentenceTiles('Salut !')).toEqual(['Salut']);
 });
+
+it('reads word-list notation sensibly aloud', () => {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const { speakable } = require('../src/services/audio') as typeof import('../src/services/audio');
+  expect(speakable('il / elle parle')).toBe('il, elle parle');
+  expect(speakable("j'ai … ans")).toBe("j'ai ans");
+});

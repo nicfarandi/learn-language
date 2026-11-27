@@ -1,0 +1,818 @@
+{
+  "id": "u09",
+  "number": 9,
+  "title": "Places and going (aller)",
+  "summary": "Name places in town, say where you are going and what you are going to do, and give simple directions. Learn each place with its article: la gare, le parc, l'école.",
+  "canDo": [
+    "Name places in town with the right article: la gare, le parc, l'école.",
+    "Say where I am going, using aller with au, à la, à l' or aux.",
+    "Talk about what I am going to do soon, using aller and a verb: je vais manger.",
+    "Ask where a place is and give simple directions: à gauche, à droite, tout droit."
+  ],
+  "lessons": [
+    {
+      "id": "u09-l1",
+      "title": "Places",
+      "goal": "Name places in town and say what they are like.",
+      "notes": [
+        {
+          "id": "u09-l1-n1",
+          "title": "Every place has an article",
+          "body": "Each place is a noun, so it is **masculine** or **feminine**. Use **le** for a masculine place, **la** for a feminine one, and **l'** before a vowel sound. Learn each place with its article: *le parc*, *la gare*, *l'école*. The adjective agrees with the place: *grand* for a masculine place, *grande* for a feminine one.",
+          "examples": [
+            {
+              "fr": "Le parc est beau, non ?",
+              "en": "The park is nice, isn't it?"
+            },
+            {
+              "fr": "La maison est petite.",
+              "en": "The house is small."
+            },
+            {
+              "fr": "L'école est grande.",
+              "en": "The school is big."
+            }
+          ]
+        },
+        {
+          "id": "u09-l1-n2",
+          "title": "Places in the plural",
+          "body": "For more than one place, use **les** and add **-s** to the noun. The **-s** is silent. The adjective also takes **-s** for a masculine plural, and **-es** for a feminine plural: *grand* becomes *grands*, and *grande* becomes *grandes*.",
+          "examples": [
+            {
+              "fr": "Les écoles sont grandes.",
+              "en": "The schools are big."
+            },
+            {
+              "fr": "Les parcs sont beaux.",
+              "en": "The parks are nice."
+            },
+            {
+              "fr": "Les villes sont belles, non ?",
+              "en": "The cities are beautiful, aren't they?"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u09-l1-w1",
+          "fr": "une maison",
+          "en": "a house / home",
+          "tip": "Feminine: la maison means the house."
+        },
+        {
+          "id": "u09-l1-w2",
+          "fr": "une école",
+          "en": "a school",
+          "tip": "Feminine. With the, it becomes l'école before a vowel."
+        },
+        {
+          "id": "u09-l1-w3",
+          "fr": "le travail",
+          "en": "work / job",
+          "tip": "Masculine. Also the place where you work."
+        },
+        {
+          "id": "u09-l1-w4",
+          "fr": "une gare",
+          "en": "a station",
+          "tip": "Train station."
+        },
+        {
+          "id": "u09-l1-w5",
+          "fr": "un supermarché",
+          "en": "a supermarket",
+          "tip": "Masculine."
+        },
+        {
+          "id": "u09-l1-w6",
+          "fr": "un parc",
+          "en": "a park",
+          "tip": "Masculine."
+        },
+        {
+          "id": "u09-l1-w7",
+          "fr": "une ville",
+          "en": "a town / city",
+          "tip": "Feminine."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u09-l1-s1",
+          "fr": "La maison est petite.",
+          "en": "The house is small.",
+          "note": "u09-l1-n1"
+        },
+        {
+          "id": "u09-l1-s2",
+          "fr": "L'école est grande.",
+          "en": "The school is big.",
+          "note": "u09-l1-n1"
+        },
+        {
+          "id": "u09-l1-s3",
+          "fr": "Le parc est beau, non ?",
+          "en": "The park is nice, isn't it?",
+          "note": "u09-l1-n1"
+        },
+        {
+          "id": "u09-l1-s4",
+          "fr": "Voilà la gare, madame.",
+          "en": "Here is the station, madam.",
+          "note": "u09-l1-n1"
+        },
+        {
+          "id": "u09-l1-s5",
+          "fr": "Le supermarché est grand.",
+          "en": "The supermarket is big.",
+          "note": "u09-l1-n1"
+        },
+        {
+          "id": "u09-l1-s6",
+          "fr": "Les écoles sont grandes.",
+          "en": "The schools are big.",
+          "note": "u09-l1-n2"
+        },
+        {
+          "id": "u09-l1-s7",
+          "fr": "Les parcs sont beaux.",
+          "en": "The parks are nice.",
+          "note": "u09-l1-n2"
+        },
+        {
+          "id": "u09-l1-s8",
+          "fr": "Les villes sont grandes, non ?",
+          "en": "The cities are big, aren't they?",
+          "note": "u09-l1-n2"
+        },
+        {
+          "id": "u09-l1-s9",
+          "fr": "C'est la ville de Léa.",
+          "en": "It's Léa's town.",
+          "note": "u09-l1-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u09-l1-g1",
+          "prompt": "___ maison est petite.",
+          "en": "The house is small.",
+          "answer": "La",
+          "options": [
+            "La",
+            "Le"
+          ],
+          "why": "u09-l1-n1"
+        },
+        {
+          "id": "u09-l1-g2",
+          "prompt": "___ ville est belle, non ?",
+          "en": "The town is nice, isn't it?",
+          "answer": "La",
+          "options": [
+            "La",
+            "Le"
+          ],
+          "why": "u09-l1-n1"
+        },
+        {
+          "id": "u09-l1-g3",
+          "prompt": "___ parc est beau, non ?",
+          "en": "The park is nice, isn't it?",
+          "answer": "Le",
+          "options": [
+            "Le",
+            "La"
+          ],
+          "why": "u09-l1-n1"
+        },
+        {
+          "id": "u09-l1-g4",
+          "prompt": "Les écoles sont ___.",
+          "en": "The schools are big.",
+          "answer": "grandes",
+          "options": [
+            "grandes",
+            "grande"
+          ],
+          "why": "u09-l1-n2"
+        },
+        {
+          "id": "u09-l1-g5",
+          "prompt": "Les villes sont ___, non ?",
+          "en": "The cities are beautiful, aren't they?",
+          "answer": "belles",
+          "options": [
+            "belles",
+            "beaux"
+          ],
+          "why": "u09-l1-n2"
+        }
+      ]
+    },
+    {
+      "id": "u09-l2",
+      "title": "To go",
+      "goal": "Say where you are going, using aller and à with the article.",
+      "notes": [
+        {
+          "id": "u09-l2-n1",
+          "title": "Aller: to go",
+          "body": "**Aller** means *to go*. It is irregular, so learn the forms: **je vais**, tu vas, il/elle va, nous allons, vous allez, ils/elles vont. Use it with **à** and a place to say where you are going.",
+          "examples": [
+            {
+              "fr": "Je vais au parc.",
+              "en": "I am going to the park."
+            },
+            {
+              "fr": "Tu vas à la gare ?",
+              "en": "Are you going to the station?"
+            },
+            {
+              "fr": "Nous allons à la maison.",
+              "en": "We are going home."
+            }
+          ]
+        },
+        {
+          "id": "u09-l2-n2",
+          "title": "À + the article",
+          "body": "**à** means *to* or *at*. Before **le** it joins into **au**, and before **les** it joins into **aux**. Before **la** and before a vowel it stays as **à la** and **à l'**. Learn each place with its phrase: *au parc*, *à la gare*, *à l'école*, *aux parcs*.",
+          "examples": [
+            {
+              "fr": "Je vais au supermarché.",
+              "en": "I am going to the supermarket."
+            },
+            {
+              "fr": "Ils vont aux parcs.",
+              "en": "They are going to the parks."
+            },
+            {
+              "fr": "Tu vas à l'école ?",
+              "en": "Are you going to school?"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u09-l2-w1",
+          "fr": "aller",
+          "en": "to go",
+          "tip": "Irregular. Je vais, nous allons."
+        },
+        {
+          "id": "u09-l2-w2",
+          "fr": "je vais",
+          "en": "I go / I am going",
+          "tip": "The first person of aller."
+        },
+        {
+          "id": "u09-l2-w3",
+          "fr": "au",
+          "en": "to the / at the (masculine)",
+          "tip": "À + le joins into au."
+        },
+        {
+          "id": "u09-l2-w4",
+          "fr": "à la",
+          "en": "to the / at the (feminine)",
+          "tip": "À + la stays as two words."
+        },
+        {
+          "id": "u09-l2-w5",
+          "fr": "à l'",
+          "en": "to the / at the (before a vowel)",
+          "tip": "Before a vowel sound."
+        },
+        {
+          "id": "u09-l2-w6",
+          "fr": "aux",
+          "en": "to the / at the (plural)",
+          "tip": "À + les joins into aux."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u09-l2-s1",
+          "fr": "Je vais au parc.",
+          "en": "I am going to the park.",
+          "note": "u09-l2-n1"
+        },
+        {
+          "id": "u09-l2-s2",
+          "fr": "Tu vas à la gare ?",
+          "en": "Are you going to the station?",
+          "note": "u09-l2-n2"
+        },
+        {
+          "id": "u09-l2-s3",
+          "fr": "Nous allons à l'école.",
+          "en": "We are going to school.",
+          "note": "u09-l2-n2"
+        },
+        {
+          "id": "u09-l2-s4",
+          "fr": "Il va au supermarché.",
+          "en": "He is going to the supermarket.",
+          "note": "u09-l2-n2"
+        },
+        {
+          "id": "u09-l2-s5",
+          "fr": "Vous allez au travail, madame ?",
+          "en": "Are you going to work, madam?",
+          "note": "u09-l2-n2"
+        },
+        {
+          "id": "u09-l2-s6",
+          "fr": "Ils vont aux parcs.",
+          "en": "They are going to the parks.",
+          "note": "u09-l2-n2"
+        },
+        {
+          "id": "u09-l2-s7",
+          "fr": "Elles vont aux écoles.",
+          "en": "They are going to the schools.",
+          "note": "u09-l2-n2"
+        },
+        {
+          "id": "u09-l2-s8",
+          "fr": "Elle va à la gare.",
+          "en": "She is going to the station.",
+          "note": "u09-l2-n2"
+        },
+        {
+          "id": "u09-l2-s9",
+          "fr": "Je vais à la maison.",
+          "en": "I am going home.",
+          "note": "u09-l2-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u09-l2-g1",
+          "prompt": "Je ___ au parc.",
+          "en": "I am going to the park.",
+          "answer": "vais",
+          "options": [
+            "vais",
+            "vas",
+            "va"
+          ],
+          "why": "u09-l2-n1"
+        },
+        {
+          "id": "u09-l2-g2",
+          "prompt": "Tu ___ à la gare ?",
+          "en": "Are you going to the station?",
+          "answer": "vas",
+          "options": [
+            "vas",
+            "vais",
+            "va"
+          ],
+          "why": "u09-l2-n1"
+        },
+        {
+          "id": "u09-l2-g3",
+          "prompt": "Nous ___ à la maison.",
+          "en": "We are going home.",
+          "answer": "allons",
+          "options": [
+            "allons",
+            "allez"
+          ],
+          "why": "u09-l2-n1"
+        },
+        {
+          "id": "u09-l2-g4",
+          "prompt": "Il va ___ supermarché.",
+          "en": "He is going to the supermarket.",
+          "answer": "au",
+          "options": [
+            "au",
+            "à la",
+            "aux"
+          ],
+          "why": "u09-l2-n2"
+        },
+        {
+          "id": "u09-l2-g5",
+          "prompt": "Ils vont ___ parcs.",
+          "en": "They are going to the parks.",
+          "answer": "aux",
+          "options": [
+            "aux",
+            "au",
+            "à la"
+          ],
+          "why": "u09-l2-n2"
+        }
+      ]
+    },
+    {
+      "id": "u09-l3",
+      "title": "Going to",
+      "goal": "Say what you are going to do soon, using aller and a verb.",
+      "notes": [
+        {
+          "id": "u09-l3-n1",
+          "title": "Aller + a verb: going to",
+          "body": "To talk about the near future, use **aller** and a verb in its basic form (the *-er* form). *Je vais manger* means *I am going to eat*. Only **aller** changes; the verb after it stays the same.",
+          "examples": [
+            {
+              "fr": "Je vais manger ce soir.",
+              "en": "I am going to eat tonight."
+            },
+            {
+              "fr": "Nous allons travailler demain.",
+              "en": "We are going to work tomorrow."
+            },
+            {
+              "fr": "Tu vas parler à Paul ?",
+              "en": "Are you going to talk to Paul?"
+            }
+          ]
+        },
+        {
+          "id": "u09-l3-n2",
+          "title": "Ce soir, bientôt and goodbyes",
+          "body": "**Ce soir** means *tonight*, and **ce week-end** means *this weekend*. **Bientôt** means *soon*. When you leave someone, say **à bientôt** (*see you soon*) or **à ce soir** (*see you tonight*).",
+          "examples": [
+            {
+              "fr": "Ce week-end, je vais au parc.",
+              "en": "This weekend, I am going to the park."
+            },
+            {
+              "fr": "Nous allons manger bientôt.",
+              "en": "We are going to eat soon."
+            },
+            {
+              "fr": "À bientôt, Paul !",
+              "en": "See you soon, Paul!"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u09-l3-w1",
+          "fr": "ce soir",
+          "en": "tonight",
+          "tip": "Soir is the evening, from u08."
+        },
+        {
+          "id": "u09-l3-w2",
+          "fr": "ce week-end",
+          "en": "this weekend",
+          "tip": "Week-end has a hyphen."
+        },
+        {
+          "id": "u09-l3-w3",
+          "fr": "bientôt",
+          "en": "soon",
+          "tip": "The ô is pronounced like o in go."
+        },
+        {
+          "id": "u09-l3-w4",
+          "fr": "à bientôt",
+          "en": "see you soon",
+          "tip": "Said when you leave someone."
+        },
+        {
+          "id": "u09-l3-w5",
+          "fr": "je vais manger",
+          "en": "I am going to eat"
+        },
+        {
+          "id": "u09-l3-w6",
+          "fr": "je vais regarder",
+          "en": "I am going to watch"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u09-l3-s1",
+          "fr": "Je vais manger ce soir.",
+          "en": "I am going to eat tonight.",
+          "note": "u09-l3-n1"
+        },
+        {
+          "id": "u09-l3-s2",
+          "fr": "Nous allons travailler demain.",
+          "en": "We are going to work tomorrow.",
+          "note": "u09-l3-n1"
+        },
+        {
+          "id": "u09-l3-s3",
+          "fr": "Tu vas écouter de la musique, ce soir ?",
+          "en": "Are you going to listen to music tonight?",
+          "note": "u09-l3-n1"
+        },
+        {
+          "id": "u09-l3-s4",
+          "fr": "Ce week-end, je vais au parc.",
+          "en": "This weekend, I am going to the park.",
+          "note": "u09-l3-n2"
+        },
+        {
+          "id": "u09-l3-s5",
+          "fr": "Nous allons manger bientôt.",
+          "en": "We are going to eat soon.",
+          "note": "u09-l3-n2"
+        },
+        {
+          "id": "u09-l3-s6",
+          "fr": "Vous allez travailler ce week-end ?",
+          "en": "Are you going to work this weekend?",
+          "note": "u09-l3-n1"
+        },
+        {
+          "id": "u09-l3-s7",
+          "fr": "À bientôt, Paul !",
+          "en": "See you soon, Paul!",
+          "note": "u09-l3-n2"
+        },
+        {
+          "id": "u09-l3-s8",
+          "fr": "À ce soir !",
+          "en": "See you tonight!",
+          "note": "u09-l3-n2"
+        },
+        {
+          "id": "u09-l3-s9",
+          "fr": "Je vais regarder un film.",
+          "en": "I am going to watch a film.",
+          "note": "u09-l3-n1"
+        },
+        {
+          "id": "u09-l3-s10",
+          "fr": "Tu vas regarder le film ?",
+          "en": "Are you going to watch the film?",
+          "note": "u09-l3-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u09-l3-g1",
+          "prompt": "Je ___ manger ce soir.",
+          "en": "I am going to eat tonight.",
+          "answer": "vais",
+          "options": [
+            "vais",
+            "vas",
+            "va"
+          ],
+          "why": "u09-l3-n1"
+        },
+        {
+          "id": "u09-l3-g2",
+          "prompt": "Nous ___ travailler demain.",
+          "en": "We are going to work tomorrow.",
+          "answer": "allons",
+          "options": [
+            "allons",
+            "vais"
+          ],
+          "why": "u09-l3-n1"
+        },
+        {
+          "id": "u09-l3-g3",
+          "prompt": "À ___, Paul !",
+          "en": "See you soon, Paul!",
+          "answer": "bientôt",
+          "options": [
+            "bientôt",
+            "bien"
+          ],
+          "why": "u09-l3-n2"
+        },
+        {
+          "id": "u09-l3-g4",
+          "prompt": "Nous allons ___ ce soir ?",
+          "en": "Are we going to eat tonight?",
+          "answer": "manger",
+          "options": [
+            "manger",
+            "mange"
+          ],
+          "why": "u09-l3-n1"
+        },
+        {
+          "id": "u09-l3-g5",
+          "prompt": "Vous allez ___ ce week-end ?",
+          "en": "Are you going to work this weekend?",
+          "answer": "travailler",
+          "options": [
+            "travailler",
+            "travaille"
+          ],
+          "why": "u09-l3-n1"
+        }
+      ]
+    },
+    {
+      "id": "u09-l4",
+      "title": "Directions",
+      "goal": "Ask where a place is and give simple directions.",
+      "notes": [
+        {
+          "id": "u09-l4-n1",
+          "title": "Où est… ? Where is…?",
+          "body": "To ask where a place is, say **où est** and the place: *Où est la gare ?* For more than one place, say **où sont**: *Où sont les écoles ?* The answer uses **est** or **sont** in the same way: *La gare est…*",
+          "examples": [
+            {
+              "fr": "Où est la gare, madame ?",
+              "en": "Where is the station, madam?"
+            },
+            {
+              "fr": "Où est le parc ?",
+              "en": "Where is the park?"
+            },
+            {
+              "fr": "Où sont les écoles ?",
+              "en": "Where are the schools?"
+            }
+          ]
+        },
+        {
+          "id": "u09-l4-n2",
+          "title": "Left, right and straight on",
+          "body": "**À gauche** means *on the left*, **à droite** means *on the right*, and **tout droit** means *straight ahead*. **Près** means *near* and **loin** means *far*. Put them after **est**: *Le parc est à droite.*",
+          "examples": [
+            {
+              "fr": "Tout droit, monsieur.",
+              "en": "Straight ahead, sir."
+            },
+            {
+              "fr": "La gare est à gauche.",
+              "en": "The station is on the left."
+            },
+            {
+              "fr": "L'école est loin.",
+              "en": "The school is far."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u09-l4-w1",
+          "fr": "à gauche",
+          "en": "on the left",
+          "tip": "Gauche is left."
+        },
+        {
+          "id": "u09-l4-w2",
+          "fr": "à droite",
+          "en": "on the right",
+          "tip": "Droite is right."
+        },
+        {
+          "id": "u09-l4-w3",
+          "fr": "tout droit",
+          "en": "straight ahead",
+          "tip": "Droit is straight."
+        },
+        {
+          "id": "u09-l4-w4",
+          "fr": "près",
+          "en": "near",
+          "tip": "The opposite of loin."
+        },
+        {
+          "id": "u09-l4-w5",
+          "fr": "loin",
+          "en": "far",
+          "tip": "The opposite of près."
+        },
+        {
+          "id": "u09-l4-w6",
+          "fr": "où est… ?",
+          "en": "where is…?",
+          "tip": "Use où sont for more than one."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u09-l4-s1",
+          "fr": "Où est la gare, madame ?",
+          "en": "Where is the station, madam?",
+          "note": "u09-l4-n1"
+        },
+        {
+          "id": "u09-l4-s2",
+          "fr": "La gare est à gauche.",
+          "en": "The station is on the left.",
+          "note": "u09-l4-n2"
+        },
+        {
+          "id": "u09-l4-s3",
+          "fr": "Le parc est à droite.",
+          "en": "The park is on the right.",
+          "note": "u09-l4-n2"
+        },
+        {
+          "id": "u09-l4-s4",
+          "fr": "Tout droit, monsieur.",
+          "en": "Straight ahead, sir.",
+          "note": "u09-l4-n2"
+        },
+        {
+          "id": "u09-l4-s5",
+          "fr": "L'école est loin.",
+          "en": "The school is far.",
+          "note": "u09-l4-n2"
+        },
+        {
+          "id": "u09-l4-s6",
+          "fr": "Le supermarché est près.",
+          "en": "The supermarket is near.",
+          "note": "u09-l4-n2"
+        },
+        {
+          "id": "u09-l4-s7",
+          "fr": "Où sont les écoles ?",
+          "en": "Where are the schools?",
+          "note": "u09-l4-n1"
+        },
+        {
+          "id": "u09-l4-s8",
+          "fr": "Pardon, où est le supermarché ?",
+          "en": "Excuse me, where is the supermarket?",
+          "note": "u09-l4-n1"
+        },
+        {
+          "id": "u09-l4-s9",
+          "fr": "Tout droit, et à gauche.",
+          "en": "Straight ahead, and on the left.",
+          "note": "u09-l4-n2"
+        },
+        {
+          "id": "u09-l4-s10",
+          "fr": "Merci, monsieur. Au revoir !",
+          "en": "Thank you, sir. Goodbye!"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u09-l4-g1",
+          "prompt": "Où ___ la gare ?",
+          "en": "Where is the station?",
+          "answer": "est",
+          "options": [
+            "est",
+            "sont"
+          ],
+          "why": "u09-l4-n1"
+        },
+        {
+          "id": "u09-l4-g2",
+          "prompt": "Le parc est à ___.",
+          "en": "The park is on the right.",
+          "answer": "droite",
+          "options": [
+            "droite",
+            "droit"
+          ],
+          "why": "u09-l4-n2"
+        },
+        {
+          "id": "u09-l4-g3",
+          "prompt": "___, madame.",
+          "en": "Straight ahead, madam.",
+          "answer": "Tout droit",
+          "options": [
+            "Tout droit",
+            "Tout droite"
+          ],
+          "why": "u09-l4-n2"
+        },
+        {
+          "id": "u09-l4-g4",
+          "prompt": "Le supermarché est ___.",
+          "en": "The supermarket is near, not far.",
+          "answer": "près",
+          "options": [
+            "près",
+            "loin"
+          ],
+          "why": "u09-l4-n2"
+        },
+        {
+          "id": "u09-l4-g5",
+          "prompt": "La gare est à ___, madame.",
+          "en": "The station is on the left, madam.",
+          "answer": "gauche",
+          "options": [
+            "gauche",
+            "droite"
+          ],
+          "why": "u09-l4-n2"
+        }
+      ]
+    }
+  ]
+}

@@ -18,6 +18,12 @@ export const TARGET_EXERCISES = 10;
 const wordExplain = (w: Word): Explain => ({ fr: w.fr, en: w.en, tip: w.tip });
 
 /**
+ * Entries like "il / elle parle" or "j'ai … ans" are word-list patterns, not one thing to hear or type: they
+ * are fine to read in pick and match, but never used for listen or type questions.
+ */
+export const isPattern = (w: Word) => /[/…]/.test(w.fr);
+
+/**
  * `count` wrong options for `target`, preferring the lesson's own words, then earlier ones. A word that shares
  * the target's French or English (the same word taught again with a different gloss) is never offered, so
  * there is only one right answer.
@@ -59,9 +65,13 @@ export function buildExercises(lesson: Lesson, earlierWords: readonly Word[], se
       explain: wordExplain(w),
     };
   };
+  const plainOwn = lesson.words.filter((w) => !isPattern(w));
+  const plainEarlier = earlierWords.filter((w) => !isPattern(w));
+  const plain = words.filter((w) => !isPattern(w));
+  const listenWord = (i: number) => (plain.length ? plain[i % plain.length] : at(i));
   const listen = (w: Word): Exercise => ({
     kind: 'listen', id: id(), itemId: w.id, audio: w.fr, answer: w.fr,
-    options: shuffle([w.fr, ...distractors(w, 'fr', lesson.words, earlierWords, 2, rand)], rand),
+    options: shuffle([w.fr, ...distractors(w, 'fr', plainOwn, plainEarlier, 2, rand)], rand),
     explain: wordExplain(w),
   });
 
@@ -70,7 +80,7 @@ export function buildExercises(lesson: Lesson, earlierWords: readonly Word[], se
   const produce: Exercise[] = [];
 
   if (words.length === 0) return [];
-  recognise.push(pick(at(0), 'fr-en'), listen(at(1)), pick(at(2), 'fr-en'), listen(at(3)));
+  recognise.push(pick(at(0), 'fr-en'), listen(listenWord(1)), pick(at(2), 'fr-en'), listen(listenWord(3)));
   if (words.length >= 4) {
     recognise.push({
       kind: 'match', id: id(),
@@ -98,13 +108,16 @@ export function buildExercises(lesson: Lesson, earlierWords: readonly Word[], se
       explain: { fr: s.fr, en: s.en, noteId: s.note },
     });
   }
-  const typeable = words.find((w) => w.fr.length <= 20) ?? at(5);
-  produce.push({ kind: 'type', id: id(), itemId: typeable.id, en: typeable.en, accepted: acceptedForms(typeable.fr), explain: wordExplain(typeable) });
+  // Never ask to type a pattern ("j'ai … ans", "il / elle parle"); a lesson made only of patterns gets no type question.
+  const typeable = plain.find((w) => w.fr.length <= 20) ?? plain[0];
+  if (typeable) {
+    produce.push({ kind: 'type', id: id(), itemId: typeable.id, en: typeable.en, accepted: acceptedForms(typeable.fr), explain: wordExplain(typeable) });
+  }
 
   // Lessons without gaps or sentences (the sounds unit): top up with more recognition.
   let k = 5;
   while (recognise.length + apply.length + produce.length < TARGET_EXERCISES) {
-    recognise.push(k % 2 ? listen(at(k)) : pick(at(k), 'fr-en'));
+    recognise.push(k % 2 ? listen(listenWord(k)) : pick(at(k), 'fr-en'));
     k++;
   }
   return [...recognise, ...apply, ...produce];

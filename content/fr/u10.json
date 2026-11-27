@@ -1,0 +1,806 @@
+{
+  "id": "u10",
+  "number": 10,
+  "title": "Home",
+  "summary": "Name the rooms of a home, say what is in them and what is not, describe colours, and say where things are. Uses il y a and the place words.",
+  "canDo": [
+    "Name the rooms of a home with the right article, and say what one looks like.",
+    "Say what is in a room, and what is not, using il y a and il n'y a pas de.",
+    "Describe the colour of a thing, and make the colour agree with the noun.",
+    "Say where something is: on, under, in, in front of, behind and next to."
+  ],
+  "lessons": [
+    {
+      "id": "u10-l1",
+      "title": "Rooms",
+      "goal": "Name the rooms of a home with their article, and say how big they are.",
+      "notes": [
+        {
+          "id": "u10-l1-n1",
+          "title": "Every room has an article",
+          "body": "Rooms are nouns, so each one has a gender and an article: **la** for a feminine room, **le** for a masculine one. Learn the room with its article. *Salle de bains* is always feminine, because of *salle*, so it takes **la**.",
+          "examples": [
+            {
+              "fr": "La cuisine est grande.",
+              "en": "The kitchen is big."
+            },
+            {
+              "fr": "Le salon est petit.",
+              "en": "The living room is small."
+            },
+            {
+              "fr": "Ma chambre est petite.",
+              "en": "My bedroom is small."
+            }
+          ]
+        },
+        {
+          "id": "u10-l1-n2",
+          "title": "Plural rooms",
+          "body": "To make a room plural, add **-s** and use **les**: *la chambre* becomes *les chambres*. Adjectives after a plural noun take **-s** too: *les jardins sont grands*. For *salle de bains*, only *salle* takes the **-s**: *les salles de bains*.",
+          "examples": [
+            {
+              "fr": "Les chambres sont petites.",
+              "en": "The bedrooms are small."
+            },
+            {
+              "fr": "Les salles de bains sont grandes.",
+              "en": "The bathrooms are big."
+            },
+            {
+              "fr": "Les jardins sont grands.",
+              "en": "The gardens are big."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u10-l1-w1",
+          "fr": "la cuisine",
+          "en": "kitchen"
+        },
+        {
+          "id": "u10-l1-w2",
+          "fr": "la chambre",
+          "en": "bedroom"
+        },
+        {
+          "id": "u10-l1-w3",
+          "fr": "la salle de bains",
+          "en": "bathroom",
+          "tip": "Literally \"room of baths\". Always la."
+        },
+        {
+          "id": "u10-l1-w4",
+          "fr": "le salon",
+          "en": "living room",
+          "tip": "The room where you sit and watch TV."
+        },
+        {
+          "id": "u10-l1-w5",
+          "fr": "le jardin",
+          "en": "garden"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u10-l1-s1",
+          "fr": "La cuisine est grande.",
+          "en": "The kitchen is big.",
+          "note": "u10-l1-n1"
+        },
+        {
+          "id": "u10-l1-s2",
+          "fr": "Le salon est petit.",
+          "en": "The living room is small.",
+          "note": "u10-l1-n1"
+        },
+        {
+          "id": "u10-l1-s3",
+          "fr": "Ma chambre est petite.",
+          "en": "My bedroom is small.",
+          "note": "u10-l1-n1"
+        },
+        {
+          "id": "u10-l1-s4",
+          "fr": "Le jardin est grand.",
+          "en": "The garden is big.",
+          "note": "u10-l1-n1"
+        },
+        {
+          "id": "u10-l1-s5",
+          "fr": "Les chambres sont petites.",
+          "en": "The bedrooms are small.",
+          "note": "u10-l1-n2"
+        },
+        {
+          "id": "u10-l1-s6",
+          "fr": "Les salles de bains sont grandes.",
+          "en": "The bathrooms are big.",
+          "note": "u10-l1-n2"
+        },
+        {
+          "id": "u10-l1-s7",
+          "fr": "Nous avons une cuisine.",
+          "en": "We have a kitchen.",
+          "note": "u10-l1-n1"
+        },
+        {
+          "id": "u10-l1-s8",
+          "fr": "Tu as un jardin, Paul ?",
+          "en": "Do you have a garden, Paul?",
+          "note": "u10-l1-n1"
+        },
+        {
+          "id": "u10-l1-s9",
+          "fr": "Les jardins sont grands.",
+          "en": "The gardens are big.",
+          "note": "u10-l1-n2"
+        },
+        {
+          "id": "u10-l1-s10",
+          "fr": "Vous avez une salle de bains ?",
+          "en": "Do you have a bathroom?",
+          "note": "u10-l1-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u10-l1-g1",
+          "prompt": "___ cuisine est grande.",
+          "en": "The kitchen is big.",
+          "answer": "La",
+          "options": [
+            "La",
+            "Le"
+          ],
+          "why": "u10-l1-n1"
+        },
+        {
+          "id": "u10-l1-g2",
+          "prompt": "Le ___ est petit.",
+          "en": "The living room is small.",
+          "answer": "salon",
+          "options": [
+            "salon",
+            "salle"
+          ],
+          "why": "u10-l1-n1"
+        },
+        {
+          "id": "u10-l1-g3",
+          "prompt": "Les ___ sont petites.",
+          "en": "The bedrooms are small.",
+          "answer": "chambres",
+          "options": [
+            "chambres",
+            "chambre"
+          ],
+          "why": "u10-l1-n2"
+        },
+        {
+          "id": "u10-l1-g4",
+          "prompt": "Les jardins sont ___.",
+          "en": "The gardens are big.",
+          "answer": "grands",
+          "options": [
+            "grands",
+            "grand"
+          ],
+          "why": "u10-l1-n2"
+        },
+        {
+          "id": "u10-l1-g5",
+          "prompt": "___ salle de bains est petite.",
+          "en": "The bathroom is small.",
+          "answer": "La",
+          "options": [
+            "La",
+            "Le"
+          ],
+          "why": "u10-l1-n1"
+        }
+      ]
+    },
+    {
+      "id": "u10-l2",
+      "title": "There is",
+      "goal": "Say what is in a room, and what is not, using il y a.",
+      "notes": [
+        {
+          "id": "u10-l2-n1",
+          "title": "Il y a: there is, there are",
+          "body": "**Il y a** means *there is* or *there are*. It never changes, for one thing or many. After it, use **un**, **une** or **des**: *il y a un lit*, *il y a des chaises*. Use it to say what is in a room.",
+          "examples": [
+            {
+              "fr": "Il y a un lit.",
+              "en": "There is a bed."
+            },
+            {
+              "fr": "Il y a des chaises.",
+              "en": "There are some chairs."
+            },
+            {
+              "fr": "Il y a une lampe ?",
+              "en": "Is there a lamp?"
+            }
+          ]
+        },
+        {
+          "id": "u10-l2-n2",
+          "title": "Il n'y a pas de: there isn't any",
+          "body": "To say there is **no** thing, use **il n'y a pas de**. The **ne** becomes **n'** before the **y**. After *pas*, *un*, *une* and *des* all become **de**, so the article disappears: *il n'y a pas **de** lit*.",
+          "examples": [
+            {
+              "fr": "Il n'y a pas de frigo.",
+              "en": "There isn't a fridge."
+            },
+            {
+              "fr": "Il n'y a pas de chaises.",
+              "en": "There aren't any chairs."
+            },
+            {
+              "fr": "Il n'y a pas de lampe, Paul.",
+              "en": "There isn't a lamp, Paul."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u10-l2-w1",
+          "fr": "il y a",
+          "en": "there is / there are",
+          "tip": "Never changes. Il y a un lit, il y a des chaises."
+        },
+        {
+          "id": "u10-l2-w2",
+          "fr": "il n'y a pas de",
+          "en": "there isn't / there aren't any",
+          "tip": "The article becomes de after it."
+        },
+        {
+          "id": "u10-l2-w3",
+          "fr": "un lit",
+          "en": "a bed"
+        },
+        {
+          "id": "u10-l2-w4",
+          "fr": "un canapé",
+          "en": "a sofa"
+        },
+        {
+          "id": "u10-l2-w5",
+          "fr": "une lampe",
+          "en": "a lamp"
+        },
+        {
+          "id": "u10-l2-w6",
+          "fr": "un frigo",
+          "en": "a fridge",
+          "tip": "Short for réfrigérateur, used in everyday talk."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u10-l2-s1",
+          "fr": "Il y a un lit.",
+          "en": "There is a bed.",
+          "note": "u10-l2-n1"
+        },
+        {
+          "id": "u10-l2-s2",
+          "fr": "Il y a une lampe ?",
+          "en": "Is there a lamp?",
+          "note": "u10-l2-n1"
+        },
+        {
+          "id": "u10-l2-s3",
+          "fr": "Il y a un canapé et un frigo.",
+          "en": "There is a sofa and a fridge.",
+          "note": "u10-l2-n1"
+        },
+        {
+          "id": "u10-l2-s4",
+          "fr": "Il y a des chaises.",
+          "en": "There are some chairs.",
+          "note": "u10-l2-n1"
+        },
+        {
+          "id": "u10-l2-s5",
+          "fr": "Il n'y a pas de frigo.",
+          "en": "There isn't a fridge.",
+          "note": "u10-l2-n2"
+        },
+        {
+          "id": "u10-l2-s6",
+          "fr": "Il n'y a pas de lit, Paul.",
+          "en": "There isn't a bed, Paul.",
+          "note": "u10-l2-n2"
+        },
+        {
+          "id": "u10-l2-s7",
+          "fr": "Il n'y a pas de lampe.",
+          "en": "There isn't a lamp.",
+          "note": "u10-l2-n2"
+        },
+        {
+          "id": "u10-l2-s8",
+          "fr": "Il y a un canapé, madame ?",
+          "en": "Is there a sofa, madam?",
+          "note": "u10-l2-n1"
+        },
+        {
+          "id": "u10-l2-s9",
+          "fr": "Il y a une clé et un sac.",
+          "en": "There is a key and a bag.",
+          "note": "u10-l2-n1"
+        },
+        {
+          "id": "u10-l2-s10",
+          "fr": "Il n'y a pas de téléphone.",
+          "en": "There isn't a phone.",
+          "note": "u10-l2-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u10-l2-g1",
+          "prompt": "Il ___ un lit.",
+          "en": "There is a bed.",
+          "answer": "y a",
+          "options": [
+            "y a",
+            "est"
+          ],
+          "why": "u10-l2-n1"
+        },
+        {
+          "id": "u10-l2-g2",
+          "prompt": "Il n'y a ___ de frigo.",
+          "en": "There isn't a fridge.",
+          "answer": "pas",
+          "options": [
+            "pas",
+            "aussi"
+          ],
+          "why": "u10-l2-n2"
+        },
+        {
+          "id": "u10-l2-g3",
+          "prompt": "Il n'y a pas ___ lit.",
+          "en": "There isn't a bed.",
+          "answer": "de",
+          "options": [
+            "de",
+            "un"
+          ],
+          "why": "u10-l2-n2"
+        },
+        {
+          "id": "u10-l2-g4",
+          "prompt": "Il y a ___ chaises.",
+          "en": "There are some chairs.",
+          "answer": "des",
+          "options": [
+            "des",
+            "les"
+          ],
+          "why": "u10-l2-n1"
+        },
+        {
+          "id": "u10-l2-g5",
+          "prompt": "Il y a une lampe et un ___.",
+          "en": "There's a lamp and a fridge.",
+          "answer": "frigo",
+          "options": [
+            "frigo",
+            "lampe"
+          ],
+          "why": "u10-l2-n1"
+        }
+      ]
+    },
+    {
+      "id": "u10-l3",
+      "title": "Colours",
+      "goal": "Describe the colour of a thing, and make the colour agree with the noun.",
+      "notes": [
+        {
+          "id": "u10-l3-n1",
+          "title": "The colour comes after the noun",
+          "body": "Colour words come **after** the noun, as most adjectives do in French: *une table **blanche***, *un sac **noir***. To say what colour something is, use **est**: *le stylo est bleu*.",
+          "examples": [
+            {
+              "fr": "Un sac noir, s'il te plaît.",
+              "en": "A black bag, please. (to a friend)"
+            },
+            {
+              "fr": "Une chaise rouge.",
+              "en": "A red chair."
+            },
+            {
+              "fr": "Le sac est noir, pas bleu.",
+              "en": "The bag is black, not blue."
+            }
+          ]
+        },
+        {
+          "id": "u10-l3-n2",
+          "title": "The colour agrees",
+          "body": "A colour agrees with the noun it describes. For a feminine noun, add **-e**: *blanc* becomes *blanche*, *noir* becomes *noire*, *bleu* becomes *bleue*, *vert* becomes *verte*. **rouge** does not change for a feminine noun. For more than one thing, add **-s**.",
+          "examples": [
+            {
+              "fr": "La fenêtre est blanche.",
+              "en": "The window is white."
+            },
+            {
+              "fr": "Des chaises bleues.",
+              "en": "Blue chairs."
+            },
+            {
+              "fr": "Une chaise noire.",
+              "en": "A black chair."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u10-l3-w1",
+          "fr": "blanc(he)",
+          "en": "white",
+          "tip": "Blanc for a masculine noun, blanche for a feminine one."
+        },
+        {
+          "id": "u10-l3-w2",
+          "fr": "noir(e)",
+          "en": "black"
+        },
+        {
+          "id": "u10-l3-w3",
+          "fr": "rouge",
+          "en": "red",
+          "tip": "Does not change for a feminine noun."
+        },
+        {
+          "id": "u10-l3-w4",
+          "fr": "bleu(e)",
+          "en": "blue"
+        },
+        {
+          "id": "u10-l3-w5",
+          "fr": "vert(e)",
+          "en": "green"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u10-l3-s1",
+          "fr": "Un sac noir, s'il te plaît.",
+          "en": "A black bag, please. (to a friend)",
+          "note": "u10-l3-n1"
+        },
+        {
+          "id": "u10-l3-s2",
+          "fr": "Une table blanche, madame ?",
+          "en": "A white table, madam?",
+          "note": "u10-l3-n1"
+        },
+        {
+          "id": "u10-l3-s3",
+          "fr": "Le stylo est bleu.",
+          "en": "The pen is blue.",
+          "note": "u10-l3-n1"
+        },
+        {
+          "id": "u10-l3-s4",
+          "fr": "Une chaise rouge.",
+          "en": "A red chair.",
+          "note": "u10-l3-n2"
+        },
+        {
+          "id": "u10-l3-s5",
+          "fr": "La porte est verte.",
+          "en": "The door is green.",
+          "note": "u10-l3-n1"
+        },
+        {
+          "id": "u10-l3-s6",
+          "fr": "Le livre est blanc.",
+          "en": "The book is white.",
+          "note": "u10-l3-n2"
+        },
+        {
+          "id": "u10-l3-s7",
+          "fr": "La fenêtre est blanche.",
+          "en": "The window is white.",
+          "note": "u10-l3-n2"
+        },
+        {
+          "id": "u10-l3-s8",
+          "fr": "Des chaises bleues.",
+          "en": "Blue chairs.",
+          "note": "u10-l3-n2"
+        },
+        {
+          "id": "u10-l3-s9",
+          "fr": "Le sac est noir, pas bleu.",
+          "en": "The bag is black, not blue.",
+          "note": "u10-l3-n1"
+        },
+        {
+          "id": "u10-l3-s10",
+          "fr": "Une lampe verte, madame ?",
+          "en": "A green lamp, madam?",
+          "note": "u10-l3-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u10-l3-g1",
+          "prompt": "Une table ___.",
+          "en": "A white table.",
+          "answer": "blanche",
+          "options": [
+            "blanche",
+            "blanc"
+          ],
+          "why": "u10-l3-n2"
+        },
+        {
+          "id": "u10-l3-g2",
+          "prompt": "Un sac ___.",
+          "en": "A black bag.",
+          "answer": "noir",
+          "options": [
+            "noir",
+            "noire"
+          ],
+          "why": "u10-l3-n2"
+        },
+        {
+          "id": "u10-l3-g3",
+          "prompt": "La chaise est ___.",
+          "en": "The chair is red.",
+          "answer": "rouge",
+          "options": [
+            "rouge",
+            "rouges"
+          ],
+          "why": "u10-l3-n2"
+        },
+        {
+          "id": "u10-l3-g4",
+          "prompt": "Des chaises ___.",
+          "en": "Blue chairs.",
+          "answer": "bleues",
+          "options": [
+            "bleues",
+            "bleus"
+          ],
+          "why": "u10-l3-n2"
+        },
+        {
+          "id": "u10-l3-g5",
+          "prompt": "Le stylo est ___.",
+          "en": "The pen is green.",
+          "answer": "vert",
+          "options": [
+            "vert",
+            "verte"
+          ],
+          "why": "u10-l3-n2"
+        }
+      ]
+    },
+    {
+      "id": "u10-l4",
+      "title": "Where things are",
+      "goal": "Say where something is, using on, under, in, in front of, behind and next to.",
+      "notes": [
+        {
+          "id": "u10-l4-n1",
+          "title": "Sur, sous, dans: on, under, in",
+          "body": "**sur** means *on*, **sous** means *under* and **dans** means *in*. Each one is followed by an article: **le**, **la**, **l'** or **les**. Use them with *est* to say where something is.",
+          "examples": [
+            {
+              "fr": "Le livre est sur la table.",
+              "en": "The book is on the table."
+            },
+            {
+              "fr": "Le chat est sous le lit.",
+              "en": "The cat is under the bed."
+            },
+            {
+              "fr": "Où est le stylo ? Dans le sac.",
+              "en": "Where is the pen? In the bag."
+            }
+          ]
+        },
+        {
+          "id": "u10-l4-n2",
+          "title": "Devant, derrière, à côté de",
+          "body": "**devant** means *in front of*, **derrière** means *behind*, and **à côté de** means *next to*. The article follows them too: *devant la porte*. With **à côté de**, the **de** joins the article, as with *à + le = au*: *à côté **du** lit* (de + le = du).",
+          "examples": [
+            {
+              "fr": "Le lit est derrière la porte.",
+              "en": "The bed is behind the door."
+            },
+            {
+              "fr": "Le frigo est devant la fenêtre.",
+              "en": "The fridge is in front of the window."
+            },
+            {
+              "fr": "La clé est à côté du téléphone.",
+              "en": "The key is next to the phone."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u10-l4-w1",
+          "fr": "sur",
+          "en": "on"
+        },
+        {
+          "id": "u10-l4-w2",
+          "fr": "sous",
+          "en": "under"
+        },
+        {
+          "id": "u10-l4-w3",
+          "fr": "dans",
+          "en": "in"
+        },
+        {
+          "id": "u10-l4-w4",
+          "fr": "devant",
+          "en": "in front of"
+        },
+        {
+          "id": "u10-l4-w5",
+          "fr": "derrière",
+          "en": "behind"
+        },
+        {
+          "id": "u10-l4-w6",
+          "fr": "à côté de",
+          "en": "next to",
+          "tip": "The de joins the article: à côté du lit."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u10-l4-s1",
+          "fr": "Le livre est sur la table.",
+          "en": "The book is on the table.",
+          "note": "u10-l4-n1"
+        },
+        {
+          "id": "u10-l4-s2",
+          "fr": "Le stylo est dans le sac.",
+          "en": "The pen is in the bag.",
+          "note": "u10-l4-n1"
+        },
+        {
+          "id": "u10-l4-s3",
+          "fr": "Le sac est sous la chaise.",
+          "en": "The bag is under the chair.",
+          "note": "u10-l4-n1"
+        },
+        {
+          "id": "u10-l4-s4",
+          "fr": "La lampe est sur le canapé.",
+          "en": "The lamp is on the sofa.",
+          "note": "u10-l4-n1"
+        },
+        {
+          "id": "u10-l4-s5",
+          "fr": "Le frigo est devant la fenêtre.",
+          "en": "The fridge is in front of the window.",
+          "note": "u10-l4-n2"
+        },
+        {
+          "id": "u10-l4-s6",
+          "fr": "Le lit est derrière la porte.",
+          "en": "The bed is behind the door.",
+          "note": "u10-l4-n2"
+        },
+        {
+          "id": "u10-l4-s7",
+          "fr": "La clé est à côté du téléphone.",
+          "en": "The key is next to the phone.",
+          "note": "u10-l4-n2"
+        },
+        {
+          "id": "u10-l4-s8",
+          "fr": "Où est la clé ?",
+          "en": "Where is the key?"
+        },
+        {
+          "id": "u10-l4-s9",
+          "fr": "Le chat est sous le lit.",
+          "en": "The cat is under the bed.",
+          "note": "u10-l4-n1"
+        },
+        {
+          "id": "u10-l4-s10",
+          "fr": "Les chaises sont dans la cuisine.",
+          "en": "The chairs are in the kitchen.",
+          "note": "u10-l4-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u10-l4-g1",
+          "prompt": "Le livre est ___ la table.",
+          "en": "The book is on the table.",
+          "answer": "sur",
+          "options": [
+            "sur",
+            "sous"
+          ],
+          "why": "u10-l4-n1"
+        },
+        {
+          "id": "u10-l4-g2",
+          "prompt": "Le stylo est ___ le sac.",
+          "en": "The pen is in the bag.",
+          "answer": "dans",
+          "options": [
+            "dans",
+            "devant"
+          ],
+          "why": "u10-l4-n1"
+        },
+        {
+          "id": "u10-l4-g3",
+          "prompt": "Le chat est ___ le lit.",
+          "en": "The cat is under the bed.",
+          "answer": "sous",
+          "options": [
+            "sous",
+            "sur"
+          ],
+          "why": "u10-l4-n1"
+        },
+        {
+          "id": "u10-l4-g4",
+          "prompt": "Le lit est ___ la porte.",
+          "en": "The bed is behind the door.",
+          "answer": "derrière",
+          "options": [
+            "derrière",
+            "devant"
+          ],
+          "why": "u10-l4-n2"
+        },
+        {
+          "id": "u10-l4-g5",
+          "prompt": "La clé est à côté ___ téléphone.",
+          "en": "The key is next to the phone.",
+          "answer": "du",
+          "options": [
+            "du",
+            "de"
+          ],
+          "why": "u10-l4-n2"
+        },
+        {
+          "id": "u10-l4-g6",
+          "prompt": "Les chaises sont ___ la table.",
+          "en": "The chairs are in front of the table.",
+          "answer": "devant",
+          "options": [
+            "devant",
+            "dans"
+          ],
+          "why": "u10-l4-n2"
+        }
+      ]
+    }
+  ]
+}

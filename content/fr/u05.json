@@ -1,0 +1,857 @@
+{
+  "id": "u05",
+  "number": 5,
+  "title": "Numbers",
+  "summary": "Count from zero to sixty-nine, say how old you are and ask how much something costs. Numbers are everywhere: prices, ages and shopping.",
+  "canDo": [
+    "Count from zero to twenty, including the tricky 17, 18 and 19.",
+    "Count in tens and units from twenty-one to sixty-nine.",
+    "Say how old I am, using j'ai … ans.",
+    "Ask how much something costs, and say a price in euros."
+  ],
+  "lessons": [
+    {
+      "id": "u05-l1",
+      "title": "Zero to ten",
+      "goal": "Count from zero to ten and say how many things there are.",
+      "notes": [
+        {
+          "id": "u05-l1-n1",
+          "title": "The numbers 0 to 10",
+          "body": "Learn each number as a word, like any other word. **un** is *one*, but it is also *a* before a masculine noun: *un stylo*. Count up or down by saying the numbers in a row, with a comma between them.",
+          "examples": [
+            {
+              "fr": "Un, deux, trois !",
+              "en": "One, two, three!"
+            },
+            {
+              "fr": "Zéro, un, deux.",
+              "en": "Zero, one, two."
+            },
+            {
+              "fr": "Dix, neuf, huit !",
+              "en": "Ten, nine, eight!"
+            }
+          ]
+        },
+        {
+          "id": "u05-l1-n2",
+          "title": "Plural nouns after numbers",
+          "body": "After **deux** and any bigger number, the noun is **plural**: *deux stylos*, *six chaises*. Only **un** goes with a singular noun. **Deux** and **six** end with a letter that is silent, but before a word that starts with a vowel it is said like *z*: *deux étudiants* is said *deuz-étudiants*.",
+          "examples": [
+            {
+              "fr": "Deux stylos, madame.",
+              "en": "Two pens, madam."
+            },
+            {
+              "fr": "Deux étudiants, monsieur.",
+              "en": "Two students, sir."
+            },
+            {
+              "fr": "Quatre stylos et cinq livres.",
+              "en": "Four pens and five books."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u05-l1-w1",
+          "fr": "zéro",
+          "en": "zero"
+        },
+        {
+          "id": "u05-l1-w2",
+          "fr": "un",
+          "en": "one",
+          "tip": "Also a / an before a masculine noun."
+        },
+        {
+          "id": "u05-l1-w3",
+          "fr": "deux",
+          "en": "two",
+          "tip": "The x is silent, but said like z before a vowel."
+        },
+        {
+          "id": "u05-l1-w4",
+          "fr": "trois",
+          "en": "three",
+          "tip": "The s is silent. The oi is said 'wa'."
+        },
+        {
+          "id": "u05-l1-w5",
+          "fr": "quatre",
+          "en": "four"
+        },
+        {
+          "id": "u05-l1-w6",
+          "fr": "cinq",
+          "en": "five"
+        },
+        {
+          "id": "u05-l1-w7",
+          "fr": "six",
+          "en": "six",
+          "tip": "Said 'sees'. Before a vowel, the x is said like z."
+        },
+        {
+          "id": "u05-l1-w8",
+          "fr": "sept",
+          "en": "seven",
+          "tip": "The p is silent: 'set'."
+        },
+        {
+          "id": "u05-l1-w9",
+          "fr": "huit",
+          "en": "eight",
+          "tip": "The h is silent, so it sounds like 'weet'."
+        },
+        {
+          "id": "u05-l1-w10",
+          "fr": "neuf",
+          "en": "nine",
+          "tip": "Said 'nuhf'. In neuf ans and neuf heures, the f sounds like v."
+        },
+        {
+          "id": "u05-l1-w11",
+          "fr": "dix",
+          "en": "ten",
+          "tip": "Said 'dees', or 'deez' before a vowel."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u05-l1-s1",
+          "fr": "Un, deux, trois !",
+          "en": "One, two, three!",
+          "note": "u05-l1-n1"
+        },
+        {
+          "id": "u05-l1-s2",
+          "fr": "Zéro, un, deux.",
+          "en": "Zero, one, two.",
+          "note": "u05-l1-n1"
+        },
+        {
+          "id": "u05-l1-s3",
+          "fr": "Deux étudiants, madame ?",
+          "en": "Two students, madam?",
+          "note": "u05-l1-n2"
+        },
+        {
+          "id": "u05-l1-s4",
+          "fr": "Six chaises, monsieur.",
+          "en": "Six chairs, sir.",
+          "note": "u05-l1-n2"
+        },
+        {
+          "id": "u05-l1-s5",
+          "fr": "Quatre stylos et cinq livres.",
+          "en": "Four pens and five books.",
+          "note": "u05-l1-n2"
+        },
+        {
+          "id": "u05-l1-s6",
+          "fr": "Huit sacs, s'il te plaît.",
+          "en": "Eight bags, please.",
+          "note": "u05-l1-n2"
+        },
+        {
+          "id": "u05-l1-s7",
+          "fr": "Neuf tables, madame ?",
+          "en": "Nine tables, madam?",
+          "note": "u05-l1-n2"
+        },
+        {
+          "id": "u05-l1-s8",
+          "fr": "Dix fenêtres, s'il vous plaît.",
+          "en": "Ten windows, please.",
+          "note": "u05-l1-n2"
+        },
+        {
+          "id": "u05-l1-s9",
+          "fr": "Sept clés, s'il te plaît.",
+          "en": "Seven keys, please.",
+          "note": "u05-l1-n2"
+        },
+        {
+          "id": "u05-l1-s10",
+          "fr": "Trois ordinateurs, monsieur ?",
+          "en": "Three computers, sir?",
+          "note": "u05-l1-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u05-l1-g1",
+          "prompt": "___ stylos, madame ?",
+          "en": "Two pens, madam?",
+          "answer": "Deux",
+          "options": [
+            "Deux",
+            "Dix"
+          ],
+          "why": "u05-l1-n1"
+        },
+        {
+          "id": "u05-l1-g2",
+          "prompt": "Un, deux, ___ !",
+          "en": "One, two, three!",
+          "answer": "trois",
+          "options": [
+            "trois",
+            "six"
+          ],
+          "why": "u05-l1-n1"
+        },
+        {
+          "id": "u05-l1-g3",
+          "prompt": "___ étudiants, monsieur ?",
+          "en": "Six students, sir?",
+          "answer": "Six",
+          "options": [
+            "Six",
+            "Dix"
+          ],
+          "why": "u05-l1-n2"
+        },
+        {
+          "id": "u05-l1-g4",
+          "prompt": "Dix ___, s'il vous plaît.",
+          "en": "Ten windows, please.",
+          "answer": "fenêtres",
+          "options": [
+            "fenêtres",
+            "fenêtre"
+          ],
+          "why": "u05-l1-n2"
+        },
+        {
+          "id": "u05-l1-g5",
+          "prompt": "Trois ___, s'il te plaît.",
+          "en": "Three keys, please. (to a friend)",
+          "answer": "clés",
+          "options": [
+            "clés",
+            "clé"
+          ],
+          "why": "u05-l1-n2"
+        }
+      ]
+    },
+    {
+      "id": "u05-l2",
+      "title": "Eleven to twenty",
+      "goal": "Count from eleven to twenty, including 17, 18 and 19.",
+      "notes": [
+        {
+          "id": "u05-l2-n1",
+          "title": "Eleven to sixteen",
+          "body": "The numbers from **onze** to **seize** each have their own word. They do not follow a pattern, so learn them as six separate words: *onze, douze, treize, quatorze, quinze, seize*.",
+          "examples": [
+            {
+              "fr": "Onze, douze, treize.",
+              "en": "Eleven, twelve, thirteen."
+            },
+            {
+              "fr": "Quinze stylos, monsieur.",
+              "en": "Fifteen pens, sir."
+            },
+            {
+              "fr": "Seize portes, s'il te plaît.",
+              "en": "Sixteen doors, please. (to a friend)"
+            }
+          ]
+        },
+        {
+          "id": "u05-l2-n2",
+          "title": "Seventeen to nineteen",
+          "body": "**dix-sept**, **dix-huit** and **dix-neuf** mean *ten and seven*, *ten and eight*, *ten and nine*. The hyphen joins the two parts. **Vingt** is *twenty*, and it is the last word of this lesson.",
+          "examples": [
+            {
+              "fr": "Dix-sept chaises, monsieur.",
+              "en": "Seventeen chairs, sir."
+            },
+            {
+              "fr": "Dix-huit stylos, s'il vous plaît.",
+              "en": "Eighteen pens, please."
+            },
+            {
+              "fr": "Vingt livres, s'il te plaît.",
+              "en": "Twenty books, please. (to a friend)"
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u05-l2-w1",
+          "fr": "onze",
+          "en": "eleven"
+        },
+        {
+          "id": "u05-l2-w2",
+          "fr": "douze",
+          "en": "twelve"
+        },
+        {
+          "id": "u05-l2-w3",
+          "fr": "treize",
+          "en": "thirteen"
+        },
+        {
+          "id": "u05-l2-w4",
+          "fr": "quatorze",
+          "en": "fourteen"
+        },
+        {
+          "id": "u05-l2-w5",
+          "fr": "quinze",
+          "en": "fifteen"
+        },
+        {
+          "id": "u05-l2-w6",
+          "fr": "seize",
+          "en": "sixteen",
+          "tip": "Not the same as six: seize is sixteen."
+        },
+        {
+          "id": "u05-l2-w7",
+          "fr": "dix-sept",
+          "en": "seventeen",
+          "tip": "Ten and seven."
+        },
+        {
+          "id": "u05-l2-w8",
+          "fr": "dix-huit",
+          "en": "eighteen",
+          "tip": "Ten and eight. The h is silent."
+        },
+        {
+          "id": "u05-l2-w9",
+          "fr": "dix-neuf",
+          "en": "nineteen",
+          "tip": "Ten and nine."
+        },
+        {
+          "id": "u05-l2-w10",
+          "fr": "vingt",
+          "en": "twenty",
+          "tip": "The t is silent alone, but said before a vowel."
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u05-l2-s1",
+          "fr": "Onze, douze, treize.",
+          "en": "Eleven, twelve, thirteen.",
+          "note": "u05-l2-n1"
+        },
+        {
+          "id": "u05-l2-s2",
+          "fr": "Quatorze, quinze, seize.",
+          "en": "Fourteen, fifteen, sixteen.",
+          "note": "u05-l2-n1"
+        },
+        {
+          "id": "u05-l2-s3",
+          "fr": "Dix-sept chaises, monsieur.",
+          "en": "Seventeen chairs, sir.",
+          "note": "u05-l2-n2"
+        },
+        {
+          "id": "u05-l2-s4",
+          "fr": "Dix-huit stylos, s'il vous plaît.",
+          "en": "Eighteen pens, please.",
+          "note": "u05-l2-n2"
+        },
+        {
+          "id": "u05-l2-s5",
+          "fr": "Dix-neuf clés, madame ?",
+          "en": "Nineteen keys, madam?",
+          "note": "u05-l2-n2"
+        },
+        {
+          "id": "u05-l2-s6",
+          "fr": "Vingt livres, s'il te plaît.",
+          "en": "Twenty books, please. (to a friend)",
+          "note": "u05-l2-n2"
+        },
+        {
+          "id": "u05-l2-s7",
+          "fr": "Onze tables et douze chaises.",
+          "en": "Eleven tables and twelve chairs.",
+          "note": "u05-l2-n1"
+        },
+        {
+          "id": "u05-l2-s8",
+          "fr": "Quinze fenêtres, monsieur.",
+          "en": "Fifteen windows, sir.",
+          "note": "u05-l2-n1"
+        },
+        {
+          "id": "u05-l2-s9",
+          "fr": "Seize portes, madame.",
+          "en": "Sixteen doors, madam.",
+          "note": "u05-l2-n1"
+        },
+        {
+          "id": "u05-l2-s10",
+          "fr": "Dix-neuf, vingt.",
+          "en": "Nineteen, twenty.",
+          "note": "u05-l2-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u05-l2-g1",
+          "prompt": "___ chaises, madame ?",
+          "en": "Twelve chairs, madam?",
+          "answer": "Douze",
+          "options": [
+            "Douze",
+            "Onze"
+          ],
+          "why": "u05-l2-n1"
+        },
+        {
+          "id": "u05-l2-g2",
+          "prompt": "___ chaises, monsieur.",
+          "en": "Seventeen chairs, sir.",
+          "answer": "Dix-sept",
+          "options": [
+            "Dix-sept",
+            "Seize"
+          ],
+          "why": "u05-l2-n2"
+        },
+        {
+          "id": "u05-l2-g3",
+          "prompt": "___ clés, s'il te plaît.",
+          "en": "Nineteen keys, please.",
+          "answer": "Dix-neuf",
+          "options": [
+            "Dix-neuf",
+            "Dix-huit"
+          ],
+          "why": "u05-l2-n2"
+        },
+        {
+          "id": "u05-l2-g4",
+          "prompt": "___ fenêtres, s'il vous plaît.",
+          "en": "Twenty windows, please.",
+          "answer": "Vingt",
+          "options": [
+            "Vingt",
+            "Dix-neuf"
+          ],
+          "why": "u05-l2-n2"
+        },
+        {
+          "id": "u05-l2-g5",
+          "prompt": "___ portes, s'il te plaît.",
+          "en": "Sixteen doors, please. (to a friend)",
+          "answer": "Seize",
+          "options": [
+            "Seize",
+            "Six"
+          ],
+          "why": "u05-l2-n1"
+        }
+      ]
+    },
+    {
+      "id": "u05-l3",
+      "title": "Twenty-one to sixty-nine",
+      "goal": "Count from twenty-one to sixty-nine, in tens and units.",
+      "notes": [
+        {
+          "id": "u05-l3-n1",
+          "title": "Twenty-one and the others: et un",
+          "body": "**Twenty-one** is **vingt et un**, with *et* (and) before *un*. Thirty-one, forty-one and the others do the same. From 22 to 29 there is no *et*: **vingt-deux**. Before a feminine noun, *un* becomes **une**.",
+          "examples": [
+            {
+              "fr": "Vingt et un livres, madame.",
+              "en": "Twenty-one books, madam."
+            },
+            {
+              "fr": "Vingt et une chaises, monsieur.",
+              "en": "Twenty-one chairs, sir."
+            },
+            {
+              "fr": "Trente et un stylos.",
+              "en": "Thirty-one pens."
+            }
+          ]
+        },
+        {
+          "id": "u05-l3-n2",
+          "title": "The tens: 30, 40, 50, 60",
+          "body": "**trente**, **quarante**, **cinquante** and **soixante** are the tens. Add a unit with a hyphen: *trente-deux*, *quarante-trois*. Be careful: **quarante** (forty) is not **quatre** (four).",
+          "examples": [
+            {
+              "fr": "Trente chaises, madame.",
+              "en": "Thirty chairs, madam."
+            },
+            {
+              "fr": "Quarante-trois stylos.",
+              "en": "Forty-three pens."
+            },
+            {
+              "fr": "Soixante livres, monsieur.",
+              "en": "Sixty books, sir."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u05-l3-w1",
+          "fr": "vingt et un",
+          "en": "twenty-one",
+          "tip": "The et is only used with un."
+        },
+        {
+          "id": "u05-l3-w2",
+          "fr": "vingt-deux",
+          "en": "twenty-two",
+          "tip": "No et from 22 to 29."
+        },
+        {
+          "id": "u05-l3-w3",
+          "fr": "trente",
+          "en": "thirty"
+        },
+        {
+          "id": "u05-l3-w4",
+          "fr": "quarante",
+          "en": "forty",
+          "tip": "Not quatre (four)."
+        },
+        {
+          "id": "u05-l3-w5",
+          "fr": "cinquante",
+          "en": "fifty"
+        },
+        {
+          "id": "u05-l3-w6",
+          "fr": "soixante",
+          "en": "sixty"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u05-l3-s1",
+          "fr": "Vingt et un, vingt-deux.",
+          "en": "Twenty-one, twenty-two.",
+          "note": "u05-l3-n1"
+        },
+        {
+          "id": "u05-l3-s2",
+          "fr": "Vingt-deux chaises, madame.",
+          "en": "Twenty-two chairs, madam.",
+          "note": "u05-l3-n1"
+        },
+        {
+          "id": "u05-l3-s3",
+          "fr": "Trente stylos, monsieur.",
+          "en": "Thirty pens, sir.",
+          "note": "u05-l3-n2"
+        },
+        {
+          "id": "u05-l3-s4",
+          "fr": "Quarante clés, s'il te plaît.",
+          "en": "Forty keys, please. (to a friend)",
+          "note": "u05-l3-n2"
+        },
+        {
+          "id": "u05-l3-s5",
+          "fr": "Cinquante fenêtres, madame ?",
+          "en": "Fifty windows, madam?",
+          "note": "u05-l3-n2"
+        },
+        {
+          "id": "u05-l3-s6",
+          "fr": "Soixante livres, s'il vous plaît.",
+          "en": "Sixty books, please.",
+          "note": "u05-l3-n2"
+        },
+        {
+          "id": "u05-l3-s7",
+          "fr": "Trente et un ordinateurs.",
+          "en": "Thirty-one computers.",
+          "note": "u05-l3-n1"
+        },
+        {
+          "id": "u05-l3-s8",
+          "fr": "Vingt et une tables, monsieur.",
+          "en": "Twenty-one tables, sir.",
+          "note": "u05-l3-n1"
+        },
+        {
+          "id": "u05-l3-s9",
+          "fr": "Quarante-trois sacs.",
+          "en": "Forty-three bags.",
+          "note": "u05-l3-n2"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u05-l3-g1",
+          "prompt": "Vingt et ___ chaises, madame.",
+          "en": "Twenty-one chairs, madam.",
+          "answer": "une",
+          "options": [
+            "une",
+            "un"
+          ],
+          "why": "u05-l3-n1"
+        },
+        {
+          "id": "u05-l3-g2",
+          "prompt": "___ stylos, monsieur ?",
+          "en": "Thirty pens, sir?",
+          "answer": "Trente",
+          "options": [
+            "Trente",
+            "Quarante"
+          ],
+          "why": "u05-l3-n2"
+        },
+        {
+          "id": "u05-l3-g3",
+          "prompt": "___ clés, s'il te plaît.",
+          "en": "Forty keys, please. (to a friend)",
+          "answer": "Quarante",
+          "options": [
+            "Quarante",
+            "Quatre"
+          ],
+          "why": "u05-l3-n2"
+        },
+        {
+          "id": "u05-l3-g4",
+          "prompt": "___ et un stylos, monsieur.",
+          "en": "Twenty-one pens, sir.",
+          "answer": "Vingt",
+          "options": [
+            "Vingt",
+            "Trente"
+          ],
+          "why": "u05-l3-n1"
+        },
+        {
+          "id": "u05-l3-g5",
+          "prompt": "___ livres, s'il vous plaît.",
+          "en": "Sixty books, please.",
+          "answer": "Soixante",
+          "options": [
+            "Soixante",
+            "Six"
+          ],
+          "why": "u05-l3-n2"
+        }
+      ]
+    },
+    {
+      "id": "u05-l4",
+      "title": "Age and price",
+      "goal": "Say how old I am, and ask or say how much something costs.",
+      "notes": [
+        {
+          "id": "u05-l4-n1",
+          "title": "Age: I have … years",
+          "body": "In French you do not *are* your age, you **have** years. Say **j'ai** (I have), then the number, then **ans** (years). *J'ai dix ans* means *I'm ten*. To ask, say **Quel âge ?** (How old?).",
+          "examples": [
+            {
+              "fr": "J'ai dix ans.",
+              "en": "I'm ten."
+            },
+            {
+              "fr": "Quel âge ? J'ai trente ans.",
+              "en": "How old? I'm thirty."
+            },
+            {
+              "fr": "J'ai quarante ans, monsieur.",
+              "en": "I'm forty, sir."
+            }
+          ]
+        },
+        {
+          "id": "u05-l4-n2",
+          "title": "How much? Euros",
+          "body": "**Ça coûte combien ?** and **Ça fait combien ?** both mean *How much is it?* The price is **le prix**. Answer with a number and **euros**. Like plural nouns, *euro* becomes *euros* after any number above one: *un euro*, *deux euros*.",
+          "examples": [
+            {
+              "fr": "Ça coûte combien ?",
+              "en": "How much does it cost?"
+            },
+            {
+              "fr": "Ça fait cinq euros.",
+              "en": "That's five euros."
+            },
+            {
+              "fr": "Un euro, s'il vous plaît.",
+              "en": "One euro, please."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "id": "u05-l4-w1",
+          "fr": "j'ai … ans",
+          "en": "I am … years old",
+          "tip": "Literally 'I have … years'. Put the number in the gap."
+        },
+        {
+          "id": "u05-l4-w2",
+          "fr": "quel âge",
+          "en": "how old",
+          "tip": "Quel âge ? = How old?"
+        },
+        {
+          "id": "u05-l4-w3",
+          "fr": "combien",
+          "en": "how much / how many"
+        },
+        {
+          "id": "u05-l4-w4",
+          "fr": "un euro",
+          "en": "euro (currency)",
+          "tip": "Plural: deux euros. The s is silent."
+        },
+        {
+          "id": "u05-l4-w5",
+          "fr": "ça coûte",
+          "en": "it costs",
+          "tip": "Ça coûte combien ? = How much does it cost?"
+        },
+        {
+          "id": "u05-l4-w6",
+          "fr": "ça fait",
+          "en": "that comes to",
+          "tip": "Ça fait combien ? = How much is that?"
+        },
+        {
+          "id": "u05-l4-w7",
+          "fr": "le prix",
+          "en": "the price"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "u05-l4-s1",
+          "fr": "J'ai dix ans.",
+          "en": "I'm ten.",
+          "note": "u05-l4-n1"
+        },
+        {
+          "id": "u05-l4-s2",
+          "fr": "J'ai trente ans.",
+          "en": "I'm thirty.",
+          "note": "u05-l4-n1"
+        },
+        {
+          "id": "u05-l4-s3",
+          "fr": "Quel âge ? J'ai quarante ans.",
+          "en": "How old? I'm forty.",
+          "note": "u05-l4-n1"
+        },
+        {
+          "id": "u05-l4-s4",
+          "fr": "Ça coûte combien ?",
+          "en": "How much does it cost?",
+          "note": "u05-l4-n2"
+        },
+        {
+          "id": "u05-l4-s5",
+          "fr": "Ça fait cinq euros.",
+          "en": "That's five euros.",
+          "note": "u05-l4-n2"
+        },
+        {
+          "id": "u05-l4-s6",
+          "fr": "Un euro, s'il vous plaît.",
+          "en": "One euro, please.",
+          "note": "u05-l4-n2"
+        },
+        {
+          "id": "u05-l4-s7",
+          "fr": "Le prix, madame ?",
+          "en": "The price, madam?",
+          "note": "u05-l4-n2"
+        },
+        {
+          "id": "u05-l4-s8",
+          "fr": "Ça coûte douze euros.",
+          "en": "It costs twelve euros.",
+          "note": "u05-l4-n2"
+        },
+        {
+          "id": "u05-l4-s9",
+          "fr": "Quel âge, Léa ?",
+          "en": "How old, Léa?",
+          "note": "u05-l4-n1"
+        }
+      ],
+      "gaps": [
+        {
+          "id": "u05-l4-g1",
+          "prompt": "Quel ___ ? J'ai trente ans.",
+          "en": "How old? I'm thirty.",
+          "answer": "âge",
+          "options": [
+            "âge",
+            "combien"
+          ],
+          "why": "u05-l4-n1"
+        },
+        {
+          "id": "u05-l4-g2",
+          "prompt": "J'ai vingt ___.",
+          "en": "I'm twenty.",
+          "answer": "ans",
+          "options": [
+            "ans",
+            "an"
+          ],
+          "why": "u05-l4-n1"
+        },
+        {
+          "id": "u05-l4-g3",
+          "prompt": "Ça ___ combien ?",
+          "en": "How much does it cost?",
+          "answer": "coûte",
+          "options": [
+            "coûte",
+            "coûtent"
+          ],
+          "why": "u05-l4-n2"
+        },
+        {
+          "id": "u05-l4-g4",
+          "prompt": "Ça fait cinq ___.",
+          "en": "That's five euros.",
+          "answer": "euros",
+          "options": [
+            "euros",
+            "euro"
+          ],
+          "why": "u05-l4-n2"
+        },
+        {
+          "id": "u05-l4-g5",
+          "prompt": "Le ___, madame ?",
+          "en": "The price, madam?",
+          "answer": "prix",
+          "options": [
+            "prix",
+            "pris"
+          ],
+          "why": "u05-l4-n2"
+        }
+      ]
+    }
+  ]
+}
