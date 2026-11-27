@@ -375,7 +375,7 @@ After that, full practice exams.
 - **140 lessons** in Units 0–34, plus the exam-prep unit
 - 35 checkpoints, 3 stage tests, 10 practice exams
 - **~1,800 words** and phrases (A2 plus some low-B1 margin)
-- **~80 grammar ideas**, each explained once, kept in the Notes screen and brought back for review
+- **~80 grammar ideas**, each explained once, kept in the Library and brought back for review
 - **16 stories**, plus exam-style listening and reading documents
 - **Writing tasks** from Stage 2 and **speaking tasks** from Stage 3, both marked against the A2 grid
 

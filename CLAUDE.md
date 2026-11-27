@@ -38,6 +38,13 @@ Before pushing:
 
 Commit messages: a short summary line, then one bullet per area changed.
 
+### Course content
+- The plan lives in `planning/` (goal, course outline, sample unit). Content files go in `content/fr/`.
+- **Always generate content with Haiku sub-agents:** the `content-writer` agent in `.claude/agents/`
+  (Haiku model), one agent per unit, in course order, since each unit builds on the words of the earlier ones.
+- Then check each unit: the content tests must pass, and review the French yourself (spelling, accents,
+  gender, agreement, natural phrasing) and fix what's wrong before it ships.
+
 ### Checking changes
 The web preview can't run the app (expo-sqlite on web needs cross-origin isolation). Verify with tests
 (services get a real in-memory SQLite), typecheck, lint, and curl probes of any outside API. Checking on
