@@ -3,6 +3,7 @@
 A small, offline, phone-only app that teaches French from zero to everyday beginner level (CEFR A1),
 **step by step, explaining every new thing before practising it**.
 
+- Goal: how good you will be at the end: [GOAL.md](GOAL.md)
 - Course plan, unit by unit: [COURSE.md](COURSE.md)
 - One unit written out in full, to show what a lesson looks like: [sample-unit-01.md](sample-unit-01.md)
 
